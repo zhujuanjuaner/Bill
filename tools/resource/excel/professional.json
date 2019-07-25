@@ -1,0 +1,145 @@
+[{
+		"id": "0",
+		"type": "0",
+		"professional": "法师",
+		"num": "3",
+		"effect": "0.35",
+		"des": "技能伤害"
+	},
+	{
+		"id": "1",
+		"type": "0",
+		"professional": "法师",
+		"num": "6",
+		"effect": "1",
+		"des": "技能伤害"
+	},
+	{
+		"id": "2",
+		"type": "1",
+		"professional": "刺客",
+		"num": "3",
+		"effect": "1.5",
+		"des": "暴击伤害"
+	},
+	{
+		"id": "3",
+		"type": "1",
+		"professional": "刺客",
+		"num": "6",
+		"effect": "3.5",
+		"des": "暴击伤害"
+	},
+	{
+		"id": "4",
+		"type": "2",
+		"professional": "剑士",
+		"num": "3",
+		"effect": "1",
+		"des": "额外攻击"
+	},
+	{
+		"id": "5",
+		"type": "2",
+		"professional": "剑士",
+		"num": "6",
+		"effect": "2",
+		"des": "额外攻击"
+	},
+	{
+		"id": "6",
+		"type": "3",
+		"professional": "斗士",
+		"num": "2",
+		"effect": "300",
+		"des": "最大生命值"
+	},
+	{
+		"id": "7",
+		"type": "3",
+		"professional": "斗士",
+		"num": "4",
+		"effect": "700",
+		"des": "最大生命值"
+	},
+	{
+		"id": "8",
+		"type": "4",
+		"professional": "元素师",
+		"num": "3",
+		"effect": "1",
+		"des": "额外一个战斗单位"
+	},
+	{
+		"id": "9",
+		"type": "5",
+		"professional": "护卫",
+		"num": "2",
+		"effect": "40",
+		"des": "邻近格子额外护甲"
+	},
+	{
+		"id": "10",
+		"type": "6",
+		"professional": "枪手",
+		"num": "2",
+		"effect": "1",
+		"des": "额外攻击"
+	},
+	{
+		"id": "11",
+		"type": "6",
+		"professional": "枪手",
+		"num": "4",
+		"effect": "8",
+		"des": "额外攻击"
+	},
+	{
+		"id": "12",
+		"type": "7",
+		"professional": "骑士",
+		"num": "2",
+		"effect": "20",
+		"des": "格挡伤害"
+	},
+	{
+		"id": "13",
+		"type": "7",
+		"professional": "骑士",
+		"num": "4",
+		"effect": "40",
+		"des": "格挡伤害"
+	},
+	{
+		"id": "14",
+		"type": "7",
+		"professional": "骑士",
+		"num": "6",
+		"effect": "80",
+		"des": "格挡伤害"
+	},
+	{
+		"id": "15",
+		"type": "8",
+		"professional": "游侠",
+		"num": "2",
+		"effect": "0.25",
+		"des": "攻速翻倍"
+	},
+	{
+		"id": "16",
+		"type": "8",
+		"professional": "游侠",
+		"num": "4",
+		"effect": "0.65",
+		"des": "攻速翻倍"
+	},
+	{
+		"id": "17",
+		"type": "9",
+		"professional": "换形师",
+		"num": "3",
+		"effect": "1",
+		"des": "变身生命翻倍"
+	}
+]
