@@ -194,8 +194,29 @@ class Building(object):
 		except KeyError:
 			logging.error("building_data error, building_data : %s" % building_data)
 	
-	def get_upgrade_time(self, building_level: int):
+	def get_upgrade_time(self, building_level: int) -> int:
 		return self.__data["r"]["r0"][building_level - 1]["a0"]
+	
+	def get_upgrade_rely(self, building_level: int) -> list:
+		return self.__data["r"]["r0"][building_level - 1]["a1"]  # type, id, num
+
+
+class Research(object):
+	def __init__(self):
+		self.is_right_id = bool()
+		self.__data = None
+		self.research_id = int()
+	
+	def update(self, research_data):
+		try:
+			self.__data = research_data
+			self.research_id = research_data["a"]["a0"]
+			self.is_right_id = True
+		except KeyError:
+			logging.error("research_data error, building_data : %s" % research_data)
+	
+	def get_research_buff(self, research_level: int) -> dict:
+		return self.__data["b"]["b0"][research_level - 1]
 
 
 okc_number_dict = {
@@ -211,6 +232,7 @@ okc_number_dict = {
 	"game_throne_research_factor": object(),
 	"game_building_pos": BuildingPos(),
 	"game_building": Building(),
+	"game_research": Research(),
 	"game_troop": Troop(),
 	"game_item": Item()
 	

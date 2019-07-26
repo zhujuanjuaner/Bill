@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-from okc_robot.okc_enum import ActionType
-from okc_robot.net import Response
 import logging
 
 
@@ -501,21 +499,21 @@ class UserData(object):
 		else:
 			return list(self.svr_hero.keys())
 
-	def get_person_action_id_by_type(self, action_type: ActionType) -> list:
+	def get_person_action_id_by_type(self, action_type) -> list:
 		actions = []
 		for action_id, action_detail in self.svr_action_list.items():
 			if action_detail["basic"][10] == action_type:
 				actions.append(action_id)
 		return actions
 
-	def get_al_action_id_by_type(self, action_type: ActionType) -> list:
+	def get_al_action_id_by_type(self, action_type) -> list:
 		actions = []
 		for action_id, action_detail in self.svr_al_action_list.items():
 			if action_detail["basic"][10] == action_type:
 				actions.append(action_id)
 		return actions
 
-	def get_all_action_id_by_type(self, action_type: ActionType) -> list:
+	def get_all_action_id_by_type(self, action_type) -> list:
 		action_data = {}
 		action_data.update(self.svr_p_action_list)
 		action_data.update(self.svr_al_p_action_list)
@@ -540,7 +538,7 @@ class DataManage(object):
 			users_data[robot_uid] = UserData()
 		return users_data
 
-	def update_user_data(self, data: Response):
+	def update_user_data(self, data):
 		if data.uid in self.users_data:
 			self.users_data[data.uid].update_user_data(data.res_data)
 		else:

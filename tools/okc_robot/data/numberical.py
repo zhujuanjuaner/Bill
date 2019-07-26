@@ -111,6 +111,9 @@ class GameNumerical(GameJson):
 	
 	def get_building(self, building_id) -> Num.Building:
 		return self.__get_data(module="game_building", check_id=building_id)
+	
+	def get_research(self, research_id) -> Num.Research:
+		return self.__get_data(module="game_research", check_id=research_id)
 
 
 class ErrorNumerical(object):
@@ -140,7 +143,6 @@ class WildNumerical(object):
 		self.wild_res_data = wild_res_json_data
 	
 	def get_wild(self, wild_id: int, wild_level: int):
-		
 		class WildInfo(object):
 			wild_id = int()
 			wild_num = int()
