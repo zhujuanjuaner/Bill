@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1676ebb1-da1d-4b78-8a20-ffccccc3bd1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/okc_robot/data/user_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/okc_robot/module/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/okc_robot/module/dragon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/okc_robot/protocol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/okc_robot/robot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/okc_robot/svr_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tools.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/data/number_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/data/number_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/data/numberical.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/data/numberical.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/dragon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/net/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/net/request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/okc_enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/okc_enum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/table.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/user_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/okc_robot/protocol.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/protocol.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,39 +20,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/okc_robot/data/numberical.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="2070">
+              <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
               <folding>
                 <element signature="e#43#56#0" expanded="true" />
-                <element signature="e#1116#3743#0" />
-                <element signature="e#1180#1316#0" />
-                <element signature="e#1229#1293#0" />
                 <element signature="e#1399#1530#0" />
                 <element signature="e#1440#1507#0" />
                 <element signature="e#1613#1770#0" />
                 <element signature="e#1703#1770#0" />
-                <element signature="e#1821#2592#0" />
-                <element signature="e#1865#1929#0" />
-                <element signature="e#2179#2281#0" />
-                <element signature="e#2409#2504#0" />
                 <element signature="e#2651#2720#0" />
                 <element signature="e#2791#2864#0" />
-                <element signature="e#2919#2979#0" />
                 <element signature="e#3040#3103#0" />
                 <element signature="e#3161#3223#0" />
                 <element signature="e#3290#3361#0" />
                 <element signature="e#3422#3489#0" />
                 <element signature="e#3548#3616#0" />
-                <element signature="e#3675#3743#0" />
-                <element signature="e#3779#4036#0" />
-                <element signature="e#3801#3836#0" />
-                <element signature="e#3878#4036#0" />
-                <element signature="e#4072#4312#0" />
-                <element signature="e#4094#4312#0" />
-                <element signature="e#4345#4762#0" />
-                <element signature="e#4367#4406#0" />
-                <element signature="e#4463#4762#0" />
-                <element signature="e#4490#4525#0" />
               </folding>
             </state>
           </provider>
@@ -71,80 +43,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/okc_robot/okc_enum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="300">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_robot/data/user_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_robot/net/request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="23" />
               <folding>
-                <element signature="e#197#214#0" />
-                <element signature="e#250#886#0" />
-                <element signature="e#918#1050#0" />
-                <element signature="e#1079#1296#0" />
-                <element signature="e#1323#1889#0" />
-                <element signature="e#1924#3511#0" />
-                <element signature="e#3541#4042#0" />
-                <element signature="e#4068#6894#0" />
-                <element signature="e#6925#6966#0" />
-                <element signature="e#6998#7042#0" />
-                <element signature="e#7071#7113#0" />
-                <element signature="e#7145#7387#0" />
-                <element signature="e#7415#7493#0" />
-                <element signature="e#7525#7558#0" />
+                <element signature="e#43#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/okc_robot/robot.py">
+        <entry file="file://$PROJECT_DIR$/okc_robot/svr_map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="3450">
+              <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_robot/protocol.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/okc_robot/protocol.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-              <folding>
-                <element signature="e#43#80#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#44#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/conf.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/okc_robot/data/number_class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4002">
-              <caret line="212" column="18" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="18" />
+            <state relative-caret-position="145">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding>
-                <element signature="e#81#720#0" />
-                <element signature="e#103#310#0" />
-                <element signature="e#345#720#0" />
-                <element signature="e#353#637#0" />
                 <element signature="e#745#2106#0" />
                 <element signature="e#767#1227#0" />
                 <element signature="e#1263#2106#0" />
@@ -159,11 +108,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="240">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_robot/data/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
               <folding>
-                <element signature="e#43#56#0" expanded="true" />
+                <element signature="e#44#105#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_robot/net/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -183,6 +150,8 @@
       <find>=</find>
       <find>[vip_lv - 1]</find>
       <find>Vip.</find>
+      <find>-&gt; rESPONSE</find>
+      <find>SvrM</find>
     </findStrings>
     <replaceStrings>
       <replace>= /</replace>
@@ -200,26 +169,27 @@
         <option value="$PROJECT_DIR$/okc_robot/dragon.py" />
         <option value="$PROJECT_DIR$/okc_robot/net/reponse.py" />
         <option value="$PROJECT_DIR$/okc_robot/net/__init__.py" />
-        <option value="$PROJECT_DIR$/okc_robot/data/__init__.py" />
         <option value="$PROJECT_DIR$/okc_robot/net/request.py" />
         <option value="$PROJECT_DIR$/util.py" />
         <option value="$PROJECT_DIR$/resource/conf.ini" />
         <option value="$PROJECT_DIR$/okc_robot/user_data.py" />
         <option value="$PROJECT_DIR$/okc_robot/data/number_class.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/okc_robot/data/numberical.py" />
         <option value="$PROJECT_DIR$/okc_robot/okc_enum.py" />
         <option value="$PROJECT_DIR$/okc_robot/robot.py" />
         <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/okc_robot/data/__init__.py" />
         <option value="$PROJECT_DIR$/okc_robot/protocol.py" />
+        <option value="$PROJECT_DIR$/okc_robot/svr_map.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1909" />
-    <option name="y" value="31" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="240" />
+    <option name="y" value="131" />
+    <option name="width" value="1440" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -243,20 +213,7 @@
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
               <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
-              <item name="okc_enum.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
-              <item name="protocol.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
-              <item name="protocol.py" type="8704e2dd:PyFileNode" />
-              <item name="Protocol" type="dd8bbb05:PyElementNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
@@ -265,7 +222,9 @@
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_json_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,11 +234,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="tasks.servers" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -340,14 +300,16 @@
       <workItem from="1563987313141" duration="407000" />
       <workItem from="1563988114946" duration="2015000" />
       <workItem from="1563990256893" duration="42403000" />
+      <workItem from="1564145972209" duration="3486000" />
+      <workItem from="1564309730157" duration="600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44825000" />
+    <option name="totallyTimeSpent" value="48911000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -370,7 +332,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.3159871" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.16435432" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,30 +343,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/okc_robot/request.py" />
-    <entry file="file://$PROJECT_DIR$/okc_robot/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/okc_robot/dragon.py" />
     <entry file="file://$PROJECT_DIR$/okc_robot/reponse.py" />
     <entry file="file://$PROJECT_DIR$/okc_robot/table.py" />
-    <entry file="file://F:/Program Files/Python36/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/435767457/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="4947" column="8" selection-start-line="4947" selection-start-column="8" selection-end-line="4947" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/os.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/435767457/builtins.py" />
     <entry file="file://$PROJECT_DIR$/tools.pyproj" />
     <entry file="file://$PROJECT_DIR$/util.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -416,23 +359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/net/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding>
-            <element signature="e#43#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/net/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/okc_robot/net/reponse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -441,29 +367,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/okc_robot/user_data.py" />
-    <entry file="file://$PROJECT_DIR$/okc_robot/data/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Program Files/Python36/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="1866" selection-start-line="1866" selection-end-line="1866" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/logging/__init__.py" />
     <entry file="file://$PROJECT_DIR$/okc_robot/module/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/data/user_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/excel/hero.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -472,114 +378,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/data/numberical.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#43#56#0" expanded="true" />
-            <element signature="e#1116#3743#0" />
-            <element signature="e#1180#1316#0" />
-            <element signature="e#1229#1293#0" />
-            <element signature="e#1399#1530#0" />
-            <element signature="e#1440#1507#0" />
-            <element signature="e#1613#1770#0" />
-            <element signature="e#1703#1770#0" />
-            <element signature="e#1821#2592#0" />
-            <element signature="e#1865#1929#0" />
-            <element signature="e#2179#2281#0" />
-            <element signature="e#2409#2504#0" />
-            <element signature="e#2651#2720#0" />
-            <element signature="e#2791#2864#0" />
-            <element signature="e#2919#2979#0" />
-            <element signature="e#3040#3103#0" />
-            <element signature="e#3161#3223#0" />
-            <element signature="e#3290#3361#0" />
-            <element signature="e#3422#3489#0" />
-            <element signature="e#3548#3616#0" />
-            <element signature="e#3675#3743#0" />
-            <element signature="e#3779#4036#0" />
-            <element signature="e#3801#3836#0" />
-            <element signature="e#3878#4036#0" />
-            <element signature="e#4072#4312#0" />
-            <element signature="e#4094#4312#0" />
-            <element signature="e#4345#4762#0" />
-            <element signature="e#4367#4406#0" />
-            <element signature="e#4463#4762#0" />
-            <element signature="e#4490#4525#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/data/number_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4002">
-          <caret line="212" column="18" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="18" />
-          <folding>
-            <element signature="e#81#720#0" />
-            <element signature="e#103#310#0" />
-            <element signature="e#345#720#0" />
-            <element signature="e#353#637#0" />
-            <element signature="e#745#2106#0" />
-            <element signature="e#767#1227#0" />
-            <element signature="e#1263#2106#0" />
-            <element signature="e#1271#2020#0" />
-            <element signature="e#2156#2200#0" />
-            <element signature="e#4175#4341#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#43#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/okc_robot/robot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/conf.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/okc_enum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#197#214#0" />
-            <element signature="e#250#886#0" />
-            <element signature="e#918#1050#0" />
-            <element signature="e#1079#1296#0" />
-            <element signature="e#1323#1889#0" />
-            <element signature="e#1924#3511#0" />
-            <element signature="e#3541#4042#0" />
-            <element signature="e#4068#6894#0" />
-            <element signature="e#6925#6966#0" />
-            <element signature="e#6998#7042#0" />
-            <element signature="e#7071#7113#0" />
-            <element signature="e#7145#7387#0" />
-            <element signature="e#7415#7493#0" />
-            <element signature="e#7525#7558#0" />
-          </folding>
+        <state>
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
+        <state>
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#44#53#0" expanded="true" />
@@ -587,12 +395,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resource/conf.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/okc_json_data/game.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/data/numberical.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+          <folding>
+            <element signature="e#43#56#0" expanded="true" />
+            <element signature="e#1399#1530#0" />
+            <element signature="e#1440#1507#0" />
+            <element signature="e#1613#1770#0" />
+            <element signature="e#1703#1770#0" />
+            <element signature="e#2651#2720#0" />
+            <element signature="e#2791#2864#0" />
+            <element signature="e#3040#3103#0" />
+            <element signature="e#3161#3223#0" />
+            <element signature="e#3290#3361#0" />
+            <element signature="e#3422#3489#0" />
+            <element signature="e#3548#3616#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/okc_enum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/data/user_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/net/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="23" />
+          <folding>
+            <element signature="e#43#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/svr_map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3450">
+          <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/okc_robot/protocol.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="210">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
           <folding>
-            <element signature="e#43#80#0" expanded="true" />
+            <element signature="e#44#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/net/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/data/number_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#745#2106#0" />
+            <element signature="e#767#1227#0" />
+            <element signature="e#1263#2106#0" />
+            <element signature="e#1271#2020#0" />
+            <element signature="e#2156#2200#0" />
+            <element signature="e#4175#4341#0" />
           </folding>
         </state>
       </provider>

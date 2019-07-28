@@ -1,6 +1,14 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E101" />
+          <option value="E128" />
+        </list>
+      </option>
+    </inspection_tool>
     <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
       <option name="ignoredErrors">
         <list>
@@ -15,6 +23,7 @@
           <option value="okc_robot.data.numberical.GameNumerical.game_basic" />
           <option value="okc_robot.data.numberical.GameNumerical.game_troop" />
           <option value="okc_robot.data.numberical.GameNumerical.game_vip" />
+          <option value="okc_robot.net.Reponse" />
         </list>
       </option>
     </inspection_tool>
