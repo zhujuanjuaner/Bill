@@ -5,8 +5,6 @@ import time
 import requests
 import logging
 
-import okc_robot.okc_enum as Enum
-
 from okc_robot.net.reponse import Response
 from okc_robot.data import error_table, data_manage
 
@@ -20,11 +18,11 @@ class OkcRequest(object):
 	def __okc_request(self, **kwargs):
 		time.sleep(self.__request_interval)
 		
-		if config.okc_request_mode == Enum.OkcRequestMode.Http.value:
+		if config.okc_request_mode == config.OkcRequestMode.Http.value:
 			kwargs["checkac"] = 0
 			kwargs["did"] = "moon_test"
 			
-			if config.okc_environment == Enum.OkcEnvironment.Online:
+			if config.okc_environment == config.OkcEnvironment.Online:
 				kwargs["did"] = "self-system"
 			self.__request_url = config.okc_request_url[config.okc_environment]
 			

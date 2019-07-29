@@ -13,6 +13,7 @@
       <w>csid</w>
       <w>ctime</w>
       <w>datas</w>
+      <w>dominator</w>
       <w>etime</w>
       <w>gride</w>
       <w>idfa</w>
@@ -20,7 +21,11 @@
       <w>levelname</w>
       <w>lineno</w>
       <w>mistery</w>
+      <w>nresult</w>
+      <w>nurl</w>
       <w>sking</w>
+      <w>superking</w>
+      <w>ufeff</w>
       <w>uname</w>
       <w>utime</w>
     </words>

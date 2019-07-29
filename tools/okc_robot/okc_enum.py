@@ -3,18 +3,41 @@
 from enum import Enum, unique
 
 
-@unique
-class OkcEnvironment(Enum):
-	Test = 0
-	Dev = 1
-	OnlineTest = 2
-	Online = 3
+class ResourceType(object):
+	GoldStation = 101
+	FoodStation = 102
+	WoodStation = 103
+	StoneStation = 104
+	IronStation = 105
+	GemStation = 106
+	
+	GoldNestStation = 121
+	FoodNestStation = 122
+	WoodNestStation = 123
+	StoneNestStation = 124
+	IronNestStation = 125
+	GemNestStation = 126
 
 
-@unique
-class OkcRequestMode(Enum):
-	Http = 0
-	Tcp = 1
+class MarchActionType(object):
+	Transport = 8
+	Reinforce = 9
+	Scout = 10
+	Attack = 12
+	Occupy = 13
+	Camp = 17
+	DragonAttack = 22
+	DragonOccupy = 23
+	RallyWar = 24
+	RallyReinforce = 25
+	AttackThrone = 39
+	RallyWarThrone = 40
+	ReinforceThrone = 41
+	AttackIdol = 43
+	AttackSuperThrone = 51
+	RallyWarSuperThrone = 52
+	ReinforceSuperThrone = 53
+	AttackBandit = 60
 
 
 @unique
@@ -90,7 +113,6 @@ class MarchType(Enum):
 	Null = 18
 
 
-@unique
 class MapWild(Enum):
 	Other = -1
 	Normal = 0  # 后台用，[0 50) 的后台都只返回0
@@ -385,3 +407,12 @@ class BuffTestType(Enum):
 	attack = 0
 	defence = 1
 	life = 2
+
+
+@unique
+class DragonStatus(Enum):
+	at_home = 0
+	out_home = 1
+	captured = 2
+	dead = 3
+	unlock = 4

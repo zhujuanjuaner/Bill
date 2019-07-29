@@ -4,6 +4,9 @@ import json
 import os
 import logging
 import configparser
+import pyautogui
+import time
+import threading
 
 from logging.handlers import RotatingFileHandler
 
@@ -74,3 +77,67 @@ def logger(log_name: str, log_path: str, log_lv=logging.INFO, mode="a+"):
 	kit_logger.root.setLevel(log_lv)
 	
 	return kit_logger
+
+
+def list_to_str(data_list: list, separator: str = ":"):
+	value_str = ""
+	for data_idx in range(0, len(data_list)):
+		if data_idx != len(data_list) - 1:
+			value_str += "%s%s" % (data_list[data_idx], separator)
+		else:
+			value_str += "%s" % data_list[data_idx]
+	logging.debug("str : %s" % value_str)
+	return value_str
+
+
+def dict_to_str(dict_data: dict, target_list: list, separator: str = ":"):
+	for key, value in dict_data.items():
+		try:
+			target_list[key] = value
+		except IndexError:
+			logging.error("IndexError -> key : %s ,value : %s , list : %s " % (key, value, target_list))
+			continue
+	
+	return list_to_str(target_list, separator)
+
+
+class Position(object):
+	x = -1
+	y = -1
+
+
+def position_click(click_interval_time=0.1, stay_time=3):
+	stay_count = 0
+	
+	while True:
+		position = pyautogui.position()
+		# logging.info("stay_count : %s." % stay_count)
+		# logging.info("position : (%s,%s)." % (position.x, position.y))
+		if position.x == Position.x and position.y == Position.y:
+			stay_count += 1
+			if stay_count >= int(stay_time / click_interval_time):
+				pyautogui.click(x=Position.x, y=Position.y)
+				time.sleep(click_interval_time)
+				continue
+			time.sleep(click_interval_time)
+			continue
+		
+		Position.x = position.x
+		Position.y = position.y
+		stay_count = 0
+		time.sleep(click_interval_time)
+		if Position.x == 0 and Position.y == 0:
+			logging.info("position click ended")
+			break
+	return
+
+
+def check_position():
+	while True:
+		position = pyautogui.position()
+		thread_position_click = threading.Thread(target=position_click, name="click", args=(0.5,))
+		if position[0] == 3839 and position[1] == 1079:
+			thread_position_click.start()
+			logging.info("position click start")
+			thread_position_click.join()
+			time.sleep(5)

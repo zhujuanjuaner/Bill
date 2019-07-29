@@ -3,7 +3,7 @@
 from okc_robot.net import request
 from okc_robot.okc_enum import MoveCityType
 from okc_robot.net import Response
-from okc_robot.user_data import PlayerInfo
+from okc_robot.svr_map import PlayerInfo
 import util
 import config
 import time

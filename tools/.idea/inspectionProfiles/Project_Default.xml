@@ -6,6 +6,7 @@
         <list>
           <option value="E101" />
           <option value="E128" />
+          <option value="E722" />
         </list>
       </option>
     </inspection_tool>
@@ -13,6 +14,7 @@
       <option name="ignoredErrors">
         <list>
           <option value="N812" />
+          <option value="N802" />
         </list>
       </option>
     </inspection_tool>
@@ -24,6 +26,7 @@
           <option value="okc_robot.data.numberical.GameNumerical.game_troop" />
           <option value="okc_robot.data.numberical.GameNumerical.game_vip" />
           <option value="okc_robot.net.Reponse" />
+          <option value="logging.Logger.root" />
         </list>
       </option>
     </inspection_tool>
