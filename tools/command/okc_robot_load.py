@@ -5,9 +5,12 @@ from config import conf_path
 from okc_robot import Robot
 from okc_robot import game_table, equip_table
 
+from okc_test import ui_test
+
 import os
 import logging
 import random
+import wx
 
 
 class LoadRobot(object):
@@ -89,6 +92,8 @@ class AnalysisCommand(LoadRobot):
 	
 	def __init__(self, sid: int = 0, start_uid: int = 0, robot_num: int = 0):
 		super(AnalysisCommand, self).__init__(sid=sid, start_uid=start_uid, robot_num=robot_num)
+		
+		self.save_path = ""
 	
 	def update(self, params):
 		""" login get"""
@@ -415,3 +420,28 @@ class AnalysisCommand(LoadRobot):
 		for robot in self.robots:
 			robot: Robot = robot
 			robot.protocol.start_peace_time(item_id=item_id, gem_cost=gem)
+	
+	def choose_save_path(self, params):
+		""" choose image save path"""
+		
+		def get_dlg():
+			dlg1 = wx.DirDialog(None)
+			if dlg1.ShowModal() == wx.ID_OK:
+				image_save_path = dlg1.GetPath()
+			else:
+				image_save_path = ""
+			return dlg1, image_save_path
+		
+		app = wx.App()
+		dlg = get_dlg()
+		frame = dlg[0]
+		self.save_path = dlg[1]
+		frame.Show(True)
+		app.MainLoop()
+		
+		logging.info("image save path : %s" % self.save_path)
+	
+	def get_image(self, params):
+		""" image name"""
+		image_name, = params.split()
+		ui_test.get_image(name=image_name, save_path=self.save_path)

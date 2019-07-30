@@ -7,6 +7,7 @@ import os
 
 
 def main():
+
 	check_pos = threading.Thread(target=util.check_position, name="check_position", args=())
 	thread_main = threading.Thread(target=okc_robot_start, name="main", args=())
 	thread_main.start()

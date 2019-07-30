@@ -2,14 +2,1161 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1676ebb1-da1d-4b78-8a20-ffccccc3bd1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Airtest/.idea/Airtest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/.vs/AirtestIDE/v15/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/.vs/AirtestIDE_2018-09-18_py3_win64/v15/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/.vs/AirtestIDE_2018-09-18_py3_win64/v15/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/.vs/ProjectSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/.vs/slnx.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/AirtestIDE.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/AirtestIDE.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/BillTest.air/BillTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/BillTest.air/tmp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/BillTest.air/tpl1541680846536.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/BillTest.air/tpl1541681714721.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/BillTest.air/tpl1541682001198.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/BillTest.air/tpl1541682122768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Crypto.Cipher._AES.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Default.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Include/pyconfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/MSVCP140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PIL._imaging.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PIL._imagingtk.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PIL._webp.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5.Qt.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5.QtCore.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5.QtGui.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5.QtNetwork.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5.QtPrintSupport.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5.QtWebChannel.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5.QtWebEngineCore.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5.QtWebEngineWidgets.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5.QtWidgets.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5.sip.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/bin/QtWebEngineProcess.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/bin/libEGL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/bin/libGLESv2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/bin/opengl32sw.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/bin/qt.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/resources/icudtl.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/resources/qtwebengine_devtools_resources.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/resources/qtwebengine_resources.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/resources/qtwebengine_resources_100p.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/resources/qtwebengine_resources_200p.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_ar.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_ca.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_cs.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_fa.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_fi.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_gd.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_gl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_he.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_ar.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_cs.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_gl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_hu.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_it.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_ja.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_sk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_sl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_zh_CN.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_zh_TW.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_hu.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_it.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_ja.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_lt.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_lv.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_pt.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_sk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_sl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_sv.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_zh_CN.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_zh_TW.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_ar.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_ca.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_cs.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_fi.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_gd.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_he.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_hu.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_it.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_ja.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_lv.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_sk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_hu.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_fi.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_hu.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_ja.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_lv.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_sk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_hu.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_ar.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_ca.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_cs.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_fi.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_hu.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_it.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_ja.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_sk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols2_ar.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols2_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols2_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols2_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols2_hu.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols2_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols2_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_fi.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_ja.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_ja.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/am.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ar.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/bg.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/bn.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ca.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/cs.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/da.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/de.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/el.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/en-GB.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/en-US.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/es-419.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/es.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/et.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/fa.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/fi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/fil.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/fr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/gu.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/he.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/hi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/hr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/hu.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/id.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/it.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ja.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/kn.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ko.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/lt.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/lv.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ml.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/mr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ms.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/nb.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/nl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/pl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/pt-BR.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/pt-PT.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ro.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ru.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/sk.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/sl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/sr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/sv.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/sw.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ta.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/te.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/th.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/tr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/uk.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/vi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/zh-CN.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/zh-TW.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_ja.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_bg.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_ca.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_cs.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_da.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_de.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_en.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_es.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_hu.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_it.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_ja.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_ko.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_pl.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_ru.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_sk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_uk.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Qt5Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Qt5Gui.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Qt5Network.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Qt5Positioning.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Qt5PrintSupport.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Qt5Qml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Qt5Quick.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Qt5QuickWidgets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Qt5Svg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Qt5WebChannel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Qt5WebEngineCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Qt5WebEngineWidgets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Qt5WebSockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/Qt5Widgets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/QtWebEngineProcess.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/VCRUNTIME140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/_asyncio.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/_bz2.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/_ctypes.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/_decimal.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/_distutils_findvs.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/_elementtree.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/_hashlib.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/_lzma.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/_multiprocessing.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/_overlapped.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/_socket.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/_ssl.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/_win32sysloader.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/_yaml.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/adb/linux/adb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/adb/linux_arm/adb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/adb/mac/adb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/adb/windows/AdbWinApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/adb/windows/AdbWinUsbApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/adb/windows/adb.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/apks/RotationWatcher.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/apks/Yosemite.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/arm64-v8a/minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/arm64-v8a/minicap-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/arm64-v8a/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/arm64-v8a/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/armeabi-v7a/minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/armeabi-v7a/minicap-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/armeabi-v7a/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/armeabi-v7a/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/armeabi/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/armeabi/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/Android.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/.rsync-filter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/Android.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/include/Minicap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/include/mcdebug.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-10/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-14/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-14/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-15/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-15/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-16/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-16/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-17/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-17/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-18/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-18/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-19/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-19/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-9/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_14.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_16.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_17.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_18.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_19.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_21.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_22.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_23.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_24.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_25.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_26.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_27.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_9.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/override-19/ConsumerBase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/override-19/ConsumerBase.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/override-19/CpuConsumer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/override-19/CpuConsumer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/mock/Minicap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/mips/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/mips/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/mips64/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/mips64/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86/minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86/minicap-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86_64/minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86_64/minicap-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86_64/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86_64/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/css/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/css/monokai_sublime.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/css/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/fonts/SourceHanSansCN-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/image/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/image/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/image/broken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/image/target.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/js/echarts/echarts.common.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/js/echarts/pfm_charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/js/echarts/shine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/js/highlight.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/js/jquery-lang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/js/langpack/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/js/lazyload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest/report/log_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest_selenium/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest_selenium/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest_selenium/proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest_selenium/report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest_selenium/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest_selenium/utils/airtest_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/airtest_selenium/utils/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/plugins/editor/template/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/plugins/editor/template/base_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/plugins/editor/template/poco_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/plugins/editor/template/template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/login/login_html/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/login/login_html/static/pics/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/login/login_html/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/dialog/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/dialog/dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/display/autorefresh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/display/fullscreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/display/fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/display/panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/display/placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/display/rulers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/edit/closebrackets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/edit/closetag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/edit/continuelist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/edit/matchbrackets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/edit/matchtags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/edit/trailingspace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/brace-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/comment-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/foldcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/foldgutter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/foldgutter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/indent-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/markdown-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/xml-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/hint/airtest-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/hint/anyword-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/hint/poco-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/hint/python-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/hint/show-hint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/hint/show-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/mode/loadmode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/mode/multiplex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/mode/multiplex_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/mode/overlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/mode/simple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/runmode/colorize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/runmode/runmode-standalone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/runmode/runmode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/runmode/runmode.node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/scroll/annotatescrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/scroll/scrollpastend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/scroll/simplescrollbars.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/scroll/simplescrollbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/search/jump-to-line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/search/match-highlighter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/search/matchesonscrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/search/matchesonscrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/search/searchcursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/selection/active-line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/selection/mark-selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/selection/selection-pointer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/lib/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/lib/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/mode/python/python.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/theme/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/css/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/fonts/CONSOLA.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/js/contextMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/js/editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/js/init_editor_channel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/js/webchannel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/BootstrapMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/BootstrapMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/github-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/highlight-8.6.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/toastr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/js/BootstrapMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/js/highlight-8.6.default.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/js/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/js/scale.fix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/js/toastr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-2.2.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons2.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons2.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons2.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons2.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.contextMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.contextMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.contextMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.contextMenu.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.contextMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.contextMenu.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.ui.position.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.ui.position.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/tippyjs/tippy.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/tippyjs/tippy.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/tippyjs/tippy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/tippyjs/tippy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/tippyjs/tippy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/tippyjs/tippy.standalone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/tippyjs/tippy.standalone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/certifi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/certifi/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/certifi/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/certifi/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/GUID.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/_comobject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/_meta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/_safearray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/automation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/client/_code_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/client/_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/client/_generate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/client/dynamic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/client/lazybind.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/connectionpoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/errorinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/gen/UIAutomationClient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/gen/_00020430_0000_0000_C000_000000000046_0_2_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/gen/_944DE083_8FB8_45CF_BCB7_C477ACB2F897_0_1_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/gen/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/gen/stdole.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/git.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/hresult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/logutil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/messageloop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/npsupport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/patcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/persist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/safearray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/server/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/server/automation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/server/connectionpoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/server/inprocserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/server/localserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/server/register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/server/w_getopt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/shelllink.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/TestComServer.idl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/TestComServer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/TestComServer.tlb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/TestDispServer.idl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/TestDispServer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/TestDispServer.tlb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/find_memleak.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/mylib.idl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/mytypelib.idl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/runtests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_BSTR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_DISPPARAMS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_GUID.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_QueryService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_agilent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_avmc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_casesensitivity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_comserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_createwrappers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_dispinterface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_dyndispatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_findgendir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_getactiveobj.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_ie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_jscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_msscript.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_outparam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_propputref.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_pump_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_safearray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_sapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_showevents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_subinterface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_typeinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_urlhistory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_variant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_win32com_interop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_wmi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/test/test_word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/tools/codegenerator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/tools/tlbparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/tools/typedesc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/tools/typedesc_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/typeinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/comtypes/viewobject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/cv2.cv2.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/icudtl.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/Grammar.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.2.candidate.2.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.2.final.0.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.3.candidate.1.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.3.final.0.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.4.candidate.1.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.4.final.0.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.5.candidate.1.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.5.final.0.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.2.candidate.2.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.2.final.0.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.3.candidate.1.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.3.final.0.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.4.candidate.1.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.4.final.0.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.5.candidate.1.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.5.final.0.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/lib2to3/tests/data/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/libopenblas.CSRRD7HKRKC3T3YXA7VY7TAZGLSWDKW6.gfortran-win_amd64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/markupsafe._speedups.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/mfc140u.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/numpy.core._multiarray_tests.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/numpy.core.multiarray.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/numpy.core.umath.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/numpy.fft.fftpack_lite.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/numpy.linalg._umath_linalg.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/numpy.linalg.lapack_lite.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/numpy.random.mtrand.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/apk/.gitconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/board.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/firebase_wnd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/plugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/progress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/aapt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/aapt.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/assets/.gitconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/base_apk/base.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/compile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/adb/linux/adb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/adb/linux_arm/adb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/adb/mac/adb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/arm64-v8a/minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/arm64-v8a/minicap-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/arm64-v8a/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/arm64-v8a/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/armeabi-v7a/minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/armeabi-v7a/minicap-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/armeabi-v7a/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/armeabi-v7a/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/armeabi/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/armeabi/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/.rsync-filter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-10/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-14/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-14/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-15/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-15/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-16/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-16/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-17/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-17/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-18/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-18/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-19/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-19/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-9/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/mips/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/mips/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/mips64/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/mips64/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86/minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86/minicap-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86_64/minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86_64/minicap-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86_64/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86_64/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/ios/ios_minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/kivy/controler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/kivy/kivy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/css/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/css/monokai_sublime.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/css/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/image/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/image/broken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/image/target.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/echarts/echarts.common.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/echarts/pfm_charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/echarts/shine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/highlight.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/jquery-lang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/langpack/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/lazyload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/log_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/images/5509213687_ffd18df0b9_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/images/5552597274_de8b3fb5d2_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/images/faust_github.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/include/python2.7/pyconfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r2.2.0.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r2.3.3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r3.0.1.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r4.0.0.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r4.0.3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r4.1.1.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r4.2.0.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r4.3.0.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r4.4.0.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/config/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/config/Setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/config/install-sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/config/makesetup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/ctypes/macholib/fetch_macholib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/distutils/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/distutils/command/command_template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_codecs_cn.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_codecs_hk.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_codecs_iso2022.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_codecs_jp.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_codecs_kr.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_codecs_tw.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_csv.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_ctypes.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_ctypes_test.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_heapq.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_hotshot.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_io.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_json.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_lsprof.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_multibytecodec.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_testcapi.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/audioop.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/future_builtins.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/grp.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/mmap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/resource.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/syslog.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/termios.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/unicodedata.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/plat-linux3/regen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/PIL/_imaging.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/PIL/_imagingmath.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/cv2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/jnius/jnius.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/_clock.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/_event.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/core/audio/audio_sdl2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/core/clipboard/_clipboard_sdl2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/core/image/_img_sdl2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/core/text/_text_sdl2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/core/text/text_layout.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/core/window/_window_sdl2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/glsl/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/images/cursor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/images/defaulttheme-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/images/defaulttheme.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/images/testpattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/style.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/buffer.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/cgl.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/cgl_backend/cgl_debug.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/cgl_backend/cgl_gl.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/cgl_backend/cgl_glew.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/cgl_backend/cgl_mock.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/cgl_backend/cgl_sdl2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/compiler.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/context.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/context_instructions.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/fbo.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/gl_instructions.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/instructions.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/opengl.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/opengl_utils.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/scissor_instructions.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/shader.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/stencil_instructions.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/svg.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/tesselator.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/texture.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/transformation.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/vbo.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/vertex.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/vertex_instructions.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/properties.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/tests/test_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/tests/testkv.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/weakproxy.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/_dummy.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/multiarray.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/multiarray_tests.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/operand_flag_tests.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/scalarmath.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/struct_ufunc_test.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/test_rational.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/umath.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/umath_tests.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/f2py/tests/src/assumed_shape/.f2py_f2cmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/fft/fftpack_lite.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/lib/_compiled_base.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/linalg/_umath_linalg.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/linalg/lapack_lite.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/random/mtrand.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/requests-2.13.0-py2.7.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/requests-2.13.0-py2.7.egg-info/not-zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/setuptools-18.3.1-py2.7.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/setuptools-18.3.1-py2.7.egg-info/zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/pictures.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/delete_extra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/firebase_keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/gcloud_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/resign.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/resign.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/Doc_tree.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/UntitledTestCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/airtest_chrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/board.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/ext_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/assert_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/auto_record_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/back_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/forward_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/select_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/snapshot_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/start_web_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/switch_to_last_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/switch_to_latest_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/text_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/touch_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/web_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/assert_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/auto_record_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/back_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/forward_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/select_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/snapshot_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/start_web_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/switch_to_last_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/switch_to_latest_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/text_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/touch_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/web_n copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/ui_selenium_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/plugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/plugin_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/selenium_assistant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/selenium_wnd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/poco/drivers/android/lib/pocoservice-debug-androidTest.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/poco/drivers/android/lib/pocoservice-debug.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/pyexpat.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/python3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/python36.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/pythoncom36.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/pywintypes36.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/bearer/qgenericbearer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/iconengines/qsvgicon.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qgif.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qicns.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qico.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qjpeg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qsvg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qtga.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qtiff.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qwbmp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qwebp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/platforms/qminimal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/platforms/qoffscreen.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/platforms/qwebgl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/platforms/qwindows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/printsupport/windowsprintersupport.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qt5_plugins/styles/qwindowsvistastyle.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qtwebengine_devtools_resources.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qtwebengine_resources.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qtwebengine_resources_100p.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/qtwebengine_resources_200p.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/resource/picture/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/sample/custom_launcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/select.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/common/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/android/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/android/webdriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/blackberry/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/blackberry/webdriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/chrome/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/chrome/options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/chrome/remote_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/chrome/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/chrome/webdriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/action_chains.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/action_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/input_device.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/interaction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/key_actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/key_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/mouse_button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/pointer_actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/pointer_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/alert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/by.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/desired_capabilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/html5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/html5/application_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/keys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/touch_actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/edge/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/edge/options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/edge/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/edge/webdriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/extension_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/firefox_binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/firefox_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/remote_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/webdriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/webdriver.xpi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/webdriver_prefs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/webelement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/x86/x_ignore_nofocus.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/ie/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/ie/options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/ie/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/ie/webdriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/opera/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/opera/options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/opera/webdriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/phantomjs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/phantomjs/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/phantomjs/webdriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/command.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/errorhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/file_detector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/getAttribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/isDisplayed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/mobile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/remote_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/switch_to.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/webdriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/webelement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/safari/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/safari/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/safari/remote_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/safari/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/safari/webdriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/abstract_event_listener.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/color.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/event_firing_webdriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/expected_conditions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/select.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/webkitgtk/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/webkitgtk/options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/webkitgtk/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/selenium/webdriver/webkitgtk/webdriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/sip.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/ucrtbase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/unicodedata.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/win32api.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/win32com.shell.shell.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/win32event.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/win32file.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/win32gui.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/win32pdh.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/win32process.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/win32trace.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/win32ui.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airtest/win32wnet.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/okc_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/okc_test/ui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/okc_test/ui/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/okc_test/ui/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/module/alliance.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/module/alliance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/module/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/module/map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/okc_enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/okc_enum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_temp_data/okc_environment.json" beforeDir="false" afterPath="$PROJECT_DIR$/resource/okc_temp_data/okc_environment.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_temp_data/okc_robot_uid.json" beforeDir="false" afterPath="$PROJECT_DIR$/resource/okc_temp_data/okc_robot_uid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/okc_robot_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/command/okc_robot_load.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/Robot-10345.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/okc_robot/test/Robot-10345.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/Robot-10346.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/okc_robot/test/Robot-10346.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10345.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10345.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10346.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10346.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/conf.ini" beforeDir="false" afterPath="$PROJECT_DIR$/resource/conf.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,104 +1167,152 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/okc_robot/module/map.py">
+        <entry file="file://$PROJECT_DIR$/command/okc_robot_load.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="163" column="18" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
+            <state relative-caret-position="298">
+              <caret line="433" column="8" lean-forward="true" selection-start-line="433" selection-start-column="8" selection-end-line="433" selection-end-column="8" />
               <folding>
-                <element signature="e#43#100#0" expanded="true" />
-                <element signature="e#441#660#0" />
-                <element signature="e#478#568#0" />
-                <element signature="e#598#660#0" />
-                <element signature="e#689#775#0" />
-                <element signature="e#711#775#0" />
-                <element signature="e#805#1401#0" />
-                <element signature="e#827#1401#0" />
-                <element signature="e#1432#4112#0" />
-                <element signature="e#1470#1602#0" />
-                <element signature="e#1652#1784#0" />
-                <element signature="e#1848#3039#0" />
-                <element signature="e#1865#2900#0" />
-                <element signature="e#4127#26537#0" />
-                <element signature="e#4200#4908#0" />
-                <element signature="e#4843#4994#0" />
-                <element signature="e#5062#5179#0" />
-                <element signature="e#5240#5377#0" />
-                <element signature="e#5444#5716#0" />
-                <element signature="e#5486#5595#0" />
-                <element signature="e#5605#5688#0" />
-                <element signature="e#5779#6426#0" />
-                <element signature="e#7103#7661#0" />
-                <element signature="e#7103#7405#0" />
-                <element signature="e#7224#7330#0" />
-                <element signature="e#7454#7726#0" />
-                <element signature="e#7786#8020#0" />
-                <element signature="e#7886#7999#0" />
-                <element signature="e#8084#8185#0" />
-                <element signature="e#8237#8351#0" />
-                <element signature="e#8529#8927#0" />
-                <element signature="e#8669#9010#0" />
-                <element signature="e#8747#9060#0" />
-                <element signature="e#8938#9060#0" />
-                <element signature="e#9042#9291#0" />
-                <element signature="e#9111#9228#0" />
-                <element signature="e#9400#11624#0" />
-                <element signature="e#10489#11108#0" />
-                <element signature="e#10489#10515#0" />
-                <element signature="e#10681#11108#0" />
-                <element signature="e#11185#13168#0" />
-                <element signature="e#11344#11626#0" />
-                <element signature="e#11683#11878#0" />
-                <element signature="e#12031#13150#0" />
-                <element signature="e#12196#12308#0" />
-                <element signature="e#12949#13108#0" />
-                <element signature="e#13257#13662#0" />
-                <element signature="e#13702#14121#0" />
-                <element signature="e#14177#15477#0" />
-                <element signature="e#14333#15477#0" />
-                <element signature="e#14935#15174#0" />
-                <element signature="e#15188#15477#0" />
-                <element signature="e#15205#15477#0" />
-                <element signature="e#15519#16083#0" />
-                <element signature="e#15582#15907#0" />
-                <element signature="e#15742#15877#0" />
-                <element signature="e#16191#16963#0" />
-                <element signature="e#16654#16803#0" />
-                <element signature="e#16815#16963#0" />
-                <element signature="e#17070#18153#0" />
-                <element signature="e#17589#17875#0" />
-                <element signature="e#17887#18153#0" />
-                <element signature="e#18263#19389#0" />
-                <element signature="e#18537#19134#0" />
-                <element signature="e#18831#18895#0" />
-                <element signature="e#19146#19389#0" />
-                <element signature="e#19484#20334#0" />
-                <element signature="e#20392#21516#0" />
-                <element signature="e#20619#21027#0" />
-                <element signature="e#20805#21027#0" />
-                <element signature="e#20876#20970#0" />
-                <element signature="e#20986#21027#0" />
-                <element signature="e#21603#22088#0" />
-                <element signature="e#22199#23238#0" />
-                <element signature="e#23285#23863#0" />
-                <element signature="e#23650#23786#0" />
-                <element signature="e#23978#24593#0" />
-                <element signature="e#24644#25322#0" />
-                <element signature="e#24768#25322#0" />
-                <element signature="e#24982#25114#0" />
-                <element signature="e#25387#25519#0" />
+                <element signature="e#43#54#0" expanded="true" />
+                <element signature="e#226#2509#0" />
+                <element signature="e#302#684#0" />
+                <element signature="e#715#1690#0" />
+                <element signature="e#770#1162#0" />
+                <element signature="e#839#1049#0" />
+                <element signature="e#998#1049#0" />
+                <element signature="e#1216#1672#0" />
+                <element signature="e#1280#1637#0" />
+                <element signature="e#1404#1526#0" />
+                <element signature="e#1474#1526#0" />
+                <element signature="e#1721#1949#0" />
+                <element signature="e#1740#1949#0" />
+                <element signature="e#2004#2509#0" />
+                <element signature="e#2049#2419#0" />
+                <element signature="e#2087#2320#0" />
+                <element signature="e#2189#2320#0" />
+                <element signature="e#2745#2887#0" />
+                <element signature="e#2793#2887#0" />
+                <element signature="e#2924#3101#0" />
+                <element signature="e#3033#3101#0" />
+                <element signature="e#3145#3416#0" />
+                <element signature="e#3172#3299#0" />
+                <element signature="e#3228#3299#0" />
+                <element signature="e#3324#3416#0" />
+                <element signature="e#3354#3416#0" />
+                <element signature="e#3449#3732#0" />
+                <element signature="e#3580#3635#0" />
+                <element signature="e#3667#3732#0" />
+                <element signature="e#3766#3872#0" />
+                <element signature="e#3813#3872#0" />
+                <element signature="e#3905#4090#0" />
+                <element signature="e#3989#4090#0" />
+                <element signature="e#4126#4361#0" />
+                <element signature="e#4214#4361#0" />
+                <element signature="e#4391#4962#0" />
+                <element signature="e#4636#4673#0" />
+                <element signature="e#4717#4882#0" />
+                <element signature="e#4767#4844#0" />
+                <element signature="e#4993#5364#0" />
+                <element signature="e#5261#5364#0" />
+                <element signature="e#5395#5579#0" />
+                <element signature="e#5511#5579#0" />
+                <element signature="e#5611#6034#0" />
+                <element signature="e#5641#5973#0" />
+                <element signature="e#5818#5973#0" />
+                <element signature="e#6065#6295#0" />
+                <element signature="e#6167#6295#0" />
+                <element signature="e#6330#6549#0" />
+                <element signature="e#6432#6549#0" />
+                <element signature="e#6590#6801#0" />
+                <element signature="e#6684#6801#0" />
+                <element signature="e#6836#7010#0" />
+                <element signature="e#6930#7010#0" />
+                <element signature="e#7042#7273#0" />
+                <element signature="e#7144#7273#0" />
+                <element signature="e#7303#7914#0" />
+                <element signature="e#7542#7600#0" />
+                <element signature="e#7647#7834#0" />
+                <element signature="e#7701#7796#0" />
+                <element signature="e#7953#8157#0" />
+                <element signature="e#8052#8157#0" />
+                <element signature="e#8196#8451#0" />
+                <element signature="e#8295#8451#0" />
+                <element signature="e#8489#8728#0" />
+                <element signature="e#8641#8728#0" />
+                <element signature="e#8759#8857#0" />
+                <element signature="e#8806#8857#0" />
+                <element signature="e#8899#9073#0" />
+                <element signature="e#9002#9073#0" />
+                <element signature="e#9118#9234#0" />
+                <element signature="e#9171#9234#0" />
+                <element signature="e#9269#9537#0" />
+                <element signature="e#9464#9537#0" />
+                <element signature="e#9563#9743#0" />
+                <element signature="e#9648#9743#0" />
+                <element signature="e#9778#10427#0" />
+                <element signature="e#9815#10034#0" />
+                <element signature="e#9940#10034#0" />
+                <element signature="e#10059#10427#0" />
+                <element signature="e#10102#10427#0" />
+                <element signature="e#10208#10427#0" />
+                <element signature="e#10239#10280#0" />
+                <element signature="e#10464#10937#0" />
+                <element signature="e#10506#10721#0" />
+                <element signature="e#10631#10721#0" />
+                <element signature="e#10746#10937#0" />
+                <element signature="e#10790#10937#0" />
+                <element signature="e#10975#11458#0" />
+                <element signature="e#11144#11237#0" />
+                <element signature="e#11262#11458#0" />
+                <element signature="e#11306#11458#0" />
+                <element signature="e#11494#11651#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/okc_robot/robot.py">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-725">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="145">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#43#82#0" expanded="true" />
+                <element signature="e#43#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/command/start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="e#43#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_test/ui/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <folding>
+                <element signature="e#44#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_test/ui/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+              <folding>
+                <element signature="e#43#75#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,44 +1321,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resource/conf.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="29" column="10" selection-start-line="29" selection-end-line="29" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/okc_robot/module/alliance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2088">
-              <caret line="81" column="71" selection-start-line="81" selection-start-column="71" selection-end-line="81" selection-end-column="71" />
-              <folding>
-                <element signature="e#43#90#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/okc_robot/protocol.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="171" column="24" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="24" />
-              <folding>
-                <element signature="e#43#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/okc_robot_load.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="161" column="44" selection-start-line="161" selection-start-column="38" selection-end-line="161" selection-end-column="50" />
-              <folding>
-                <element signature="e#43#54#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="501">
+              <caret line="40" column="16" selection-start-line="40" selection-end-line="40" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -171,8 +1330,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="284">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#44#53#0" expanded="true" />
                 <element signature="e#119#136#0" />
@@ -185,8 +1344,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="23" />
               <folding>
                 <element signature="e#43#54#0" expanded="true" />
               </folding>
@@ -233,7 +1392,6 @@
         <option value="$PROJECT_DIR$/okc_robot/dragon.py" />
         <option value="$PROJECT_DIR$/okc_robot/net/reponse.py" />
         <option value="$PROJECT_DIR$/okc_robot/net/__init__.py" />
-        <option value="$PROJECT_DIR$/resource/conf.ini" />
         <option value="$PROJECT_DIR$/okc_robot/user_data.py" />
         <option value="$PROJECT_DIR$/okc_robot/data/number_class.py" />
         <option value="$PROJECT_DIR$/okc_robot/svr_map.py" />
@@ -249,17 +1407,25 @@
         <option value="$PROJECT_DIR$/okc_robot/data/numberical.py" />
         <option value="$PROJECT_DIR$/okc_robot/net/request.py" />
         <option value="$PROJECT_DIR$/command/start.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/command/okc_robot_load.py" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/okc_robot/module/alliance.py" />
         <option value="$PROJECT_DIR$/util.py" />
         <option value="$PROJECT_DIR$/okc_robot/okc_enum.py" />
         <option value="$PROJECT_DIR$/okc_robot/module/map.py" />
+        <option value="$PROJECT_DIR$/Airtest/__init__.py" />
+        <option value="$PROJECT_DIR$/Airtest/BillTest.air/BillTest.py" />
+        <option value="$PROJECT_DIR$/okc_test/ui/create_account.py" />
+        <option value="$PROJECT_DIR$/resource/conf.ini" />
+        <option value="$PROJECT_DIR$/okc_test/__init__.py" />
+        <option value="$PROJECT_DIR$/okc_test/ui/__init__.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/okc_test/ui/test.py" />
+        <option value="$PROJECT_DIR$/okc_test/ui/common.py" />
+        <option value="$PROJECT_DIR$/command/okc_robot_load.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2121" />
     <option name="y" value="3" />
     <option name="width" value="1608" />
@@ -281,39 +1447,117 @@
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_robot_load.py" type="8704e2dd:PyFileNode" />
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="map.py" type="8704e2dd:PyFileNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_robot_load.py" type="8704e2dd:PyFileNode" />
+              <item name="AnalysisCommand" type="dd8bbb05:PyElementNode" />
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="map.py" type="8704e2dd:PyFileNode" />
-              <item name="Map" type="dd8bbb05:PyElementNode" />
+              <item name="okc_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
-              <item name="okc_enum.py" type="8704e2dd:PyFileNode" />
+              <item name="okc_test" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_test" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="common.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_test" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="test.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_test" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="test.py" type="8704e2dd:PyFileNode" />
+              <item name="UiTest" type="dd8bbb05:PyElementNode" />
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="config.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="main.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="435767457" type="70582d5e:PySkeletonsNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="435767457" type="70582d5e:PySkeletonsNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="435767457" type="70582d5e:PySkeletonsNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+              <item name="_core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="435767457" type="70582d5e:PySkeletonsNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+              <item name="_core" type="462c0819:PsiDirectoryNode" />
+              <item name="DirDialog.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="435767457" type="70582d5e:PySkeletonsNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+              <item name="_core" type="462c0819:PsiDirectoryNode" />
+              <item name="DirDialog.py" type="8704e2dd:PyFileNode" />
+              <item name="DirDialog" type="dd8bbb05:PyElementNode" />
             </path>
           </expand>
           <select />
@@ -405,7 +1649,7 @@
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42967033" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42967033" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -570,23 +1814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#43#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/Program Files/Python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -604,44 +1831,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="e#44#53#0" expanded="true" />
-            <element signature="e#119#136#0" />
-            <element signature="e#168#213#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-          <folding>
-            <element signature="e#43#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/okc_robot/module/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#44#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/okc_robot_load.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="161" column="44" selection-start-line="161" selection-start-column="38" selection-end-line="161" selection-end-column="50" />
-          <folding>
-            <element signature="e#43#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -688,19 +1883,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/conf.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="29" column="10" selection-start-line="29" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/okc_robot/module/map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="163" column="18" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
+        <state relative-caret-position="127">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding>
-            <element signature="e#43#100#0" expanded="true" />
             <element signature="e#441#660#0" />
             <element signature="e#478#568#0" />
             <element signature="e#598#660#0" />
@@ -781,6 +1968,246 @@
             <element signature="e#24768#25322#0" />
             <element signature="e#24982#25114#0" />
             <element signature="e#25387#25519#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="23" />
+          <folding>
+            <element signature="e#43#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/android/adb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="1200" column="11" lean-forward="true" selection-start-line="1200" selection-start-column="11" selection-end-line="1200" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/android/android.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airtest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airtest/BillTest.air/BillTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#44#53#0" expanded="true" />
+            <element signature="e#119#136#0" />
+            <element signature="e#168#213#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627">
+          <caret line="426" selection-start-line="426" selection-end-line="426" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/conf.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="40" column="16" selection-start-line="40" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/ui/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#44#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="915" selection-start-line="915" selection-end-line="915" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#43#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/435767457/wx/_core/DirDialog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="222" column="29" selection-start-line="222" selection-start-column="23" selection-end-line="222" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#43#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/ui/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="e#44#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/ui/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="e#43#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/okc_robot_load.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="433" column="8" lean-forward="true" selection-start-line="433" selection-start-column="8" selection-end-line="433" selection-end-column="8" />
+          <folding>
+            <element signature="e#43#54#0" expanded="true" />
+            <element signature="e#226#2509#0" />
+            <element signature="e#302#684#0" />
+            <element signature="e#715#1690#0" />
+            <element signature="e#770#1162#0" />
+            <element signature="e#839#1049#0" />
+            <element signature="e#998#1049#0" />
+            <element signature="e#1216#1672#0" />
+            <element signature="e#1280#1637#0" />
+            <element signature="e#1404#1526#0" />
+            <element signature="e#1474#1526#0" />
+            <element signature="e#1721#1949#0" />
+            <element signature="e#1740#1949#0" />
+            <element signature="e#2004#2509#0" />
+            <element signature="e#2049#2419#0" />
+            <element signature="e#2087#2320#0" />
+            <element signature="e#2189#2320#0" />
+            <element signature="e#2745#2887#0" />
+            <element signature="e#2793#2887#0" />
+            <element signature="e#2924#3101#0" />
+            <element signature="e#3033#3101#0" />
+            <element signature="e#3145#3416#0" />
+            <element signature="e#3172#3299#0" />
+            <element signature="e#3228#3299#0" />
+            <element signature="e#3324#3416#0" />
+            <element signature="e#3354#3416#0" />
+            <element signature="e#3449#3732#0" />
+            <element signature="e#3580#3635#0" />
+            <element signature="e#3667#3732#0" />
+            <element signature="e#3766#3872#0" />
+            <element signature="e#3813#3872#0" />
+            <element signature="e#3905#4090#0" />
+            <element signature="e#3989#4090#0" />
+            <element signature="e#4126#4361#0" />
+            <element signature="e#4214#4361#0" />
+            <element signature="e#4391#4962#0" />
+            <element signature="e#4636#4673#0" />
+            <element signature="e#4717#4882#0" />
+            <element signature="e#4767#4844#0" />
+            <element signature="e#4993#5364#0" />
+            <element signature="e#5261#5364#0" />
+            <element signature="e#5395#5579#0" />
+            <element signature="e#5511#5579#0" />
+            <element signature="e#5611#6034#0" />
+            <element signature="e#5641#5973#0" />
+            <element signature="e#5818#5973#0" />
+            <element signature="e#6065#6295#0" />
+            <element signature="e#6167#6295#0" />
+            <element signature="e#6330#6549#0" />
+            <element signature="e#6432#6549#0" />
+            <element signature="e#6590#6801#0" />
+            <element signature="e#6684#6801#0" />
+            <element signature="e#6836#7010#0" />
+            <element signature="e#6930#7010#0" />
+            <element signature="e#7042#7273#0" />
+            <element signature="e#7144#7273#0" />
+            <element signature="e#7303#7914#0" />
+            <element signature="e#7542#7600#0" />
+            <element signature="e#7647#7834#0" />
+            <element signature="e#7701#7796#0" />
+            <element signature="e#7953#8157#0" />
+            <element signature="e#8052#8157#0" />
+            <element signature="e#8196#8451#0" />
+            <element signature="e#8295#8451#0" />
+            <element signature="e#8489#8728#0" />
+            <element signature="e#8641#8728#0" />
+            <element signature="e#8759#8857#0" />
+            <element signature="e#8806#8857#0" />
+            <element signature="e#8899#9073#0" />
+            <element signature="e#9002#9073#0" />
+            <element signature="e#9118#9234#0" />
+            <element signature="e#9171#9234#0" />
+            <element signature="e#9269#9537#0" />
+            <element signature="e#9464#9537#0" />
+            <element signature="e#9563#9743#0" />
+            <element signature="e#9648#9743#0" />
+            <element signature="e#9778#10427#0" />
+            <element signature="e#9815#10034#0" />
+            <element signature="e#9940#10034#0" />
+            <element signature="e#10059#10427#0" />
+            <element signature="e#10102#10427#0" />
+            <element signature="e#10208#10427#0" />
+            <element signature="e#10239#10280#0" />
+            <element signature="e#10464#10937#0" />
+            <element signature="e#10506#10721#0" />
+            <element signature="e#10631#10721#0" />
+            <element signature="e#10746#10937#0" />
+            <element signature="e#10790#10937#0" />
+            <element signature="e#10975#11458#0" />
+            <element signature="e#11144#11237#0" />
+            <element signature="e#11262#11458#0" />
+            <element signature="e#11306#11458#0" />
+            <element signature="e#11494#11651#0" />
           </folding>
         </state>
       </provider>
