@@ -5,7 +5,7 @@ import re
 import traceback
 import util
 import logging
-from command.okc_robot_load import AnalysisCommand
+from command.analysis_command import AnalysisCommand
 
 
 def okc_robot_start():

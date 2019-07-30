@@ -422,7 +422,7 @@ class AnalysisCommand(LoadRobot):
 			robot.protocol.start_peace_time(item_id=item_id, gem_cost=gem)
 	
 	def choose_save_path(self, params):
-		""" choose image save path"""
+		""" 手机截屏保存路径选择 """
 		
 		def get_dlg():
 			dlg1 = wx.DirDialog(None)
@@ -442,6 +442,6 @@ class AnalysisCommand(LoadRobot):
 		logging.info("image save path : %s" % self.save_path)
 	
 	def get_image(self, params):
-		""" image name"""
+		""" 手机截屏 需要连接手机 image name"""
 		image_name, = params.split()
 		ui_test.get_image(name=image_name, save_path=self.save_path)
