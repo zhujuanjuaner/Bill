@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-from enum import Enum, unique
 
 
 class ResourceType(object):
@@ -40,8 +39,7 @@ class MarchActionType(object):
 	AttackBandit = 60
 
 
-@unique
-class ActionType(Enum):
+class ActionType(object):
 	BuildUpgrade = 1
 	BuildRemove = 2
 	Research = 3
@@ -83,8 +81,7 @@ class ActionType(Enum):
 	AttackBandit = 60
 
 
-@unique
-class MoveCityType(Enum):
+class MoveCityType(object):
 	Unknown = 0
 	KingdomMove = 1
 	KingdomRandomMove = 2
@@ -95,8 +92,7 @@ class MoveCityType(Enum):
 	SKvkMove = 7
 
 
-@unique
-class MarchType(Enum):
+class MarchType(object):
 	Attack = 0
 	Scout = 1
 	Transport = 2
@@ -113,7 +109,7 @@ class MarchType(Enum):
 	Null = 18
 
 
-class MapWild(Enum):
+class MapWild(object):
 	Other = -1
 	Normal = 0  # 后台用，[0 50) 的后台都只返回0
 	Grassland = 0
@@ -126,6 +122,7 @@ class MapWild(Enum):
 	Lake = 7
 	Desert = 8
 	Snow = 9
+	Sand = 10
 	
 	City = 50
 	Camp = 51
@@ -151,8 +148,7 @@ class MapWild(Enum):
 	Bandit = 201
 
 
-@unique
-class GameBasicFactor(Enum):
+class GameBasicFactor(object):
 	AllianceLoyaltyBonus = 3
 	AllianceLoyaltyEveryInterval = 4
 	FirstJoinAllianceGem = 5
@@ -194,12 +190,11 @@ class GameBasicFactor(Enum):
 	GemGatheringRate = 59  # 采集宝石矿速度减益
 	LordDefaultEnergy = 60  # 领主默认体力上限
 	AttackBanditEnergyCost = 62
-	NormalSummonFreeNumPerDay = 63  # 每天免费的普通召唤次数
+	NormalSummonFreobjectPerDay = 63  # 每天免费的普通召唤次数
 	ExpPerTrainTime = 66  # 用户获得1点exp需要训练时间(单位秒) - ---17
 
 
-@unique
-class BuildingId(Enum):
+class BuildingId(object):
 	CivicCenter = 0  # 主城
 	CityWall = 1  # 城墙
 	Research = 2  # 研究院
@@ -227,8 +222,7 @@ class BuildingId(Enum):
 	Trap = 32  # 防御工坊
 
 
-@unique
-class BuffId(Enum):
+class BuffId(object):
 	GoldProductionPercent = 1
 	FoodProductionPercent = 2
 	WoodProductionPercent = 3
@@ -245,7 +239,7 @@ class BuffId(Enum):
 	AllTroopAttack = 41
 	AllTroopLife = 42
 	AllTroopUpkeep = 43
-	MarchQueueNum = 44
+	MarchQueuobject = 44
 	PeaceTime = 45
 	CollectSpeed = 46
 	VipActivate = 47
@@ -292,11 +286,11 @@ class BuffId(Enum):
 	EquipmentCraftSpeed = 157
 	EquipmentCraftCost = 158
 	RallyWarSpeed = 165
-	FortQueueNum = 170
+	FortQueuobject = 170
 	MarketRequestResource = 176
 	RallyDefense = 181
 	TransportSpeed = 185
-	TransportQueueNum = 186
+	TransportQueuobject = 186
 	TrainTroopNum = 187
 	MarchDistance = 188
 	FortTrainCost = 193
@@ -352,31 +346,29 @@ class BuffId(Enum):
 	BanditAttackTimes = 297
 
 
-@unique
-class WildSubType(Enum):
+class WildSubType(object):
 	Grass = 0
 	Lake = 1
 	Snow = 2
 	Desert = 3
+	WetLand = 4
+	Sand = 5
 
 
-@unique
-class WildMainType(Enum):
+class WildMainType(object):
 	Empty = 0
 	Wood = 1
 	Stone = 2
 	Mountain = 3
 
 
-@unique
-class TitleType(Enum):
+class TitleType(object):
 	King = 1
 	Dominator = 100
 	Superking = 101
 
 
-@unique
-class ActionStatus(Enum):
+class ActionStatus(object):
 	Marching = 0
 	Fighting = 1
 	Returning = 2
@@ -393,8 +385,7 @@ class ActionStatus(Enum):
 	PreReturn = 100
 
 
-@unique
-class BuffType(Enum):
+class BuffType(object):
 	research = 0
 	build_level = 1
 	lord_skill = 2
@@ -402,15 +393,13 @@ class BuffType(Enum):
 	vip_level = 4
 
 
-@unique
-class BuffTestType(Enum):
+class BuffTestType(object):
 	attack = 0
 	defence = 1
 	life = 2
 
 
-@unique
-class DragonStatus(Enum):
+class DragonStatus(object):
 	at_home = 0
 	out_home = 1
 	captured = 2

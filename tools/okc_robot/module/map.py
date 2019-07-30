@@ -11,7 +11,6 @@ import okc_robot.okc_enum as Enum
 
 import util
 import os
-import re
 import json
 import math
 import config
@@ -93,9 +92,9 @@ class MarchSelect(object):
 	def choose_hero(self, p_hero_list=None, with_hero=False):
 		if with_hero:
 			if self.march_param.has_dragon:
-				hero_slot = self.__data.get_base_buff_with_dragon_by_id(Enum.BuffId.MarchHeroAssignNum.value)
+				hero_slot = self.__data.get_base_buff_with_dragon_by_id(Enum.BuffId.MarchHeroAssignNum)
 			else:
-				hero_slot = self.__data.get_base_buff_by_id(Enum.BuffId.MarchHeroAssignNum.value)
+				hero_slot = self.__data.get_base_buff_by_id(Enum.BuffId.MarchHeroAssignNum)
 			
 			hero_march_size = 0
 			hero_list = []
@@ -124,10 +123,10 @@ class MarchSelect(object):
 			
 			self.march_param.hero_str = hero_str
 			self.march_param.hero_list = hero_list
-			march_size = hero_march_size + self.__data.get_base_buff_by_id(Enum.BuffId.TroopSize.value)
+			march_size = hero_march_size + self.__data.get_base_buff_by_id(Enum.BuffId.TroopSize)
 		
 		else:
-			march_size = self.__data.get_base_buff_by_id(Enum.BuffId.TroopSize.value)
+			march_size = self.__data.get_base_buff_by_id(Enum.BuffId.TroopSize)
 		
 		self.march_param.march_buff.march_size = march_size
 	
@@ -171,7 +170,7 @@ class Map(object):
 		self.__ksid = self.__data.svr_player.ksid
 		self.__request = protocol
 		
-		self.__block_length: int = 50
+		self.__block_length = 50
 		self.__coord_rate = 10000
 		
 		self.__throne_pos = 2500600
@@ -180,9 +179,15 @@ class Map(object):
 		self.__map_block_site = 1000
 		
 		self.__svr_data_json_path = util.get_ini_data(conf_path, section="path", section_item="svr_data_json")
-		self.__sample_data = util.get_ini_data(conf_path, section="path", section_item="sample_dir")
+		self.__sample_data_dir = util.get_ini_data(conf_path, section="path", section_item="sample_dir")
 		
-		self.__target_sample_file = ""
+		self.__svr_data = self.__init_svr_data()
+		
+		self.block_data = dict()
+		
+		self.__init_block_data()
+		
+		logging.debug("block data's keys: %s" % self.block_data.keys())
 	
 	@staticmethod
 	def get_distance(source: int, target: int):
@@ -205,7 +210,8 @@ class Map(object):
 	
 	def get_clint_can_move_pos(self, sid: int, positions: list):
 		can_move_by_client = []
-		can_move_type = [Enum.MapWild.Desert, Enum.MapWild.Snow, Enum.MapWild.Plain, Enum.MapWild.Grassland]
+		can_move_type = [Enum.MapWild.Desert, Enum.MapWild.Snow, Enum.MapWild.Plain,
+						 Enum.MapWild.Grassland, Enum.MapWild.Sand]
 		for pos in positions:
 			if self.get_pos_type(sid, pos) in can_move_type:
 				can_move_by_client.append(pos)
@@ -236,6 +242,7 @@ class Map(object):
 		can_move = set(positions) - set(cant_move)
 		
 		can_move = list(can_move - set(config.throne_and_idol_coord))
+		logging.info("move position length : %s" % len(can_move))
 		return can_move
 	
 	def get_camp_pos(self, target_pos: int, radius: int):
@@ -245,6 +252,7 @@ class Map(object):
 			if self.get_pos_type(svr_id=self.__sid, position=pos) == Enum.MapWild.Desert:
 				can_not_camp.append(pos)
 		can_camp = list(set(can_move_pos) - set(can_not_camp))
+		logging.info("camp position length: %s" % len(can_camp))
 		return can_camp
 	
 	def get_block(self, position: int) -> int:
@@ -277,18 +285,30 @@ class Map(object):
 		else:
 			return False
 	
-	def get_pos_type(self, svr_id: int, position: int) -> int:
-		x = int(position / self.__coord_rate)
-		y = int(position % self.__coord_rate)
-		
+	def __init_block_data(self):
+		for root, dirs, files in os.walk(self.__sample_data_dir, topdown=False):
+			for file_name in files:
+				block_id = file_name.split("BlockData0")[-1].split(".")[0]
+				# logging.debug("bids : %s" % file_name.split("BlockData0")[-1].split(".")[0])
+				if file_name.split(".")[-1] == "bytes":
+					file_path = os.path.join(root, file_name)
+					with open(file_path, "rb") as f:
+						self.block_data[block_id] = f.read()
+			# logging.debug("file_path : %s" % file_path)
+	
+	def __init_svr_data(self):
 		with open(self.__svr_data_json_path, "r", encoding="UTF-8") as f:
 			svr_data = f.read()
 			if svr_data.startswith(u"\ufeff"):
 				svr_data = svr_data.encode('UTF-8')[3:].decode("UTF-8")
 		
-		svr_data_json = json.loads(str(svr_data), encoding="UTF-8")
+		return json.loads(str(svr_data), encoding="UTF-8")
+	
+	def get_pos_type(self, svr_id: int, position: int) -> int:
+		x = int(position / self.__coord_rate)
+		y = int(position % self.__coord_rate)
 		
-		target_svr_data = svr_data_json[str(svr_id)]
+		target_svr_data = self.__svr_data[str(svr_id)]
 		
 		b_x = int((x + self.__block_length - 1) / self.__block_length - 1)
 		b_y = int(((y + self.__block_length - 1) / self.__block_length - 1)) * 10
@@ -296,45 +316,33 @@ class Map(object):
 		b_idx = b_x + b_y
 		bid = target_svr_data[b_idx]
 		
-		for root, dirs, files in os.walk(".", topdown=False):
-			for name in files:
-				if name.split(".")[-1] == "bytes":
-					if re.search(str(bid), name):
-						self.__target_sample_file = self.__sample_data + str(name)
-		
 		idx = int((x - 1) % self.__block_length / 2) + int((y - 1) % self.__block_length * self.__block_length / 2)
 		
-		pos_type = -1
+		block_data = self.block_data[str(bid)]
 		
-		if self.__target_sample_file == "":
-			return pos_type
+		block_type_temp = block_data[idx]
+		main_type = block_type_temp >> 4
+		sub_type = block_type_temp & 0X7
 		
-		with open(self.__target_sample_file, "rb") as f:
-			block_data = f.read()
-			block_type_temp = block_data[idx]
-			main_type = block_type_temp >> 4
-			sub_type = block_type_temp & 0XF
-			
-			if main_type == Enum.WildMainType.Empty.value:
-				if sub_type == Enum.WildSubType.Lake.value:
-					pos_type = Enum.MapWild.Lake.value
-				elif sub_type == Enum.WildSubType.Snow.value:
-					pos_type = Enum.MapWild.Snow.value
-				elif sub_type == Enum.WildSubType.Desert.value:
-					pos_type = Enum.MapWild.Desert.value
-				elif sub_type == Enum.WildSubType.Grass.value:
-					pos_type = Enum.MapWild.Grassland.value
-				else:
-					pos_type = Enum.MapWild.Mountain.value
-			elif main_type == Enum.WildMainType.Mountain.value:
-				pos_type = Enum.MapWild.Mountain.value
-			elif main_type == Enum.WildMainType.Stone.value:
-				pos_type = Enum.MapWild.Hill.value
-			elif main_type == Enum.WildMainType.Wood.value:
-				pos_type = Enum.MapWild.Wood.value
-			else:
-				pos_type = Enum.MapWild.Mountain.value
-		
+		if main_type == Enum.WildMainType.Empty and sub_type == Enum.WildSubType.Lake:
+			pos_type = Enum.MapWild.Lake
+		elif main_type == Enum.WildMainType.Empty and sub_type == Enum.WildSubType.Snow:
+			pos_type = Enum.MapWild.Snow
+		elif main_type == Enum.WildMainType.Empty and sub_type == Enum.WildSubType.Sand:
+			pos_type = Enum.MapWild.Sand
+		elif main_type == Enum.WildMainType.Empty and sub_type == Enum.WildSubType.Desert:
+			pos_type = Enum.MapWild.Desert
+		elif main_type == Enum.WildMainType.Empty:
+			pos_type = Enum.MapWild.Grassland
+		elif main_type == Enum.WildMainType.Mountain:
+			pos_type = Enum.MapWild.Mountain
+		elif main_type == Enum.WildMainType.Stone:
+			pos_type = Enum.MapWild.Hill
+		elif main_type == Enum.WildMainType.Wood:
+			pos_type = Enum.MapWild.Wood
+		else:
+			pos_type = Enum.MapWild.Grassland
+		logging.debug("position - %s 's pos type is - %s" % (position, pos_type))
 		return pos_type
 	
 	def get_march_distance(self, source: int, target: int):
@@ -357,12 +365,12 @@ class Map(object):
 		if march_type == Enum.MarchType.Scout:
 			speed = game_table.get_factor(Enum.GameBasicFactor.ScoutBaseSpeed)
 		elif march_type == Enum.MarchType.Transport:
-			speed_buff = self.__get_buff(with_dragon, Enum.BuffId.MarchSpeedPercent.value) / self.__coord_rate
-			speed_buff += self.__get_buff(with_dragon, Enum.BuffId.TransportSpeed.value) / self.__coord_rate
+			speed_buff = self.__get_buff(with_dragon, Enum.BuffId.MarchSpeedPercent) / self.__coord_rate
+			speed_buff += self.__get_buff(with_dragon, Enum.BuffId.TransportSpeed) / self.__coord_rate
 			speed = game_table.get_factor(Enum.GameBasicFactor.TransportDefaultSpeed) * (1 + speed_buff)
 		
 		elif march_type == Enum.MarchType.DragonAttack:
-			speed_buff = self.__get_buff(with_dragon, Enum.BuffId.DragonMarchTime.value) / self.__coord_rate
+			speed_buff = self.__get_buff(with_dragon, Enum.BuffId.DragonMarchTime) / self.__coord_rate
 			speed = game_table.get_factor(Enum.GameBasicFactor.AttackMonsterDefaultMarchSpeed) * (1 + speed_buff)
 		
 		elif march_type == Enum.MarchType.AttackBandit:
@@ -372,15 +380,16 @@ class Map(object):
 			speed_buff = 0
 			reinforce_type = [Enum.MarchType.RallyReinforce, Enum.MarchType.ReinforceThrone, Enum.MarchType.Reinforce]
 			if march_type in reinforce_type:
-				speed_buff += self.__get_buff(with_dragon, Enum.BuffId.ReinforceSpeedUpPercent.value) / self.__coord_rate
+				speed_buff += self.__get_buff(with_dragon,
+											  Enum.BuffId.ReinforceSpeedUpPercent) / self.__coord_rate
 			elif march_type == Enum.MarchType.RallyWar:
-				speed_buff += self.__get_buff(with_dragon, Enum.BuffId.RallyWarSpeed.value) / self.__coord_rate
+				speed_buff += self.__get_buff(with_dragon, Enum.BuffId.RallyWarSpeed) / self.__coord_rate
 			elif march_type == Enum.MarchType.Occupy:
-				speed_buff += self.__get_buff(with_dragon, Enum.BuffId.GatheringMarchSpeed.value) / self.__coord_rate
+				speed_buff += self.__get_buff(with_dragon, Enum.BuffId.GatheringMarchSpeed) / self.__coord_rate
 			elif march_type == Enum.MarchType.Attack:
-				speed_buff += self.__get_buff(with_dragon, Enum.BuffId.AttackMarchSpeedUp.value) / self.__coord_rate
+				speed_buff += self.__get_buff(with_dragon, Enum.BuffId.AttackMarchSpeedUp) / self.__coord_rate
 			elif march_type == Enum.MarchType.RallyReinforce:
-				speed_buff += self.__get_buff(with_dragon, Enum.BuffId.RallyReinforceSpeedUp.value) / self.__coord_rate
+				speed_buff += self.__get_buff(with_dragon, Enum.BuffId.RallyReinforceSpeedUp) / self.__coord_rate
 			
 			basic_speed = 0
 			
@@ -449,7 +458,7 @@ class Map(object):
 			
 			if not is_finish_action:
 				result = self.__request.item_buy_and_use(item=item_id, target_id=action_id, price=price, rally_id=0,
-														 is_attack=0, action_type=Enum.ActionType.RallyWar.value)
+														 is_attack=0, action_type=Enum.ActionType.RallyWar)
 				
 				if result.is_right_ret_code:
 					continue
@@ -458,7 +467,7 @@ class Map(object):
 			else:
 				while True:
 					result = self.__request.item_buy_and_use(item=item_id, target_id=action_id, price=price, rally_id=0,
-															 is_attack=0, action_type=Enum.ActionType.RallyWar.value)
+															 is_attack=0, action_type=Enum.ActionType.RallyWar)
 					
 					action_time /= 2
 					
@@ -585,7 +594,7 @@ class Map(object):
 		if rss_list is None:
 			rss_list = []
 			has_rss_list = self.__data.svr_resource.resource
-			transport_max = self.__data.get_base_buff_by_id(Enum.BuffId.TransportLimit.value)
+			transport_max = self.__data.get_base_buff_by_id(Enum.BuffId.TransportLimit)
 			for has_rss in has_rss_list:
 				
 				has_rss = int(has_rss * 0.6)
@@ -601,7 +610,7 @@ class Map(object):
 		
 		target = int(player_info.city_pos)
 		cost_time = self.get_march_time(march_type=Enum.MarchType.Transport, target=target, troops=[])
-		tax_rate = self.__data.get_base_buff_by_id(Enum.BuffId.TransportRate.value) / self.__coord_rate
+		tax_rate = self.__data.get_base_buff_by_id(Enum.BuffId.TransportRate) / self.__coord_rate
 		tax_list = []
 		for rss in rss_list:
 			tax_list.append(int(rss * tax_rate))

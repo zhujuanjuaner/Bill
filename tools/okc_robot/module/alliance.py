@@ -79,7 +79,7 @@ class Alliance(object):
 			logging.error("no alliance".title())
 			return Response
 		key0 = 1
-		rss_request_num = self.__data.get_base_buff_by_id(Enum.BuffId.MarketRequestResource.value)
+		rss_request_num = self.__data.get_base_buff_by_id(Enum.BuffId.MarketRequestResource)
 		request_rss_num = 0
 		for k, v in rss_dict.items():
 			request_rss_num += int(v)

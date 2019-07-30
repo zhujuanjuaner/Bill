@@ -1,0 +1,96 @@
+[2019-07-30 11:46:41][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 11:46:41][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 11:47:00][INFO] sid : 1 uid : 10345 command: player_name_change 
+[2019-07-30 11:47:26][INFO] sid : 1 uid : 10345 command: player_info_get 
+[2019-07-30 11:47:57][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 11:52:11][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 11:52:11][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 11:52:28][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 11:52:40][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 11:53:36][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 11:53:36][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 11:53:44][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 11:55:57][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 11:55:57][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 12:02:24][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 12:02:24][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 12:02:31][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 13:49:24][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 13:49:24][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 13:49:34][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 13:50:32][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 13:50:32][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 13:50:39][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 13:57:15][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 13:57:15][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 13:57:21][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 13:59:44][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 13:59:44][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 13:59:52][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 14:08:31][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:08:31][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 14:08:40][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 14:12:05][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:12:05][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 14:12:11][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 14:14:19][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:14:19][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 14:14:28][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 14:14:29][INFO] sid : 1 uid : 10345 command: move_city_new 
+[2019-07-30 14:19:36][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:19:36][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 14:19:45][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 14:20:14][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 14:20:14][INFO] sid : 1 uid : 10345 command: move_city_new 
+[2019-07-30 14:21:41][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:21:41][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 14:22:15][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 14:22:15][INFO] sid : 1 uid : 10345 command: move_city_new 
+[2019-07-30 14:30:21][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:30:21][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 14:33:46][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:33:46][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 14:49:36][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:50:11][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:50:11][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 14:51:34][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:51:34][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 14:52:13][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:52:13][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 14:53:12][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:53:12][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 14:53:19][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 14:53:20][INFO] sid : 1 uid : 10345 command: move_city_new 
+[2019-07-30 14:54:48][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:54:48][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 14:55:20][DEBUG] ------------------------------------------------------------
+[2019-07-30 14:55:20][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:55:21][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 14:59:00][DEBUG] ------------------------------------------------------------
+[2019-07-30 14:59:00][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 14:59:00][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 15:03:05][DEBUG] ------------------------------------------------------------
+[2019-07-30 15:03:05][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 15:03:05][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 15:03:22][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 15:10:30][DEBUG] ------------------------------------------------------------
+[2019-07-30 15:10:31][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 15:10:31][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 15:15:10][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 15:15:10][INFO] sid : 1 uid : 10345 command: move_city_new 
+[2019-07-30 15:19:14][DEBUG] ------------------------------------------------------------
+[2019-07-30 15:19:14][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 15:19:14][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 15:19:27][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 15:19:27][ERROR] sid : 1 uid : 10345 command: move_city_new 
+[2019-07-30 15:19:27][ERROR] url : http://52.83.184.72:12510/module=okc_hu_op/platform=ios/vs=1.0/sid=0/cmd=operate_login_get/?&command=move_city_new&key0=1&key1=1500&key2=2610659&key3=1&key5=2620672&ksid=0&sid=1&uid=10345&checkac=0&did=moon_test
+[2019-07-30 15:22:57][DEBUG] ------------------------------------------------------------
+[2019-07-30 15:22:57][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 15:22:57][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 15:23:08][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 15:23:08][INFO] sid : 1 uid : 10345 command: move_city_new 
+[2019-07-30 15:32:31][DEBUG] ------------------------------------------------------------
+[2019-07-30 15:32:31][INFO] sid : 1 uid : 10345 command: operate_login_get 
+[2019-07-30 15:32:31][INFO] sid : 1 ; uid : 10345 ; ksid : 1
+[2019-07-30 15:32:40][INFO] sid : 1 uid : 10345 command: map_get 
+[2019-07-30 15:32:40][INFO] sid : 1 uid : 10345 command: move_city_new 

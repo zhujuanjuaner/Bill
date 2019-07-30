@@ -35,7 +35,7 @@ def get_ini_data(ini_path: str, section: str, section_item: str) -> str:
 			
 			if not os.path.exists(section_data):
 				os.makedirs(section_data)
-			logging.info("section_data : %s" % section_data)
+			logging.debug("section_data : %s" % section_data)
 			return section_data
 		else:
 			return conf_section_data[section_item]
@@ -50,6 +50,13 @@ def read_json_file(file_path: str, mode="r", encoding="UTF-8") -> json:
 		return json.loads(rd.read())
 
 
+def read_file(file_path: str, mode="r", encoding="UTF-8") -> json:
+	if not os.path.exists(path=file_path) or not os.path.isfile(path=file_path):
+		raise FileNotFoundError("File Not Found,File Path : %s " % file_path)
+	with open(file=file_path, mode=mode, encoding=encoding) as fd:
+		return fd.read()
+
+
 def write_json_file(file_path: str, data: json, mode="w", encoding="UTF-8"):
 	if not os.path.exists(path=file_path) or not os.path.isfile(path=file_path):
 		raise FileNotFoundError("File Path Error,Need A File Not Dir")
@@ -62,7 +69,7 @@ def write_data(write_path: str, data: str, mode="w", encoding="UTF-8"):
 		wr.write(data)
 
 
-def logger(log_name: str, log_path: str, log_lv=logging.INFO, mode="a+"):
+def logger(log_name: str, log_path: str, log_lv=logging.DEBUG, mode="a+"):
 	if not os.path.exists(log_path):
 		os.makedirs(log_path)
 	handler = RotatingFileHandler(os.path.join(log_path, log_name + ".log"), mode=mode)
