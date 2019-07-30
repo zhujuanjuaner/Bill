@@ -5,7 +5,6 @@ from airtest.core import api
 
 from okc_test.ui import common
 import config
-import os
 import util
 import logging
 
@@ -28,8 +27,28 @@ class UiTest(object):
 		logging.debug("save path : %s" % save_path)
 		common.get_screen_shot(image_name=name, save_path=save_path)
 	
-	def create_account_test(self, env=config.okc_environment):
-		pass
+	def create_account_test(self):
+		image_dir = util.get_ini_data(ini_path=config.conf_path, section="path", section_item="okc_test_create_account")
+		
+		def get_image_path(image_name: str):
+			return r"%s%s.png" % (image_dir, image_name)
+		
+		self.app_start()
+		
+		tag_environment = get_image_path("tag_environment")
+		api.wait(api.Template(tag_environment))
+		
+		api.touch(api.Template(get_image_path("button_fake_sdk")))
+		api.touch(api.Template(get_image_path("button_new")))
+		api.touch(api.Template(get_image_path("button_test")))
+		
+		create_step_1 = get_image_path("create_step_1")
+		
+		if not api.exists(api.Template(create_step_1)):
+			logging.error("not found this image : %s" % create_step_1)
+			return
+		
+		api.touch(api.Template(get_image_path("button_continue")))
 
 
 ui_test = UiTest()

@@ -445,3 +445,8 @@ class AnalysisCommand(LoadRobot):
 		""" 手机截屏 需要连接手机 image name"""
 		image_name, = params.split()
 		ui_test.get_image(name=image_name, save_path=self.save_path)
+	
+	@staticmethod
+	def create_account_test(params):
+		""" 新手账号 -- 手机"""
+		ui_test.create_account_test()
