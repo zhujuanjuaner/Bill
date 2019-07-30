@@ -2,1181 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1676ebb1-da1d-4b78-8a20-ffccccc3bd1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/.idea/Airtest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/.idea/dictionaries/Administrator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/.vs/AirtestIDE/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/.vs/AirtestIDE_2018-09-18_py3_win64/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/.vs/AirtestIDE_2018-09-18_py3_win64/v15/Browse.VC.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/.vs/ProjectSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/AirtestIDE.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/AirtestIDE.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/BillTest.air/BillTest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/BillTest.air/tmp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/BillTest.air/tpl1541680846536.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/BillTest.air/tpl1541681714721.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/BillTest.air/tpl1541682001198.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/BillTest.air/tpl1541682122768.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Crypto.Cipher._AES.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Default.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Include/pyconfig.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/MSVCP140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PIL._imaging.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PIL._imagingtk.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PIL._webp.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5.Qt.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5.QtCore.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5.QtGui.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5.QtNetwork.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5.QtPrintSupport.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5.QtWebChannel.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5.QtWebEngineCore.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5.QtWebEngineWidgets.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5.QtWidgets.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5.sip.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/bin/QtWebEngineProcess.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/bin/libEGL.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/bin/libGLESv2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/bin/opengl32sw.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/bin/qt.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/resources/icudtl.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/resources/qtwebengine_devtools_resources.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/resources/qtwebengine_resources.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/resources/qtwebengine_resources_100p.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/resources/qtwebengine_resources_200p.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_ar.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_bg.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_ca.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_cs.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_da.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_en.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_es.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_fa.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_fi.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_fr.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_gd.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_gl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_he.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_ar.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_bg.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_cs.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_da.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_en.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_es.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_fr.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_gl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_hu.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_it.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_ja.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_ko.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_pl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_sk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_sl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_uk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_zh_CN.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_help_zh_TW.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_hu.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_it.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_ja.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_ko.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_lt.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_lv.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_pl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_pt.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_sk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_sl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_sv.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_uk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_zh_CN.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qt_zh_TW.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_ar.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_bg.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_ca.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_cs.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_da.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_en.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_es.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_fi.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_fr.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_gd.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_he.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_hu.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_it.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_ja.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_ko.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_lv.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_pl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_sk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtbase_uk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_bg.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_da.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_en.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_es.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_hu.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_ko.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_pl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtconnectivity_uk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_bg.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_da.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_en.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_es.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_fi.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_fr.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_hu.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_ja.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_ko.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_lv.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_pl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_sk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtdeclarative_uk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_bg.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_da.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_en.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_es.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_fr.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_hu.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_ko.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_pl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtlocation_uk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_ar.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_bg.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_ca.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_cs.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_da.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_en.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_es.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_fi.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_fr.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_hu.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_it.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_ja.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_ko.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_pl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_sk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtmultimedia_uk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols2_ar.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols2_bg.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols2_da.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols2_en.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols2_hu.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols2_ko.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols2_uk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_bg.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_da.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_en.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_fi.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_fr.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_ja.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtquickcontrols_uk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_en.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_es.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_ja.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_ko.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_pl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtserialport_uk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_en.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_es.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_ko.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/am.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ar.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/bg.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/bn.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ca.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/cs.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/da.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/de.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/el.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/en-GB.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/en-US.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/es-419.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/es.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/et.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/fa.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/fi.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/fil.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/fr.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/gu.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/he.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/hi.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/hr.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/hu.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/id.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/it.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ja.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/kn.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ko.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/lt.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/lv.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ml.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/mr.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ms.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/nb.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/nl.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/pl.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/pt-BR.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/pt-PT.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ro.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ru.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/sk.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/sl.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/sr.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/sv.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/sw.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/ta.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/te.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/th.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/tr.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/uk.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/vi.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/zh-CN.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_locales/zh-TW.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_pl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebengine_uk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_en.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_es.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_fr.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_ja.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_ko.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_pl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtwebsockets_uk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_bg.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_ca.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_cs.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_da.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_de.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_en.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_es.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_fr.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_hu.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_it.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_ja.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_ko.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_pl.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_ru.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_sk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/PyQt5/Qt/translations/qtxmlpatterns_uk.qm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Qt5Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Qt5Gui.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Qt5Network.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Qt5Positioning.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Qt5PrintSupport.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Qt5Qml.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Qt5Quick.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Qt5QuickWidgets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Qt5Svg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Qt5WebChannel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Qt5WebEngineCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Qt5WebEngineWidgets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Qt5WebSockets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/Qt5Widgets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/QtWebEngineProcess.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/VCRUNTIME140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/_asyncio.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/_bz2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/_ctypes.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/_decimal.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/_distutils_findvs.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/_elementtree.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/_hashlib.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/_lzma.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/_multiprocessing.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/_overlapped.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/_socket.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/_ssl.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/_win32sysloader.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/_yaml.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/adb/linux/adb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/adb/linux_arm/adb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/adb/mac/adb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/adb/windows/AdbWinApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/adb/windows/AdbWinUsbApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/adb/windows/adb.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/apks/RotationWatcher.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/apks/Yosemite.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/arm64-v8a/minicap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/arm64-v8a/minicap-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/arm64-v8a/minitouch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/arm64-v8a/minitouch-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/armeabi-v7a/minicap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/armeabi-v7a/minicap-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/armeabi-v7a/minitouch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/armeabi-v7a/minitouch-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/armeabi/minitouch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/armeabi/minitouch-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/Android.mk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/.rsync-filter" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/Android.mk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/include/Minicap.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/include/mcdebug.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-10/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-14/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-14/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-15/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-15/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-16/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-16/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-17/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-17/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-18/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-18/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-19/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-19/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-9/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_14.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_16.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_17.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_18.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_19.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_21.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_22.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_23.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_24.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_25.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_26.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_27.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_9.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/override-19/ConsumerBase.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/override-19/ConsumerBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/override-19/CpuConsumer.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/override-19/CpuConsumer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/minicap-shared/mock/Minicap.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/mips/minitouch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/mips/minitouch-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/mips64/minitouch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/mips64/minitouch-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86/minicap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86/minicap-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86/minitouch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86/minitouch-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86_64/minicap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86_64/minicap-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86_64/minitouch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/core/android/static/stf_libs/x86_64/minitouch-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/css/jquery.fancybox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/css/monokai_sublime.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/css/report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/fonts/SourceHanSansCN-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/image/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/image/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/image/broken.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/image/target.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/js/echarts/echarts.common.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/js/echarts/pfm_charts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/js/echarts/shine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/js/highlight.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/js/jquery-1.10.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/js/jquery-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/js/langpack/zh_CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/js/lazyload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest/report/log_template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest_selenium/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest_selenium/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest_selenium/proxy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest_selenium/report.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest_selenium/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest_selenium/utils/airtest_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/airtest_selenium/utils/six.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/plugins/editor/template/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/plugins/editor/template/base_template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/plugins/editor/template/poco_template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/plugins/editor/template/template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/login/login_html/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/login/login_html/static/pics/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/login/login_html/success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/dialog/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/dialog/dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/display/autorefresh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/display/fullscreen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/display/fullscreen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/display/panel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/display/placeholder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/display/rulers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/edit/closebrackets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/edit/closetag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/edit/continuelist.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/edit/matchbrackets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/edit/matchtags.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/edit/trailingspace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/brace-fold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/comment-fold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/foldcode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/foldgutter.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/foldgutter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/indent-fold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/markdown-fold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/fold/xml-fold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/hint/airtest-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/hint/anyword-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/hint/poco-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/hint/python-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/hint/show-hint.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/hint/show-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/mode/loadmode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/mode/multiplex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/mode/multiplex_test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/mode/overlay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/mode/simple.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/runmode/colorize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/runmode/runmode-standalone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/runmode/runmode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/runmode/runmode.node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/scroll/annotatescrollbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/scroll/scrollpastend.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/scroll/simplescrollbars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/scroll/simplescrollbars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/search/jump-to-line.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/search/match-highlighter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/search/matchesonscrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/search/matchesonscrollbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/search/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/search/searchcursor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/selection/active-line.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/selection/mark-selection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/addon/selection/selection-pointer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/lib/codemirror.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/lib/codemirror.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/mode/python/python.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/codemirror/theme/monokai.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/css/editor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/editor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/fonts/CONSOLA.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/js/contextMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/js/editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/js/init_editor_channel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/js/webchannel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/BootstrapMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/BootstrapMenu.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/github-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/highlight-8.6.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/css/toastr.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/fonts/icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/fonts/icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/fonts/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/fonts/icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/js/BootstrapMenu.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/js/highlight-8.6.default.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/js/jquery-2.1.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/js/scale.fix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/bootstrapmenu/js/toastr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-2.2.4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons2.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons2.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons2.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/font/context-menu-icons2.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.contextMenu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.contextMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.contextMenu.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.contextMenu.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.contextMenu.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.contextMenu.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.ui.position.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/jquery-contextMenu/jquery.ui.position.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/tippyjs/tippy.all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/tippyjs/tippy.all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/tippyjs/tippy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/tippyjs/tippy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/tippyjs/tippy.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/tippyjs/tippy.standalone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/app/widgets/text_editor/editor_html/output/plugins/tippyjs/tippy.standalone.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/certifi/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/certifi/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/certifi/cacert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/certifi/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/GUID.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/_comobject.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/_meta.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/_safearray.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/automation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/client/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/client/_code_cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/client/_events.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/client/_generate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/client/dynamic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/client/lazybind.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/connectionpoints.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/errorinfo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/gen/UIAutomationClient.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/gen/_00020430_0000_0000_C000_000000000046_0_2_0.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/gen/_944DE083_8FB8_45CF_BCB7_C477ACB2F897_0_1_0.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/gen/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/gen/stdole.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/git.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/hresult.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/logutil.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/messageloop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/npsupport.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/patcher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/persist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/safearray.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/server/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/server/automation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/server/connectionpoints.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/server/inprocserver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/server/localserver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/server/register.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/server/w_getopt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/shelllink.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/TestComServer.idl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/TestComServer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/TestComServer.tlb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/TestDispServer.idl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/TestDispServer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/TestDispServer.tlb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/find_memleak.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/mylib.idl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/mytypelib.idl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/runtests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_BSTR.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_DISPPARAMS.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_GUID.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_QueryService.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_agilent.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_avmc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_basic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_casesensitivity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_collections.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_comserver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_createwrappers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_dict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_dispinterface.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_dyndispatch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_excel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_findgendir.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_getactiveobj.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_ie.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_jscript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_msscript.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_outparam.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_propputref.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_pump_events.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_safearray.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_sapi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_showevents.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_subinterface.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_typeinfo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_urlhistory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_variant.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_win32com_interop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_wmi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/test/test_word.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/tools/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/tools/codegenerator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/tools/tlbparser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/tools/typedesc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/tools/typedesc_base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/typeinfo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/comtypes/viewobject.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/cv2.cv2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/icudtl.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/Grammar.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.2.candidate.2.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.2.final.0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.3.candidate.1.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.3.final.0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.4.candidate.1.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.4.final.0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.5.candidate.1.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/Grammar3.6.5.final.0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.2.candidate.2.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.2.final.0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.3.candidate.1.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.3.final.0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.4.candidate.1.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.4.final.0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.5.candidate.1.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/PatternGrammar3.6.5.final.0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/lib2to3/tests/data/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/libopenblas.CSRRD7HKRKC3T3YXA7VY7TAZGLSWDKW6.gfortran-win_amd64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/markupsafe._speedups.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/mfc140u.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/numpy.core._multiarray_tests.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/numpy.core.multiarray.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/numpy.core.umath.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/numpy.fft.fftpack_lite.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/numpy.linalg._umath_linalg.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/numpy.linalg.lapack_lite.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/numpy.random.mtrand.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/apk/.gitconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/board.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/build.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/firebase_wnd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/plugin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/progress.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/aapt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/aapt.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/assets/.gitconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/base_apk/base.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/compile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/adb/linux/adb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/adb/linux_arm/adb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/adb/mac/adb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/arm64-v8a/minicap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/arm64-v8a/minicap-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/arm64-v8a/minitouch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/arm64-v8a/minitouch-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/armeabi-v7a/minicap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/armeabi-v7a/minicap-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/armeabi-v7a/minitouch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/armeabi-v7a/minitouch-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/armeabi/minitouch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/armeabi/minitouch-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/.rsync-filter" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-10/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-14/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-14/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-15/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-15/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-16/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-16/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-17/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-17/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-18/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-18/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-19/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-19/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/arm64-v8a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-9/armeabi-v7a/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/mips/minitouch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/mips/minitouch-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/mips64/minitouch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/mips64/minitouch-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86/minicap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86/minicap-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86/minitouch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86/minitouch-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86_64/minicap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86_64/minicap-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86_64/minicap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86_64/minitouch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/android/static/stf_libs/x86_64/minitouch-nopie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/ios/ios_minicap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/kivy/controler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/kivy/kivy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/css/jquery.fancybox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/css/monokai_sublime.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/css/report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/image/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/image/broken.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/image/target.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/echarts/echarts.common.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/echarts/pfm_charts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/echarts/shine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/highlight.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/jquery-1.10.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/jquery-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/langpack/zh_CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/js/lazyload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/log_template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/report/report.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/images/5509213687_ffd18df0b9_b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/images/5552597274_de8b3fb5d2_b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/images/faust_github.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/include/python2.7/pyconfig.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r2.2.0.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r2.3.3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r3.0.1.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r4.0.0.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r4.0.3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r4.1.1.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r4.2.0.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r4.3.0.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/libnative_camera_r4.4.0.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/config/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/config/Setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/config/install-sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/config/makesetup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/ctypes/macholib/fetch_macholib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/distutils/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/distutils/command/command_template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_codecs_cn.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_codecs_hk.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_codecs_iso2022.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_codecs_jp.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_codecs_kr.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_codecs_tw.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_csv.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_ctypes.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_ctypes_test.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_heapq.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_hotshot.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_io.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_json.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_lsprof.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_multibytecodec.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/_testcapi.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/audioop.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/future_builtins.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/grp.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/mmap.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/resource.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/syslog.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/termios.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/lib-dynload/unicodedata.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/plat-linux3/regen" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/PIL/_imaging.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/PIL/_imagingmath.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/cv2.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/jnius/jnius.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/_clock.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/_event.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/core/audio/audio_sdl2.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/core/clipboard/_clipboard_sdl2.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/core/image/_img_sdl2.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/core/text/_text_sdl2.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/core/text/text_layout.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/core/window/_window_sdl2.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/glsl/default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/images/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/images/cursor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/images/defaulttheme-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/images/defaulttheme.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/images/testpattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/data/style.kv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/buffer.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/cgl.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/cgl_backend/cgl_debug.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/cgl_backend/cgl_gl.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/cgl_backend/cgl_glew.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/cgl_backend/cgl_mock.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/cgl_backend/cgl_sdl2.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/compiler.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/context.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/context_instructions.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/fbo.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/gl_instructions.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/instructions.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/opengl.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/opengl_utils.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/scissor_instructions.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/shader.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/stencil_instructions.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/svg.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/tesselator.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/texture.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/transformation.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/vbo.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/vertex.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/graphics/vertex_instructions.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/properties.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/tests/test_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/tests/testkv.kv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/kivy/weakproxy.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/_dummy.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/multiarray.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/multiarray_tests.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/operand_flag_tests.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/scalarmath.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/struct_ufunc_test.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/test_rational.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/umath.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/core/umath_tests.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/f2py/tests/src/assumed_shape/.f2py_f2cmap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/fft/fftpack_lite.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/lib/_compiled_base.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/linalg/_umath_linalg.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/linalg/lapack_lite.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/numpy/random/mtrand.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/requests-2.13.0-py2.7.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/requests-2.13.0-py2.7.egg-info/not-zip-safe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/setuptools-18.3.1-py2.7.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/lib/python2.7/site-packages/setuptools-18.3.1-py2.7.egg-info/zip-safe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/pictures.kv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/delete_extra.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/firebase_keystore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/gcloud_command.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/resign.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/resign.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/setting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/Doc_tree.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/UntitledTestCase.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/airtest_chrome.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/board.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/ext_report.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/assert_d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/auto_record_d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/back_d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/forward_d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/select_d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/snapshot_d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/start_web_d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/switch_to_last_d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/switch_to_latest_d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/text_d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/touch_d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/d/web_d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/assert_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/auto_record_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/back_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/forward_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/select_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/snapshot_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/start_web_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/switch_to_last_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/switch_to_latest_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/text_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/touch_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/Selenium Windows_icon/n/web_n copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/gui/ui_selenium_window.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/parse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/plugin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/plugin_config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/selenium_assistant.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/plugins/selenium_plugin/selenium_wnd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/poco/drivers/android/lib/pocoservice-debug-androidTest.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/poco/drivers/android/lib/pocoservice-debug.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/pyexpat.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/python3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/python36.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/pythoncom36.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/pywintypes36.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/bearer/qgenericbearer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/iconengines/qsvgicon.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qgif.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qicns.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qico.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qjpeg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qsvg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qtga.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qtiff.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qwbmp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/imageformats/qwebp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/platforms/qminimal.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/platforms/qoffscreen.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/platforms/qwebgl.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/platforms/qwindows.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/printsupport/windowsprintersupport.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qt5_plugins/styles/qwindowsvistastyle.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qtwebengine_devtools_resources.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qtwebengine_resources.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qtwebengine_resources_100p.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/qtwebengine_resources_200p.pak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/resource/picture/test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/sample/custom_launcher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/select.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/common/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/common/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/android/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/android/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/blackberry/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/blackberry/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/chrome/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/chrome/options.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/chrome/remote_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/chrome/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/chrome/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/action_chains.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/action_builder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/input_device.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/interaction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/key_actions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/key_input.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/mouse_button.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/pointer_actions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/actions/pointer_input.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/alert.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/by.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/desired_capabilities.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/html5/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/html5/application_cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/keys.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/proxy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/touch_actions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/common/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/edge/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/edge/options.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/edge/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/edge/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/extension_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/firefox_binary.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/firefox_profile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/options.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/remote_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/webdriver.xpi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/webdriver_prefs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/webelement.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/firefox/x86/x_ignore_nofocus.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/ie/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/ie/options.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/ie/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/ie/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/opera/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/opera/options.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/opera/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/phantomjs/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/phantomjs/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/phantomjs/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/command.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/errorhandler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/file_detector.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/getAttribute.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/isDisplayed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/mobile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/remote_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/switch_to.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/remote/webelement.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/safari/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/safari/permissions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/safari/remote_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/safari/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/safari/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/abstract_event_listener.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/color.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/event_firing_webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/events.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/expected_conditions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/select.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/ui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/support/wait.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/webkitgtk/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/webkitgtk/options.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/webkitgtk/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/selenium/webdriver/webkitgtk/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/sip.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/ucrtbase.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/unicodedata.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/win32api.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/win32com.shell.shell.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/win32event.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/win32file.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/win32gui.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/win32pdh.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/win32process.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/win32trace.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/win32ui.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airtest/win32wnet.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/command/analysis_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/command/analysis_command.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/okc_robot/test/Robot-10345.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/okc_robot/test/Robot-10345.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/okc_robot/test/Robot-10346.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/okc_robot/test/Robot-10346.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10345.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10345.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10346.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10346.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/okc_test/ui/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_test/ui/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/conf.ini" beforeDir="false" afterPath="$PROJECT_DIR$/resource/conf.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/create_step_9.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1189,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/command/analysis_command.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="451" column="25" selection-start-line="451" selection-start-column="25" selection-end-line="451" selection-end-column="25" />
+            <state relative-caret-position="533">
+              <caret line="435" column="23" selection-start-line="435" selection-start-column="23" selection-end-line="435" selection-end-column="23" />
               <folding>
                 <element signature="e#43#54#0" expanded="true" />
               </folding>
@@ -1201,24 +33,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="319">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding>
                 <element signature="e#43#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#44#53#0" expanded="true" />
-                <element signature="e#119#136#0" />
-                <element signature="e#168#213#0" />
               </folding>
             </state>
           </provider>
@@ -1227,20 +45,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/okc_test/ui/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="385">
+              <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
               <folding>
                 <element signature="e#44#72#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/conf.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="41" column="23" selection-start-line="41" selection-end-line="41" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -1266,6 +75,7 @@
       <find>kit</find>
       <find>Enum</find>
       <find>.value</find>
+      <find>BASEDIR</find>
     </findStrings>
     <replaceStrings>
       <replace>= /</replace>
@@ -1309,11 +119,11 @@
         <option value="$PROJECT_DIR$/okc_test/ui/create_account.py" />
         <option value="$PROJECT_DIR$/okc_test/__init__.py" />
         <option value="$PROJECT_DIR$/okc_test/ui/__init__.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/okc_test/ui/common.py" />
         <option value="$PROJECT_DIR$/command/okc_robot_load.py" />
         <option value="$PROJECT_DIR$/resource/conf.ini" />
         <option value="$PROJECT_DIR$/command/analysis_command.py" />
+        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/okc_test/ui/test.py" />
       </list>
     </option>
@@ -1336,6 +146,17 @@
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="start.py" type="8704e2dd:PyFileNode" />
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
@@ -1365,103 +186,8 @@
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="airtest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="airtest" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="airtest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="airtest" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="airtest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="airtest" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="main.py" type="8704e2dd:PyFileNode" />
             </path>
           </expand>
           <select />
@@ -1579,9 +305,6 @@
     <SUITE FILE_PATH="coverage/tools$main.coverage" NAME="main Coverage Results" MODIFIED="1563990662997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/okc_robot/reponse.py" />
-    <entry file="file://$PROJECT_DIR$/okc_robot/table.py" />
-    <entry file="file://F:/Program Files/Python36/Lib/os.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/435767457/builtins.py" />
     <entry file="file://$PROJECT_DIR$/tools.pyproj" />
     <entry file="file://$PROJECT_DIR$/okc_robot/net/reponse.py">
@@ -1946,23 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/command/start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#43#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/conf.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
@@ -1977,23 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/analysis_command.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="451" column="25" selection-start-line="451" selection-start-column="25" selection-end-line="451" selection-end-column="25" />
-          <folding>
-            <element signature="e#43#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -2026,16 +715,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/analysis_command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="435" column="23" selection-start-line="435" selection-start-column="23" selection-end-line="435" selection-end-column="23" />
+          <folding>
+            <element signature="e#43#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="349" column="13" selection-start-line="349" selection-start-column="13" selection-end-line="349" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#43#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="393" selection-start-line="393" selection-end-line="393" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/utils/logwraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/cv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+        <state relative-caret-position="124">
+          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
           <folding>
+            <element signature="e#517#1195#1" />
+            <element signature="e#1454#1656#0" />
+            <element signature="e#1601#1656#0" />
+            <element signature="e#1815#1917#0" />
+            <element signature="e#2013#2395#0" />
+            <element signature="e#2013#2130#1" />
             <element signature="e#2426#2702#1" />
-            <element signature="e#2831#3070#0" />
-            <element signature="e#3118#3414#0" />
-            <element signature="e#3217#3385#0" />
-            <element signature="e#3322#3385#0" />
             <element signature="e#3448#3575#0" />
             <element signature="e#3617#3859#0" />
             <element signature="e#3905#4049#0" />
@@ -2055,20 +804,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/api.py">
+    <entry file="file://$PROJECT_DIR$/command/start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="393" column="17" selection-start-line="393" selection-start-column="17" selection-end-line="393" selection-end-column="17" />
+        <state relative-caret-position="-296">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/okc_test/ui/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="385">
+          <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
           <folding>
             <element signature="e#44#72#0" expanded="true" />
           </folding>

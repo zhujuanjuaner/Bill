@@ -35,6 +35,10 @@ class UiTest(object):
 		
 		self.app_start()
 		
+		from airtest.core import helper
+		
+		helper.using(image_dir)
+		
 		tag_environment = get_image_path("tag_environment")
 		api.wait(api.Template(tag_environment))
 		

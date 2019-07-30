@@ -7,7 +7,10 @@ import os
 
 
 def main():
-
+	dirname = r"E:\Space\Bill\tools\resource\okc_test\picture\CreatAccount\\"
+	file_name = "button_continue.png"
+	print(os.path.join(dirname, file_name))
+	
 	check_pos = threading.Thread(target=util.check_position, name="check_position", args=())
 	thread_main = threading.Thread(target=okc_robot_start, name="main", args=())
 	thread_main.start()
