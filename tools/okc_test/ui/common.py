@@ -1,10 +1,18 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-from airtest.core import android
+from airtest.core import android, api
 
 import subprocess
 
 import logging
+
+
+def connect_phone(phone_name="honor_10_lite"):
+	phone_dict = {"honor_10_lite": "79URX19118020173"}
+	if phone_name not in phone_dict.keys():
+		logging.error("not support")
+		return
+	api.connect_device("Android:///%s" % phone_dict[phone_name])
 
 
 def check_connect() -> bool:
@@ -21,6 +29,7 @@ def check_connect() -> bool:
 def app_start(app_name: str):
 	app_manage = android.Android()
 	app_manage.start_app(package=app_name)
+	return app_manage
 
 
 def phone_cmd(command: str) -> bool:

@@ -114,6 +114,9 @@ class GameNumerical(GameJson):
 	
 	def get_research(self, research_id) -> Num.Research:
 		return self.__get_data(module="game_research", check_id=research_id)
+	
+	def get_task(self, task_id) -> Num.Task:
+		return self.__get_data(module="game_task", check_id=task_id)
 
 
 class ErrorNumerical(object):

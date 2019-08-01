@@ -18,6 +18,8 @@ class OkcEnvironment(Enum):
 	Online = 3
 
 
+okc_app_name = "com.eyougame.sjhg"
+
 conf_path = os.path.join(os.getcwd(), "resource/conf.ini")
 
 request_interval = 0.1

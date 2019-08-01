@@ -187,7 +187,7 @@ class Map(object):
 		
 		self.__init_block_data()
 		
-		logging.debug("block data's keys: %s" % self.block_data.keys())
+		logging.debug("block data's keys length: %s" % len(self.block_data.keys()))
 	
 	@staticmethod
 	def get_distance(source: int, target: int):

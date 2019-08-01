@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-from airtest.core import api
-
+from airtest.core import api, cv, helper
+from airtest.core.error import TargetNotFoundError
+from poco.drivers.unity3d import UnityPoco as Poco
 from okc_test.ui import common
+
 import config
 import util
 import logging
@@ -14,10 +16,15 @@ class UiTest(object):
 	def __init__(self):
 		self.app_name = "com.eyougame.sjhg"
 		self.pic_dir = util.get_ini_data(ini_path=config.conf_path, section="path", section_item="okc_test_pic_dir")
+		self.andro = self.app_start()
+		self.poco = Poco()
+		self.scree_pos = self.poco.get_screen_size()
+		helper.G.add_device(dev=self.andro)
 	
 	def app_start(self):
-		common.app_start(app_name=self.app_name)
+		andro = common.app_start(app_name=self.app_name)
 		api.sleep(secs=5)
+		return andro
 	
 	def get_image(self, name, save_path=""):
 		if save_path == "":
@@ -27,32 +34,29 @@ class UiTest(object):
 		logging.debug("save path : %s" % save_path)
 		common.get_screen_shot(image_name=name, save_path=save_path)
 	
-	def create_account_test(self):
-		image_dir = util.get_ini_data(ini_path=config.conf_path, section="path", section_item="okc_test_create_account")
+	def click_button_by_pos(self, pos):
+		self.poco.click(pos)
+	
+	def click(self, image_path):
 		
-		def get_image_path(image_name: str):
-			return r"%s%s.png" % (image_dir, image_name)
-		
-		self.app_start()
-		
-		from airtest.core import helper
-		
-		helper.using(image_dir)
-		
-		tag_environment = get_image_path("tag_environment")
-		api.wait(api.Template(tag_environment))
-		
-		api.touch(api.Template(get_image_path("button_fake_sdk")))
-		api.touch(api.Template(get_image_path("button_new")))
-		api.touch(api.Template(get_image_path("button_test")))
-		
-		create_step_1 = get_image_path("create_step_1")
-		
-		if not api.exists(api.Template(create_step_1)):
-			logging.error("not found this image : %s" % create_step_1)
-			return
-		
-		api.touch(api.Template(get_image_path("button_continue")))
+		try:
+			image_center_pos = cv.loop_find(api.Template(image_path))
+			image_x = image_center_pos[0]
+			image_y = image_center_pos[1]
+			print("@@@" * 10)
+			logging.debug("image_path : %s" % image_path)
+			logging.debug("image_x : %s , image_y : %s" % (image_x/self.scree_pos[0], image_y/self.scree_pos[1]))
+			print("@@@" * 10)
+			self.poco.click([image_x / self.scree_pos[0], image_y / self.scree_pos[1]])
+			api.sleep(0.3)
+			return True
+		except TargetNotFoundError:
+			logging.error("image_path : %s ---- not found" % image_path)
+			return False
+	
+	@staticmethod
+	def get_image_path(image_dir, image_name: str):
+		return r"%s%s.png" % (image_dir, image_name)
 
 
 ui_test = UiTest()

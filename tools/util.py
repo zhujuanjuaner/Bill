@@ -148,3 +148,4 @@ def check_position():
 			logging.info("position click start")
 			thread_position_click.join()
 			time.sleep(5)
+

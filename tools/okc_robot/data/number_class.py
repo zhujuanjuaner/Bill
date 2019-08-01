@@ -7,22 +7,33 @@ class Item(object):
 	def __init__(self):
 		self.has_right_data = bool()
 		self.item_price = int()
+		self.category = int()
 		self.is_show = int()
 		self.allow_use = int()
 		self.sale_price = int()
 		self.loyalty_price = int()
 		self.auto_use = int()
 		self.item_buff = list()
+		self.reward = list()
+		self.reward_type = int()
+		self.reward_id = int()
+		self.reward_num = int()
 	
 	def update(self, item_data):
 		try:
 			self.item_price = item_data["a0"]
+			self.category = item_data["a1"]  # 0-misc,1-speed up,2-combat,3-resources,4-chest,5-material,6-hero
 			self.is_show = item_data["a3"]
 			self.allow_use = item_data["a4"]
 			self.sale_price = item_data["a5"]
 			self.loyalty_price = item_data["a10"]
 			self.auto_use = item_data["a12"]
 			self.item_buff = item_data["a13"]
+			self.reward = item_data["a14"]
+			if self.reward:
+				self.reward_type = self.reward[0][0]
+				self.reward_id = self.reward[0][1]
+				self.reward_num = self.reward[0][2]
 			self.has_right_data = True
 		except KeyError:
 			logging.error("item_data error, item data : %s" % item_data)
@@ -219,6 +230,37 @@ class Research(object):
 		return self.__data["b"]["b0"][research_level - 1]
 
 
+class Task(object):
+	def __init__(self):
+		self.is_right_id = bool()
+		self.__data = None
+		self.task_category = int()
+		self.hidden = bool()
+		self.priority = int()
+		self.pre_task = list()
+		self.task_list = list()
+		self.auto_collect = bool()
+		self.is_recommend = bool()
+		self.show_progress = int()
+		self.reward = dict()
+	
+	def update(self, task_data):
+		try:
+			self.__data = task_data
+			self.task_category = task_data["a"]["task_category"]
+			self.hidden = task_data["a"]["hidden"]
+			self.priority = task_data["a"]["priority"]
+			self.pre_task = task_data["a"]["pre_task"]
+			self.task_list = task_data["a"]["task_list"]
+			self.auto_collect = task_data["a"]["auto_collect"]
+			self.is_recommend = task_data["a"]["is_recommend"]
+			self.show_progress = task_data["a"]["show_progress"]
+			self.reward = task_data["r"]
+			self.is_right_id = True
+		except KeyError:
+			logging.error("task_data error, building_data : %s" % task_data)
+
+
 okc_number_dict = {
 	"game_vip": Vip(),
 	"game_guardian": object(),
@@ -234,6 +276,7 @@ okc_number_dict = {
 	"game_building": Building(),
 	"game_research": Research(),
 	"game_troop": Troop(),
-	"game_item": Item()
+	"game_item": Item(),
+	"game_task": Task()
 	
 }

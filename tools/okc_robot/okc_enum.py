@@ -1,6 +1,22 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
+class GlobalType(object):
+	Item = 0
+	Gem = 1
+	Resource = 2
+	Troop = 3
+	LordExp = 4
+	Research = 8
+	LordLevel = 9
+	AllianceGift = 10
+	VipPoint = 11
+	VipLevel = 14
+	Defence = 16
+	SpeedTime = 19
+	SpeedBunts = 20
+	Equip = 23
+
 
 class ResourceType(object):
 	GoldStation = 101

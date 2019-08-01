@@ -33,6 +33,7 @@ class Robot(object):
 		self.cmd_dragon = cmd.Dragon(user_data=self.data, protocol=self.protocol)
 		self.cmd_map = cmd.Map(user_data=self.data, protocol=self.protocol)
 		self.cmd_alliance = cmd.Alliance(user_data=self.data, protocol=self.protocol)
+		self.cmd_build = cmd.Building(user_data=self.data, protocol=self.protocol)
 		
 		self.protocol.logger.info("sid : %s ; uid : %s ; ksid : %s" % (self.sid, self.uid, self.ksid))
 		
