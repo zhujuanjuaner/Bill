@@ -7,18 +7,17 @@ import os
 
 
 def main():
-	from okc_test.test_case import create_account
-	
-	create_account()
-	
+	# from okc_test.test_case import create_account
+	# create_account()
+
 	check_pos = threading.Thread(target=util.check_position, name="check_position", args=())
 	thread_main = threading.Thread(target=okc_robot_start, name="main", args=())
 	thread_main.start()
 	check_pos.start()
-	
+
 	thread_main.join()
 	check_pos.join()
-	
+
 	os.system("pause")
 
 
