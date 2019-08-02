@@ -36,6 +36,7 @@ class AppManage(object):
 		self.default_save_path = util.get_ini_data(config.conf_path, section="path", section_item="okc_test_image_dir")
 		self.default_wait_time = 1.0
 		self.app_name = app_name
+		
 		self.is_connect_phone = bool()
 		self.is_app_in_service = bool()
 		self.is_start_app = bool()
@@ -98,7 +99,7 @@ class AppManage(object):
 			synchronous_count = 0
 			while synchronous_count < 20:
 				try:
-					self.init_poco()
+					
 					return str(self.poco.agent.hierarchy.dump())
 				except (ConnectionResetError, ConnectionAbortedError):
 					synchronous_count += 1

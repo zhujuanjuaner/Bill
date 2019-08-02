@@ -1,16 +1,42 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-from okc_test.test_case.case_base import okc_ui_test, guide
+from okc_test.ui.okc_ui_test import okc_ui_test
 import threading
+import logging
+import time
 
 
 def create_account():
-	okc_ui_test.login(is_new_account=True)
+	okc_ui_test.update_ui_node()
 	
-	guide_task = threading.Thread(target=guide, name="guide", args=())
-	guide_task.join()
-	guide_task.start()
+	# if not okc_ui_test.update_is_in_the_game():
+	okc_ui_test.new_account()
+	okc_ui_test.choose_environment()
+	
+	dialogue = "operate_button"
+	arrow = "focus_light"
+	
+	new_teach_step = 0
+	failed_count = 30
+	
+	while failed_count > 0:
+		if okc_ui_test.find_ui_node(dialogue):
+			okc_ui_test.click_by_node_name(dialogue)
+			new_teach_step += 1
+			logging.info("step index : %s , ui node name : %s" % (new_teach_step, dialogue))
+			failed_count = 30
+			continue
+		elif okc_ui_test.find_ui_node(arrow):
+			okc_ui_test.click_by_node_name(arrow)
+			new_teach_step += 1
+			logging.info("step index : %s , ui node name : %s" % (new_teach_step, arrow))
+			failed_count = 30
+			continue
+		else:
+			logging.info("failed_count: %s " % failed_count)
+			failed_count -= 1
+		time.sleep(1)
 
 
 """
@@ -70,33 +96,9 @@ step = {
 	55: "btn_focus",
 	56: "focus_light"
 }
-okc_ui_test.update_ui_node()
-
-if not okc_ui_test.update_is_in_the_game():
-	okc_ui_test.new_account()
-	okc_ui_test.choose_environment()
-
-dialogue = "operate_button"
-arrow = "focus_light"
-
-new_teach_step = 0
-failed_count = 30
-
-while failed_count > 0:
-	if okc_ui_test.find_ui_node(dialogue):
-		okc_ui_test.click_by_node_name(dialogue)
-		new_teach_step += 1
-		logging.info("step index : %s , ui node name : %s" % (new_teach_step, dialogue))
-		failed_count = 30
-		continue
-	elif okc_ui_test.find_ui_node(arrow):
-		okc_ui_test.click_by_node_name(arrow)
-		new_teach_step += 1
-		logging.info("step index : %s , ui node name : %s" % (new_teach_step, arrow))
-		failed_count = 30
-		continue
-	else:
-		logging.info("failed_count: %s " % failed_count)
-		failed_count -= 1
-	time.sleep(1)
+	okc_ui_test.login(is_new_account=True)
+	
+	guide_task = threading.Thread(target=guide, name="guide", args=())
+	guide_task.join()
+	guide_task.start()
 """
