@@ -5,7 +5,7 @@ from config import conf_path
 from okc_robot import Robot
 from okc_robot import game_table, equip_table
 
-from okc_test import ui_test
+# from okc_test import ui_test
 
 import os
 import logging
@@ -449,4 +449,5 @@ class AnalysisCommand(LoadRobot):
 	@staticmethod
 	def create_account_test(params):
 		""" 新手账号 -- 手机"""
-		ui_test.create_account_test()
+		# ui_test.create_account_test()
+		pass

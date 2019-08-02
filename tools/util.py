@@ -149,3 +149,16 @@ def check_position():
 			thread_position_click.join()
 			time.sleep(5)
 
+
+def find_key_in_dict_data(data: dict, target_key):
+	if target_key in data.keys():
+		return True
+	for key, value in data.items():
+		if isinstance(value, dict):
+			if find_key_in_dict_data(data=value, target_key=target_key):
+				return True
+			else:
+				continue
+		else:
+			continue
+	return False

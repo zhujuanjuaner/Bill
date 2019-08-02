@@ -7,10 +7,10 @@ import os
 
 
 def main():
-	from okc_test.okc_case import create_account
-	# 0.28, 0.06584625
-	# 2280 1080
+	from okc_test.test_case import create_account
+	
 	create_account()
+	
 	check_pos = threading.Thread(target=util.check_position, name="check_position", args=())
 	thread_main = threading.Thread(target=okc_robot_start, name="main", args=())
 	thread_main.start()
