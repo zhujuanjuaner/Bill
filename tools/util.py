@@ -29,10 +29,10 @@ def get_ini_data(ini_path: str, section: str, section_item: str) -> str:
 				section_data = "%s%s" % (os.getcwd(), conf_section_data[section_item])
 			else:
 				section_data = str()
-
+			
 			if section_data == "":
 				return section_data
-
+			
 			if not os.path.exists(section_data):
 				os.makedirs(section_data)
 			logging.debug("section_data : %s" % section_data)
@@ -78,11 +78,11 @@ def logger(log_name: str, log_path: str, log_lv=logging.DEBUG, mode="a+"):
 	fmt.datefmt = '%Y-%m-%d %H:%M:%S'
 	handler.setFormatter(fmt)
 	handler.setLevel(log_lv)
-
+	
 	kit_logger = logging.getLogger(log_name)
 	kit_logger.addHandler(handler)
 	kit_logger.root.setLevel(log_lv)
-
+	
 	return kit_logger
 
 
@@ -104,7 +104,7 @@ def dict_to_str(dict_data: dict, target_list: list, separator: str = ":"):
 		except IndexError:
 			logging.error("IndexError -> key : %s ,value : %s , list : %s " % (key, value, target_list))
 			continue
-
+	
 	return list_to_str(target_list, separator)
 
 
@@ -115,7 +115,7 @@ class Position(object):
 
 def position_click(click_interval_time=0.1, stay_time=3):
 	stay_count = 0
-
+	
 	while True:
 		position = pyautogui.position()
 		# logging.info("stay_count : %s." % stay_count)
@@ -128,7 +128,7 @@ def position_click(click_interval_time=0.1, stay_time=3):
 				continue
 			time.sleep(click_interval_time)
 			continue
-
+		
 		Position.x = position.x
 		Position.y = position.y
 		stay_count = 0

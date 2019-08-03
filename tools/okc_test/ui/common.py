@@ -32,11 +32,23 @@ def app_start(app_name: str):
 	return app_manage
 
 
-def phone_cmd(command: str) -> bool:
-	screen_get = subprocess.Popen(str(command), stderr=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
-	stdout, stderr = screen_get.communicate()
-	
-	return stdout != "" and stderr == ""
+def phone_cmd(command: str):
+	return subprocess.Popen(str(command), stderr=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
+
+
+def is_in_service(app_name):
+	# adb shell ps | grep %s
+	return phone_cmd(command="adb shell ps | grep %s" % app_name)
+
+
+def kill_app(app_name):
+	# "adb shell am force-stop <package name>"
+	# adb shell pm clear %s
+	return phone_cmd(command="adb shell pm clear %s" % app_name)
+	# phone_cmd("adb shell am force-stop <%s>" % app_id)
+
+
+# phone_cmd(command="adb shell am kill %s" % app_id)
 
 
 def get_screen_shot(image_name: str, save_path: str) -> bool:

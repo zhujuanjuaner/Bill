@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-from okc_test.test_ui import okc_ui_test
 import logging
 import time
 
@@ -74,31 +73,3 @@ class Linked(object):
 				nonius = nonius.next
 			else:
 				nonius.data.update()
-
-
-def guide():
-	dialogue = "operate_button"
-	arrow = "focus_light"
-	
-	new_teach_step = 0
-	failed_count = 0
-	
-	while True:
-		if okc_ui_test.find_ui_node(dialogue):
-			okc_ui_test.click_by_node_name(dialogue)
-			new_teach_step += 1
-			logging.info("step index : %s , ui node name : %s" % (new_teach_step, dialogue))
-			failed_count = 0
-			continue
-		elif okc_ui_test.find_ui_node(arrow):
-			okc_ui_test.click_by_node_name(arrow)
-			new_teach_step += 1
-			logging.info("step index : %s , ui node name : %s" % (new_teach_step, arrow))
-			failed_count = 0
-			continue
-		else:
-			new_teach_step = 0
-			failed_count += 1
-			logging.info("failed_count: %s " % failed_count)
-		time.sleep(okc_ui_test.okc_app.default_wait_time)
-
