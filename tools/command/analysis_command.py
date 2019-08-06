@@ -5,8 +5,6 @@ from config import conf_path
 from okc_robot import Robot
 from okc_robot import game_table, equip_table
 
-# from okc_test import ui_test
-
 import os
 import logging
 import random
@@ -443,11 +441,16 @@ class AnalysisCommand(LoadRobot):
 	
 	def get_image(self, params):
 		""" 手机截屏 需要连接手机 image name"""
-		image_name, = params.split()
-		ui_test.get_image(name=image_name, save_path=self.save_path)
+		print("not support")
+		pass
+	
+	def task(self, params):
+		print("not support")
+		pass
 	
 	@staticmethod
 	def create_account_test(params):
 		""" 新手账号 -- 手机"""
+		print("not support")
 		# ui_test.create_account_test()
 		pass

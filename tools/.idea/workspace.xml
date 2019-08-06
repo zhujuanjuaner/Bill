@@ -2,13 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1676ebb1-da1d-4b78-8a20-ffccccc3bd1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../okc_test/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_case/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_case/guide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/data/number_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/data/numberical.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/data/user_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/module/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/module/alliance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/module/building.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/module/dragon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/module/map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/module/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/net/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/net/reponse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/net/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/okc_enum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/protocol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/robot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/okc_robot/svr_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../okc_test/test_ui_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/okc_test/test_case/okc_task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/okc_test/ui/behavior.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/analysis_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/command/analysis_command.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/okc_robot/test/Robot-10345.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/okc_robot/test/Robot-10345.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/okc_robot/test/Robot-10346.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/okc_robot/test/Robot-10346.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10345.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10345.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10346.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10346.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_test/ui/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_test/ui/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/okc_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/okc_test/test_case/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_test/test_case/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/okc_test/test_case/okc_new_teach.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_test/test_case/okc_new_teach.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/okc_test/test_ui/test_ui_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_test/test_ui/test_ui_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/okc_test/ui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_test/ui/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/okc_test/ui/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/okc_test/ui/okc_ui_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/okc_test/ui/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/conf.ini" beforeDir="false" afterPath="$PROJECT_DIR$/resource/conf.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_temp_data/okc_environment.json" beforeDir="false" afterPath="$PROJECT_DIR$/resource/okc_temp_data/okc_environment.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_temp_data/okc_robot_uid.json" beforeDir="false" afterPath="$PROJECT_DIR$/resource/okc_temp_data/okc_robot_uid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/button_continue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/button_fake_sdk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/button_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/button_taskbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/button_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/create_step_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/CreatAccount/tag_environment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/VIP/add_vip_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/VIP/vip_daily_chest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/VIP/vip_info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/VIP/vip_main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/choose_environment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/okc_test/picture/new_environment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,22 +93,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/analysis_command.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="435" column="23" selection-start-line="435" selection-start-column="23" selection-end-line="435" selection-end-column="23" />
-              <folding>
-                <element signature="e#43#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="258">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding>
                 <element signature="e#43#78#0" expanded="true" />
               </folding>
@@ -42,13 +104,147 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/okc_test/ui/test.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_test/test_case/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+            <state relative-caret-position="145">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_test/test_case/okc_new_teach.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#44#72#0" expanded="true" />
+                <element signature="e#44#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/okc_test/test_case/okc_task.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="262" column="35" lean-forward="true" selection-start-line="262" selection-start-column="35" selection-end-line="262" selection-end-column="35" />
+              <folding>
+                <element signature="e#43#70#0" expanded="true" />
+                <element signature="e#1518#1577#0" />
+                <element signature="e#1620#1733#0" />
+                <element signature="e#1772#1960#0" />
+                <element signature="e#1832#1931#0" />
+                <element signature="e#2394#3856#0" />
+                <element signature="e#2817#2954#0" />
+                <element signature="e#2966#3005#0" />
+                <element signature="e#3237#3274#0" />
+                <element signature="e#3138#3466#0" />
+                <element signature="e#3265#3419#0" />
+                <element signature="e#3884#5264#0" />
+                <element signature="e#3960#4658#0" />
+                <element signature="e#4193#4266#0" />
+                <element signature="e#4152#4276#0" />
+                <element signature="e#4956#4996#0" />
+                <element signature="e#3969#5082#0" />
+                <element signature="e#6395#6436#0" />
+                <element signature="e#6764#6964#0" />
+                <element signature="e#6770#6843#0" />
+                <element signature="e#3962#4013#0" />
+                <element signature="e#4096#4150#0" />
+                <element signature="e#7610#7695#0" />
+                <element signature="e#8030#8078#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_robot/module/alliance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12">
+              <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+              <folding>
+                <element signature="e#43#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_test/ui/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_robot/data/user_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="224" column="13" selection-start-line="224" selection-start-column="13" selection-end-line="224" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_test/test_ui/test_ui_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="222" column="52" selection-start-line="222" selection-start-column="52" selection-end-line="222" selection-end-column="52" />
+              <folding>
+                <element signature="e#43#85#0" expanded="true" />
+                <element signature="e#340#364#0" />
+                <element signature="e#395#446#0" />
+                <element signature="e#496#593#0" />
+                <element signature="e#644#735#0" />
+                <element signature="e#785#1043#0" />
+                <element signature="e#1079#1144#0" />
+                <element signature="e#1589#1903#0" />
+                <element signature="e#3862#4939#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_test/ui/behavior.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="152" column="8" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
+              <folding>
+                <element signature="e#230#254#0" />
+                <element signature="e#183#280#0" />
+                <element signature="e#490#655#0" />
+                <element signature="e#407#500#0" />
+                <element signature="e#616#655#0" />
+                <element signature="e#595#660#0" />
+                <element signature="e#1105#1417#0" />
+                <element signature="e#1127#1148#0" />
+                <element signature="e#1192#1218#0" />
+                <element signature="e#1256#1417#0" />
+                <element signature="e#1286#1336#0" />
+                <element signature="e#2449#2532#0" />
+                <element signature="e#3617#3640#0" />
+                <element signature="e#3320#3407#0" />
+                <element signature="e#4442#4970#0" />
+                <element signature="e#3832#4009#0" />
+                <element signature="e#3895#3946#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_robot/robot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <element signature="e#43#82#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,6 +272,10 @@
       <find>Enum</find>
       <find>.value</find>
       <find>BASEDIR</find>
+      <find>self.android_object</find>
+      <find>android_object</find>
+      <find>okc_ui_test</find>
+      <find>try</find>
     </findStrings>
     <replaceStrings>
       <replace>= /</replace>
@@ -111,27 +311,32 @@
         <option value="$PROJECT_DIR$/command/start.py" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/okc_robot/module/alliance.py" />
-        <option value="$PROJECT_DIR$/util.py" />
         <option value="$PROJECT_DIR$/okc_robot/okc_enum.py" />
         <option value="$PROJECT_DIR$/okc_robot/module/map.py" />
         <option value="$PROJECT_DIR$/Airtest/__init__.py" />
         <option value="$PROJECT_DIR$/Airtest/BillTest.air/BillTest.py" />
         <option value="$PROJECT_DIR$/okc_test/ui/create_account.py" />
-        <option value="$PROJECT_DIR$/okc_test/__init__.py" />
-        <option value="$PROJECT_DIR$/okc_test/ui/__init__.py" />
         <option value="$PROJECT_DIR$/okc_test/ui/common.py" />
         <option value="$PROJECT_DIR$/command/okc_robot_load.py" />
+        <option value="$PROJECT_DIR$/okc_test/test_case/__init__.py" />
         <option value="$PROJECT_DIR$/resource/conf.ini" />
-        <option value="$PROJECT_DIR$/command/analysis_command.py" />
-        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/okc_test/test_case/okc_new_teach.py" />
+        <option value="$PROJECT_DIR$/okc_test/__init__.py" />
         <option value="$PROJECT_DIR$/okc_test/ui/test.py" />
+        <option value="$PROJECT_DIR$/command/analysis_command.py" />
+        <option value="$PROJECT_DIR$/okc_test/test_ui/test_ui_base.py" />
+        <option value="$PROJECT_DIR$/util.py" />
+        <option value="$PROJECT_DIR$/okc_test/ui/__init__.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/okc_test/ui/behavior.py" />
+        <option value="$PROJECT_DIR$/okc_test/test_case/okc_task.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2121" />
-    <option name="y" value="3" />
-    <option name="width" value="1608" />
+    <option name="x" value="2416" />
+    <option name="y" value="110" />
+    <option name="width" value="1398" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -156,12 +361,92 @@
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
               <item name="command" type="462c0819:PsiDirectoryNode" />
-              <item name="start.py" type="8704e2dd:PyFileNode" />
+              <item name="analysis_command.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis_command.py" type="8704e2dd:PyFileNode" />
+              <item name="AnalysisCommand" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="user_data.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="user_data.py" type="8704e2dd:PyFileNode" />
+              <item name="SvrResource" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol.py" type="8704e2dd:PyFileNode" />
+              <item name="Protocol" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
+              <item name="robot.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
+              <item name="robot.py" type="8704e2dd:PyFileNode" />
+              <item name="Robot" type="dd8bbb05:PyElementNode" />
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
               <item name="okc_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_test" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_test" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_task.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_test" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_task.py" type="8704e2dd:PyFileNode" />
+              <item name="TaskTest" type="dd8bbb05:PyElementNode" />
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
@@ -174,20 +459,171 @@
               <item name="tools" type="462c0819:PsiDirectoryNode" />
               <item name="okc_test" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="test.py" type="8704e2dd:PyFileNode" />
+              <item name="behavior.py" type="8704e2dd:PyFileNode" />
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
               <item name="okc_test" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="test.py" type="8704e2dd:PyFileNode" />
-              <item name="UiTest" type="dd8bbb05:PyElementNode" />
+              <item name="behavior.py" type="8704e2dd:PyFileNode" />
+              <item name="Behavior" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="config.py" type="8704e2dd:PyFileNode" />
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
               <item name="main.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="util.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy.py" type="8704e2dd:PyFileNode" />
+              <item name="UIObjectProxy" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy.py" type="8704e2dd:PyFileNode" />
+              <item name="UIObjectProxy" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy.py" type="8704e2dd:PyFileNode" />
+              <item name="UIObjectProxy" type="dd8bbb05:PyElementNode" />
             </path>
           </expand>
           <select />
@@ -199,7 +635,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="G:/work/tools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -279,7 +715,7 @@
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42967033" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42967033" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,7 +731,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.27628756" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="5" weight="0.29935622" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,147 +741,10 @@
     <SUITE FILE_PATH="coverage/tools$main.coverage" NAME="main Coverage Results" MODIFIED="1563990662997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/435767457/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/tools.pyproj" />
-    <entry file="file://$PROJECT_DIR$/okc_robot/net/reponse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/user_data.py" />
-    <entry file="file://F:/Program Files/Python36/Lib/logging/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/resource/excel/hero.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/okc_json_data/game.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/data/number_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4002">
-          <caret line="212" column="18" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="18" />
-          <folding>
-            <element signature="e#81#720#0" />
-            <element signature="e#103#310#0" />
-            <element signature="e#345#720#0" />
-            <element signature="e#353#637#0" />
-            <element signature="e#745#2106#0" />
-            <element signature="e#767#1227#0" />
-            <element signature="e#1263#2106#0" />
-            <element signature="e#1271#2020#0" />
-            <element signature="e#2156#2200#0" />
-            <element signature="e#4175#4341#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/svr_map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/data/user_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="390" column="6" selection-start-line="390" selection-start-column="6" selection-end-line="390" selection-end-column="6" />
-          <folding>
-            <element signature="e#89#669#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/module/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#43#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/module/dragon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#43#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#44#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/net/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#44#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/data/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#44#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/data/numberical.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="e#43#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/net/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding>
-            <element signature="e#43#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/Program Files/Python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="323" selection-start-line="323" selection-end-line="323" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/protocol.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="171" column="24" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="24" />
-          <folding>
-            <element signature="e#43#76#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -455,26 +754,6 @@
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#44#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/robot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-725">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#43#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/module/alliance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="81" column="71" selection-start-line="81" selection-start-column="71" selection-end-line="81" selection-end-column="71" />
-          <folding>
-            <element signature="e#43#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -590,16 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="23" />
-          <folding>
-            <element signature="e#43#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/android/adb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="698">
@@ -607,37 +876,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/android/android.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airtest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okc_test/ui/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#44#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Airtest/__init__.py" />
     <entry file="file://F:/Program Files/Python36/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -652,16 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okc_test/ui/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-          <folding>
-            <element signature="e#43#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/command/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -669,64 +898,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/conf.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="41" column="23" selection-start-line="41" selection-end-line="41" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airtest/BillTest.air/tpl1541680846536.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airtest/BillTest.air/BillTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airtest/airtest_selenium/proxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="225" column="8" selection-start-line="225" selection-start-column="8" selection-end-line="225" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#44#53#0" expanded="true" />
-            <element signature="e#119#136#0" />
-            <element signature="e#168#213#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/kivy/kivy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#16#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Airtest/BillTest.air/tpl1541680846536.png" />
+    <entry file="file://$PROJECT_DIR$/Airtest/BillTest.air/BillTest.py" />
+    <entry file="file://$PROJECT_DIR$/Airtest/airtest_selenium/proxy.py" />
+    <entry file="file://$PROJECT_DIR$/Airtest/plugins/firebase_plugin/tool/copy_app/airtest/core/kivy/kivy.py" />
     <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/analysis_command.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="435" column="23" selection-start-line="435" selection-start-column="23" selection-end-line="435" selection-end-column="23" />
-          <folding>
-            <element signature="e#43#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
       <provider selected="true" editor-type-id="text-editor">
@@ -746,16 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="e#43#78#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -811,12 +978,302 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okc_test/ui/test.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/435767457/nt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+        <state relative-caret-position="9454">
+          <caret line="326" column="4" selection-start-line="326" selection-start-column="4" selection-end-line="326" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/test_case/case_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
           <folding>
-            <element signature="e#44#72#0" expanded="true" />
+            <element signature="e#43#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="1147" column="8" selection-start-line="1147" selection-start-column="8" selection-end-line="1147" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/android/android.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/test_ui/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/conf.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/ui/okc_ui_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5104">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+          <folding>
+            <element signature="e#44#57#0" expanded="true" />
+            <element signature="e#1090#1173#0" />
+            <element signature="e#1436#1676#0" />
+            <element signature="e#3757#3987#0" />
+            <element signature="e#4031#4390#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/ui/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="54" column="84" lean-forward="true" selection-start-line="54" selection-start-column="84" selection-end-line="54" selection-end-column="84" />
+          <folding>
+            <element signature="e#43#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/analysis_command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="443" column="28" selection-start-line="443" selection-start-column="28" selection-end-line="443" selection-end-column="28" />
+          <folding>
+            <element signature="e#43#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#44#53#0" expanded="true" />
+            <element signature="e#119#136#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/poco/sdk/interfaces/command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/poco/agent.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/poco/agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/pywinauto/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="1208" column="8" selection-start-line="1208" selection-start-column="8" selection-end-line="1208" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/airtest/core/win/win.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="302" column="19" lean-forward="true" selection-start-line="302" selection-start-column="19" selection-end-line="302" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Program Files/Python36/Lib/site-packages/poco/proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+          <caret line="261" column="8" selection-start-line="261" selection-start-column="8" selection-end-line="261" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1210">
+          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+          <folding>
+            <element signature="e#43#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/protocol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding>
+            <element signature="e#43#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#43#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/data/user_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="224" column="13" selection-start-line="224" selection-start-column="13" selection-end-line="224" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/ui/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/test_case/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/test_case/okc_new_teach.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#44#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/test_ui/test_ui_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="222" column="52" selection-start-line="222" selection-start-column="52" selection-end-line="222" selection-end-column="52" />
+          <folding>
+            <element signature="e#43#85#0" expanded="true" />
+            <element signature="e#340#364#0" />
+            <element signature="e#395#446#0" />
+            <element signature="e#496#593#0" />
+            <element signature="e#644#735#0" />
+            <element signature="e#785#1043#0" />
+            <element signature="e#1079#1144#0" />
+            <element signature="e#1589#1903#0" />
+            <element signature="e#3862#4939#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/ui/behavior.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="152" column="8" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
+          <folding>
+            <element signature="e#230#254#0" />
+            <element signature="e#183#280#0" />
+            <element signature="e#490#655#0" />
+            <element signature="e#407#500#0" />
+            <element signature="e#616#655#0" />
+            <element signature="e#595#660#0" />
+            <element signature="e#1105#1417#0" />
+            <element signature="e#1127#1148#0" />
+            <element signature="e#1192#1218#0" />
+            <element signature="e#1256#1417#0" />
+            <element signature="e#1286#1336#0" />
+            <element signature="e#2449#2532#0" />
+            <element signature="e#3617#3640#0" />
+            <element signature="e#3320#3407#0" />
+            <element signature="e#4442#4970#0" />
+            <element signature="e#3832#4009#0" />
+            <element signature="e#3895#3946#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#43#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/module/alliance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+          <folding>
+            <element signature="e#43#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_test/test_case/okc_task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="262" column="35" lean-forward="true" selection-start-line="262" selection-start-column="35" selection-end-line="262" selection-end-column="35" />
+          <folding>
+            <element signature="e#43#70#0" expanded="true" />
+            <element signature="e#1518#1577#0" />
+            <element signature="e#1620#1733#0" />
+            <element signature="e#1772#1960#0" />
+            <element signature="e#1832#1931#0" />
+            <element signature="e#2394#3856#0" />
+            <element signature="e#2817#2954#0" />
+            <element signature="e#2966#3005#0" />
+            <element signature="e#3237#3274#0" />
+            <element signature="e#3138#3466#0" />
+            <element signature="e#3265#3419#0" />
+            <element signature="e#3884#5264#0" />
+            <element signature="e#3960#4658#0" />
+            <element signature="e#4193#4266#0" />
+            <element signature="e#4152#4276#0" />
+            <element signature="e#4956#4996#0" />
+            <element signature="e#3969#5082#0" />
+            <element signature="e#6395#6436#0" />
+            <element signature="e#6764#6964#0" />
+            <element signature="e#6770#6843#0" />
+            <element signature="e#3962#4013#0" />
+            <element signature="e#4096#4150#0" />
+            <element signature="e#7610#7695#0" />
+            <element signature="e#8030#8078#0" />
           </folding>
         </state>
       </provider>

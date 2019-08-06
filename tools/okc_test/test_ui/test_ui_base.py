@@ -4,6 +4,9 @@ from poco.drivers.unity3d import UnityPoco
 from airtest.core import api, android, helper
 
 import logging
+
+from poco.exceptions import PocoNoSuchNodeException
+
 import util
 import config
 import subprocess
@@ -41,7 +44,7 @@ class PhoneManager(object):
 	def kill_app(self, app_name):
 		return self.phone_cmd(command="adb shell pm clear %s" % app_name)
 	
-	def get_screen_shot(self, image_name: str, save_path: str) -> bool:
+	def get_screen_shot(self, image_name: str, save_path: str):
 		command_get_shot = r"adb shell /system/bin/screencap -p /sdcard/%s" % image_name
 		
 		is_success_get_shot = self.phone_cmd(command=command_get_shot)
@@ -50,7 +53,7 @@ class PhoneManager(object):
 		
 		is_success_save_shot = self.phone_cmd(command=command_save_shot)
 		
-		return is_success_get_shot and is_success_save_shot
+		return is_success_get_shot, is_success_save_shot
 
 
 class UiNodeData(object):
@@ -74,6 +77,7 @@ class OkcUiTest(object):
 		
 		self.default_wait_time = 1.0
 		self.default_save_path = "G:/TestData/okc_test/new_teach/"
+		self.ui_pos_path = util.get_ini_data(ini_path=config.conf_path, section="path", section_item="ui_pos")
 		# util.get_ini_data(config.conf_path, section="path", section_item="okc_test_image_dir")
 		
 		self.phone = PhoneManager()
@@ -85,6 +89,7 @@ class OkcUiTest(object):
 		self.click_wait_time = 0.3
 		self.target_node_pos = tuple()
 		
+		self.ui_pos = util.read_json_file(file_path=self.ui_pos_path)
 		self.start_game()
 	
 	def __init_poco(self):
@@ -118,6 +123,30 @@ class OkcUiTest(object):
 		find_result = self.ui_node.find_node(target_key=ui_node_name)
 		self.update_ui_node()
 		return find_result
+	
+	def get_pos(self, node_name):
+		try:
+			node_pos = self.poco(node_name).get_position()
+			node_size = self.poco(node_name).get_size()
+			
+			node_pos_x = node_pos[0] + node_size[0] / 2
+			node_pos_y = node_pos[1] + node_size[1] / 2
+			
+			if node_pos_x >= 1:
+				node_pos_x = 0.99
+			if node_pos_x <= 0:
+				node_pos_x = 0.01
+			if node_pos_y >= 1:
+				node_pos_y = 0.99
+			if node_pos_y <= 0:
+				node_pos_y = 0.01
+			
+			self.target_node_pos = node_pos_x, node_pos_y
+			logging.info("已找到 %s 节点" % node_name)
+		except PocoNoSuchNodeException:
+			logging.info("没找到 %s 节点" % node_name)
+		
+		return self.target_node_pos
 	
 	def get_pos_by_node(self, node_name) -> tuple:
 		self.target_node_pos = tuple()
@@ -156,15 +185,37 @@ class OkcUiTest(object):
 			logging.info("node name : %s ; node position : %s" % (node_name, self.target_node_pos))
 		return self.target_node_pos
 	
-	def click_by_node_name(self, node_name) -> bool:
-		node_pos = self.get_pos_by_node(node_name)
+	def click_by_node_name(self, view, node_name, can_change=False, result_view="") -> bool:
+		if can_change:
+			node_pos = self.get_pos(node_name)
+		elif view in self.ui_pos.keys():
+			if node_name in self.ui_pos[view].keys():
+				node_pos = tuple(self.ui_pos[view][node_name])
+			else:
+				node_pos = self.get_pos(node_name)
+				self.ui_pos[view][node_name] = list(node_pos)
+				util.write_json_file(file_path=self.ui_pos_path, data=self.ui_pos)
+		else:
+			node_pos = self.get_pos(node_name)
+			self.ui_pos[view] = {node_name: list(node_pos)}
+			util.write_json_file(file_path=self.ui_pos_path, data=self.ui_pos)
+		
+		logging.info("%s 的坐标为 : %s" % (node_name, node_pos))
+		
 		if node_pos != ():
 			self.poco.click(pos=node_pos)
-			api.sleep(self.default_wait_time)
+			api.sleep(self.click_wait_time)
 			self.update_ui_node()
-			return True
+			if result_view == "":
+				return True
+			if self.find_ui_node(ui_node_name=result_view):
+				return True
+			else:
+				logging.error("点击%s后，没有打开%s" % (node_name, result_view))
+				return False
 		else:
 			self.phone.get_screen_shot(node_name, self.default_save_path)
+			logging.error("点击失败，没找到UI坐标")
 			return False
 	
 	def get_screenshots(self, image_name, save_path=""):
@@ -186,28 +237,28 @@ class OkcUiTest(object):
 		if is_new_account:
 			node_name_fake_sdk = "tab_2"
 			node_name_new = "new_btn"
-			self.click_by_node_name(node_name=node_name_fake_sdk)
-			self.click_by_node_name(node_name=node_name_new)
+			self.click_by_node_name(view="ViewEnvironmentSelect", node_name=node_name_fake_sdk)
+			self.click_by_node_name(view="ViewEnvironmentSelect", node_name=node_name_new)
 		else:
 			uid_node_name = "text"
 			
 			uid_tab_node_name = "tab_1"
-			self.click_by_node_name(node_name=uid_tab_node_name)
+			self.click_by_node_name(view="ViewEnvironmentSelect", node_name=uid_tab_node_name)
 			
 			old_uid = str(self.poco(uid_node_name).get_text())
 			
 			if not old_uid == str(uid):
 				uid_input_node_name = "uid_input"
-				if self.click_by_node_name(node_name=uid_input_node_name):
+				if self.click_by_node_name(view="ViewEnvironmentSelect", node_name=uid_input_node_name):
 					old_uid_size = len(old_uid)
 					while old_uid_size > 0:
 						api.keyevent("KEYCODE_DEL")
 						old_uid_size -= 1
 					api.sleep(self.default_wait_time)
 					api.text(str(uid))
-				self.click_by_node_name(node_name=environment_node_name)
+				self.click_by_node_name(view="ViewEnvironmentSelect", node_name=environment_node_name)
 		
-		if self.click_by_node_name(node_name=environment_node_name):
+		if self.click_by_node_name(view="ViewEnvironmentSelect", node_name=environment_node_name):
 			loading_time = 0
 			loading_start_time = time.time()
 			while True:

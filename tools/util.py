@@ -35,7 +35,7 @@ def get_ini_data(ini_path: str, section: str, section_item: str) -> str:
 			
 			if not os.path.exists(section_data):
 				os.makedirs(section_data)
-			logging.debug("section_data : %s" % section_data)
+			# logging.debug("section_data : %s" % section_data)
 			return section_data
 		else:
 			return conf_section_data[section_item]
@@ -58,8 +58,8 @@ def read_file(file_path: str, mode="r", encoding="UTF-8") -> json:
 
 
 def write_json_file(file_path: str, data: json, mode="w", encoding="UTF-8"):
-	if not os.path.exists(path=file_path) or not os.path.isfile(path=file_path):
-		raise FileNotFoundError("File Path Error,Need A File Not Dir")
+	# if not os.path.exists(path=file_path) or not os.path.isfile(path=file_path):
+	# 	raise FileNotFoundError("File Path Error,Need A File Not Dir")
 	with open(file=file_path, mode=mode, encoding=encoding) as wd:
 		json.dump(data, wd)
 
