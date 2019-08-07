@@ -1,0 +1,290 @@
+{
+  "ViewMainFitMetro": {
+    "city_btn": {
+      "has_status": 0,
+      "is_close_parent": 0,
+      "event": "task_bar"
+    },
+    "world_btn": {
+      "has_status": 0,
+      "is_close_parent": 0,
+      "event": "monster_search_btn"
+    },
+    "server_btn": {
+      "has_status": 0,
+      "is_close_parent": 0,
+      "event": ""
+    },
+    "hero_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewHeroMain"
+    },
+    "item_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewItemShopList"
+    },
+    "alliance_btn": {
+      "has_status": 1,
+      "status": {
+        "has_al": {
+          "is_close_parent": 1,
+          "event": "ViewAlliance"
+        },
+        "has_not_al": {
+          "is_close_parent": 1,
+          "event": "ViewAllianceMain"
+        }
+      }
+    },
+    "mail_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMailMain"
+    },
+    "more_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMoreMain"
+    }
+  },
+  "ViewMain": {
+    "task_bar": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMain"
+    },
+    "task_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewTaskMain"
+    },
+    "build_icon": {
+      "has_status": 1,
+      "status": {
+        "normal": {
+          "is_close_parent": 0,
+          "event": "ViewGuide"
+        },
+        "eff_ing": {
+          "is_close_parent": 1,
+          "event": "ViewItemSpeedUp"
+        },
+        "eff_help": {
+          "is_close_parent": 0,
+          "event": ""
+        },
+        "eff_free": {
+          "is_close_parent": 0,
+          "event": ""
+        }
+      }
+    },
+    "research_icon": {
+      "has_status": 1,
+      "status": {
+        "normal": {
+          "is_close_parent": 0,
+          "event": "ViewGuide"
+        },
+        "eff_ing": {
+          "is_close_parent": 1,
+          "event": "ViewItemSpeedUp"
+        },
+        "eff_help": {
+          "is_close_parent": 0,
+          "event": ""
+        },
+        "eff_free": {
+          "is_close_parent": 0,
+          "event": ""
+        }
+      }
+    },
+    "lord_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewLordMain"
+    },
+    "vip_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewVipMain"
+    },
+    "boost_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewBoostsList"
+    },
+    "monster_search_btn": {
+      "has_status": 0,
+      "is_close_parent": 0,
+      "event": "ViewWorldMapWildSearch"
+    }
+  },
+  "ViewBoostsList": {
+    "btn_back": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMain"
+    }
+  },
+  "ViewVipMain": {
+    "btn_back": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMain"
+    }
+  },
+  "ViewLordMain": {
+    "btn_back": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMain"
+    }
+  },
+  "ViewAllianceJoinPop": {
+    "ok_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewAllianceRecommend"
+    }
+  },
+  "ViewHospitalMain": {
+    "btn_back": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMain"
+    }
+  },
+  "ViewWorldWildBanditPop": {
+    "attack_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMarchSelect"
+    }
+  },
+  "ViewMarchSelect": {
+    "march_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMain"
+    },
+    "btn_back": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMain"
+    }
+  },
+  "ViewBuildingCommonUpgrade": {
+    "btn_back": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMain"
+    },
+    "upgrade_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMain"
+    }
+  },
+  "ViewBuildingCreateList": {
+    "btn_back": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMain"
+    },
+    "build_btn": {
+      "has_status": 0,
+      "is_close_parent": 0,
+      "event": ""
+    },
+    "upgrade_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMain"
+    }
+  },
+  "ViewTroopMain": {
+    "btn_back": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMain"
+    },
+    "item_troop_big": {
+      "has_status": 0,
+      "is_close_parent": 0,
+      "event": "ViewTroopDetailPop"
+    },
+    "speed_up_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewItemSpeedUp"
+    }
+  },
+  "ViewCivicCenterUpgradePop": {
+    "collect_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": ""
+    }
+  },
+  "ViewVipDailyPop": {
+    "ok_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": ""
+    }
+  },
+  "ViewLordLevelUpPop": {
+    "ok_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": ""
+    }
+  },
+  "ViewTroopDetailPop": {
+    "btn_close": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewTroopMain"
+    },
+    "instant_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewTroopMain"
+    },
+    "train_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewTroopMain"
+    }
+  },
+  "ViewItemSpeedUp": {
+    "btn_back": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewMain"
+    },
+    "btn_buy": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewTroopMain"
+    }
+  },
+  "ViewBuildingFunctionPop": {
+    "main_block_pop_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": ""
+    }
+  },
+  "ViewWorldMapWildSearch": {
+    "search_btn": {
+      "has_status": 0,
+      "is_close_parent": 1,
+      "event": "ViewWorldWildBanditPop"
+    }
+  }
+}

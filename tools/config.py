@@ -28,6 +28,14 @@ okc_environment = OkcEnvironment.Test.value
 
 okc_request_mode = OkcRequestMode.Http.value
 
+behavior_path = util.get_ini_data(ini_path=conf_path, section="path", section_item="behavior")
+behavior_type_path = util.get_ini_data(ini_path=conf_path, section="path", section_item="behavior_type")
+view_names_path = util.get_ini_data(ini_path=conf_path, section="path", section_item="view_names")
+
+behavior_data = util.read_json_file(file_path=behavior_path)
+view_names_data = util.read_json_file(file_path=view_names_path)
+behavior_type_data = util.read_json_file(file_path=behavior_type_path)
+
 okc_test_url = util.get_ini_data(conf_path, section="url", section_item="okc_test")
 okc_dev_url = util.get_ini_data(conf_path, section="url", section_item="okc_dev")
 okc_online_test_url = util.get_ini_data(conf_path, section="url", section_item="okc_online_test")

@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 from okc_robot import Robot
-from okc_test.ui import Behavior, Scene
+from okc_test.ui import Behavior, Scene, ClickParams
 
 import logging
 import config
-import time
 
 
 class RecommendedTask(object):
@@ -59,6 +58,7 @@ class TaskTest(object):
 		self.step_image_save_path = r""
 		self.okc: Behavior = None
 		self.__init_player()
+		self.__is_right_click = True
 	
 	def __init_player(self):
 		if self.uid <= 0:
@@ -80,7 +80,7 @@ class TaskTest(object):
 		self.recommended_task.init(self.player.data.svr_task.recommended_task)
 	
 	def __collect_task_reward(self):
-		if self.okc.find_ui_node("ViewMain") and self.okc.find_ui_node("task_bar"):
+		if self.okc.find_ui_node("task_bar"):
 			if self.recommended_task.status:
 				self.okc.click("ViewMain", "task_bar", result_view="ViewMain")
 			else:
@@ -96,7 +96,7 @@ class TaskTest(object):
 						if self.okc.click("ViewAllianceJoinPop", "ok_btn", "ViewAllianceRecommend"):
 							self.okc.click(self.okc.now_view, "btn_back", "ViewMain")
 					elif self.okc.find_ui_node("ViewItemShopList"):
-						self.okc.click("btn_back")
+						self.okc.click("ViewItemShopList", "btn_back", "ViewMain")
 					elif self.okc.find_ui_node(ui_node_name="ViewWorldWildMonsterPop"):
 						self.okc.click("ViewWorldWildMonsterPop", "close", "ViewMainFitMetro")
 					break
@@ -240,7 +240,6 @@ class TaskTest(object):
 		uid = self.player.uid
 		logging.info("uid:%s" % uid)
 		
-		# self.okc.login(is_new_account=False, uid=uid)
 		self.okc.now_scene = Scene.city
 		
 		if not self.player.data.svr_task.is_open:
@@ -285,6 +284,128 @@ class TaskTest(object):
 				self.__building()
 			elif TrainTroop.max_id >= self.recommended_task.task_id >= TrainTroop.min_id:
 				self.training()
+			else:
+				logging.warning("Not support".title())
+				break
+	
+	def __execute_task(self, task_type_name):
+		task_bar = ClickParams(parent_view="ViewMain", click_node="task_bar")
+		self.okc.click_new(task_bar)
+		
+		if self.is_in_guide():
+			self.__guide_task()
+		
+		self.player.protocol.operate_login_get()
+		self.__update_recommended_task()
+		
+		if self.recommended_task.status:
+			return True
+		
+		task_link = config.behavior_type_data[task_type_name]
+		
+		link_idx = 0
+		for task_step in task_link:
+			link_idx += 1
+			if not self.okc.now_view == task_step["parent_view"]:
+				continue
+			if not self.okc.find_ui_node(ui_node_name=task_step["parent_view"]["click_node"]):
+				continue
+			task_link = task_link[link_idx:]
+		
+		for task_step in task_link:
+			parent_view = task_step["parent_view"]
+			click_node = task_step["click_node"]
+			status = task_step["status"]
+			params_status = None
+			if status != 0:
+				params_status = status
+			click_params = ClickParams(parent_view=parent_view, click_node=click_node, status=params_status)
+			if not self.okc.click_new(click_params):
+				self.__is_right_click = False
+		return self.__is_right_click
+	
+	def task_start(self):
+		self.__init_ui_test()
+		if self.okc is None:
+			return
+		uid = self.player.uid
+		logging.info("uid:%s" % uid)
+		self.okc.now_scene = Scene.city
+		if not self.player.data.svr_task.is_open:
+			logging.error("task is not open".title())
+			return
+		self.__update_recommended_task()
+		if self.recommended_task == "null":
+			logging.error("no recommended task".title())
+			return
+		self.player.protocol.op_self_set_gem(gem=self.default_gem)
+		for resource_id in range(0, 5):
+			self.player.protocol.op_self_set_resource(rss_id=resource_id, rss_num=self.default_resource)
+		self.player.protocol.op_self_set_troop(troop_id=0, troop_num=500000)
+		has_alliance = False
+		
+		while self.recommended_task != "null":
+			if self.is_in_guide():
+				self.__guide_task()
+			if not has_alliance:
+				if not self.player.cmd_alliance.alliance_create(name="Bill%s" % self.player.uid):
+					has_alliance = True
+			
+			if self.okc.find_ui_node(ui_node_name="ViewLordLevelUpPop"):
+				self.okc.click(now_view="ViewLordLevelUpPop", node_name="ok_btn", result_view="ViewMain")
+			
+			if self.okc.find_ui_node(ui_node_name="ViewCivicCenterUpgradePop"):
+				self.okc.click("ViewCivicCenterUpgradePop", "collect_btn", "ViewMain")
+			
+			if self.okc.find_ui_node(ui_node_name="ViewVipDailyPop"):
+				self.okc.click("ViewVipDailyPop", "ok_btn", "ViewMain")
+			
+			if self.recommended_task.status:
+				logging.info("task had finish".title())
+				self.__collect_task_reward()
+				continue
+			
+			if KillBandit.max_id >= self.recommended_task.task_id >= KillBandit.min_id:
+				svr_action_list_old_length = len(self.player.data.svr_action_list.keys())
+				logging.info("开始杀怪拉")
+				self.__execute_task("bandit_kill")
+				while True:
+					self.player.protocol.operate_login_get()
+					if len(self.player.data.svr_action_list.keys()) <= svr_action_list_old_length:
+						logging.info("new action length: %s  old action length : %s" % (
+							len(self.player.data.svr_action_list.keys()), svr_action_list_old_length))
+						break
+					else:
+						self.player.cmd_map.march_speed()
+				self.__update_recommended_task()
+				
+				if self.recommended_task.status:
+					logging.info("完成任务")
+					continue
+				else:
+					logging.info("没完成任务")
+					break
+			elif BuildingTask.max_id >= self.recommended_task.task_id >= BuildingTask.min_id:
+				logging.info("开始建房子了")
+				if self.recommended_task.goal_value <= 1:
+					self.__execute_task("building_create")
+				else:
+					self.__execute_task("building_upgrade")
+				if self.recommended_task.status:
+					logging.info("完成任务")
+					continue
+				else:
+					logging.info("没完成任务")
+					break
+			elif TrainTroop.max_id >= self.recommended_task.task_id >= TrainTroop.min_id:
+				logging.info("开始杀练兵拉")
+				self.__execute_task("training")
+				if self.recommended_task.status:
+					logging.info("完成任务")
+					continue
+				else:
+					logging.info("没完成任务")
+					break
 			else:
 				logging.warning("Not support".title())
 				break

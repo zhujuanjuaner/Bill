@@ -11,10 +11,10 @@ import os
 
 
 def main():
-
+	
 	from okc_test.test_case import TaskTest
 	task_test = TaskTest(uid=11009)
-	task_test.task_test_start()
+	task_test.task_start()
 	
 	check_pos = threading.Thread(target=util.check_position, name="check_position", args=())
 	thread_main = threading.Thread(target=okc_robot_start, name="main", args=())
