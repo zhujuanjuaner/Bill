@@ -177,3 +177,52 @@ def find_key_data(data, target_key):
 					return True
 				else:
 					continue
+
+
+def compare_value(object_a, object_b):
+	if type(object_a) != type(object_b):
+		logging.info("The data types are different")
+		return False
+	
+	if id(object_a) == id(object_b):
+		logging.info("They have the same memory address")
+		return True
+	
+	if isinstance(object_a, list):
+		object_a_length = len(object_a)
+		object_b_length = len(object_b)
+		
+		if object_a_length != object_b_length:
+			logging.info("They're list, but they're different lengths")
+			return False
+		for idx in range(0, object_a_length):
+			if not compare_value(object_a[idx], object_b[idx]):
+				logging.info(
+					"Index of %s has a different value.A : %s , B : %s" % (idx, object_a[idx], object_b[idx]))
+				return False
+		return True
+	elif isinstance(object_a, dict):
+		object_a_length = len(object_a)
+		object_b_length = len(object_b)
+		
+		if object_a_length != object_b_length:
+			logging.info("They're dict, but they're different lengths")
+			return False
+		
+		for key, value in object_a.items():
+			if key not in object_b.keys():
+				logging.info("%s in %s,but not in %s" % (key, object_a, object_b))
+				return False
+			
+			if not compare_value(value, object_b[key]):
+				logging.info("%s and %s have a different value" % (value, object_b[key]))
+				return False
+		return True
+	elif isinstance(object_a, int) or isinstance(object_a, str) or isinstance(object_a, bool):
+		if object_a == object_b:
+			return True
+		else:
+			return False
+	else:
+		logging.error("Not Support")
+		return False

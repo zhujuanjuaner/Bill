@@ -38,7 +38,7 @@ class ClickParams(object):
 			return
 		
 		if self.click_node not in self.__node_data[self.parent_view].keys():
-			logging.error("%s not in %s" % (self.click_node,self.parent_view))
+			logging.error("%s not in %s" % (self.click_node, self.parent_view))
 			return
 		
 		node_data = self.__node_data[self.parent_view][self.click_node]
@@ -60,9 +60,9 @@ class ClickParams(object):
 				logging.error("节点状态名称传递错误,传递的节点状态名称 : %s " % self.__status)
 				return
 			
-			self.is_close_parent = status_data["is_close_parent"]
-			
-			if self.is_close_parent == 0 and status_data["event"] == "":
+			self.is_close_parent = status_data[self.__status]["is_close_parent"]
+			logging.info("status data : %s" % status_data)
+			if self.is_close_parent == 0 and status_data[self.__status]["event"] == "":
 				self.event_result = self.click_node
 			else:
 				self.event_result = status_data[self.__status]["event"]
@@ -139,6 +139,44 @@ class UiNodeData(object):
 		return util.find_key_data(data=target_data, target_key=target_key)
 
 
+class PocoData(object):
+	def __init__(self):
+		self.is_found = False
+		self.ui_data = None
+		self.ui_name = ""
+		self.ui_type = ""
+		self.ui_visible = False
+		self.ui_visible = [0, 0]
+		self.ui_size = [1, 1]
+		self.ui_scale = [1, 1]
+		self.ui_anchor_point = [0, 0]
+		self.ui_z_orders = {"global": 0.0,
+							"local": 0.0}
+		self.ui_click_able = True
+		self.ui_components = ["Transform", "DisplayObjectInfo"]
+		
+		self.ui_ilayer = 0
+		self.ui_layer = "UI"
+		self.ui_instance_id = 0
+	
+	def init(self, ui_data, parent_data):
+		self.ui_data = parent_data
+		self.is_found = True
+		self.ui_name = ui_data["name"]
+		self.ui_type = ui_data["type"]
+		self.ui_visible = ui_data["visible"]
+		self.ui_visible = ui_data["pos"]
+		self.ui_size = ui_data["size"]
+		self.ui_scale = ui_data["scale"]
+		self.ui_anchor_point = ui_data["anchorPoint"]
+		self.ui_z_orders = ui_data["zOrders"]
+		self.ui_click_able = ui_data["clickable"]
+		self.ui_components = ui_data["components"]
+		self.ui_ilayer = ui_data["_ilayer"]
+		self.ui_layer = ui_data["layer"]
+		self.ui_instance_id = ui_data["_instanceId"]
+
+
 class Behavior(object):
 	def __init__(self, app_name: str, is_release=False, app_nick_name="okc"):
 		self.__app_name = app_name
@@ -168,6 +206,8 @@ class Behavior(object):
 		
 		self.android_object = None
 		self.poco: UnityPoco = None
+		
+		self.target_data = PocoData()
 	
 	def __init_json_data(self):
 		if not os.path.exists(self.__node_pos_path):
@@ -196,6 +236,29 @@ class Behavior(object):
 	def __init_devices(self):
 		if self.android_object is not None:
 			helper.G.add_device(dev=self.android_object)
+	
+	def search_poco_data(self, data, target_node_name) -> PocoData:
+		if isinstance(data, dict):
+			# logging.info("dict data :%s" % data["name"])
+			if data["name"] == target_node_name:
+				self.target_data.init(ui_data=data["payload"], parent_data=data)
+			else:
+				if "children" in data.keys():
+					self.search_poco_data(data=data["children"], target_node_name=target_node_name)
+		
+		elif isinstance(data, list):
+			for child in data:
+				# logging.info("list data : %s" % child["name"])
+				if isinstance(child, dict):
+					self.search_poco_data(data=child, target_node_name=target_node_name)
+					if self.target_data.is_found:
+						break
+					else:
+						continue
+				else:
+					continue
+		
+		return self.target_data
 	
 	def update_ui_node(self):
 		all_data = self.poco.agent.hierarchy.dump()

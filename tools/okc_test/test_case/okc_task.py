@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 from okc_robot import Robot
 from okc_test.ui import Behavior, Scene, ClickParams
+from okc_robot.data import game_table
 
 import logging
 import config
@@ -43,6 +44,11 @@ class KillBandit(object):
 class TrainTroop(object):
 	max_id = 4729
 	min_id = 4001
+
+
+class KillMonster(object):
+	max_id = 5276
+	min_id = 5261
 
 
 class TaskTest(object):
@@ -316,10 +322,7 @@ class TaskTest(object):
 			parent_view = task_step["parent_view"]
 			click_node = task_step["click_node"]
 			status = task_step["status"]
-			params_status = None
-			if status != 0:
-				params_status = status
-			click_params = ClickParams(parent_view=parent_view, click_node=click_node, status=params_status)
+			click_params = ClickParams(parent_view=parent_view, click_node=click_node, status=status)
 			if not self.okc.click_new(click_params):
 				self.__is_right_click = False
 		return self.__is_right_click
@@ -367,7 +370,7 @@ class TaskTest(object):
 			
 			if KillBandit.max_id >= self.recommended_task.task_id >= KillBandit.min_id:
 				svr_action_list_old_length = len(self.player.data.svr_action_list.keys())
-				logging.info("开始杀怪拉")
+				logging.info("开始杀土匪拉")
 				self.__execute_task("bandit_kill")
 				while True:
 					self.player.protocol.operate_login_get()
@@ -384,28 +387,56 @@ class TaskTest(object):
 					continue
 				else:
 					logging.info("没完成任务")
-					break
-			elif BuildingTask.max_id >= self.recommended_task.task_id >= BuildingTask.min_id:
+					continue
+			if BuildingTask.max_id >= self.recommended_task.task_id >= BuildingTask.min_id:
 				logging.info("开始建房子了")
 				if self.recommended_task.goal_value <= 1:
 					self.__execute_task("building_create")
 				else:
 					self.__execute_task("building_upgrade")
+				self.__update_recommended_task()
 				if self.recommended_task.status:
 					logging.info("完成任务")
 					continue
 				else:
 					logging.info("没完成任务")
-					break
-			elif TrainTroop.max_id >= self.recommended_task.task_id >= TrainTroop.min_id:
+					continue
+			if TrainTroop.max_id >= self.recommended_task.task_id >= TrainTroop.min_id:
 				logging.info("开始杀练兵拉")
 				self.__execute_task("training")
+				self.__update_recommended_task()
 				if self.recommended_task.status:
 					logging.info("完成任务")
 					continue
 				else:
 					logging.info("没完成任务")
 					break
+			if KillMonster.max_id >= self.recommended_task.task_id >= KillMonster.min_id:
+				svr_action_list_old_length = len(self.player.data.svr_action_list.keys())
+				logging.info("开始杀怪拉")
+				self.__execute_task("monster_kill")
+				while True:
+					self.player.protocol.operate_login_get()
+					if len(self.player.data.svr_action_list.keys()) <= svr_action_list_old_length:
+						logging.info("new action length: %s  old action length : %s" % (
+							len(self.player.data.svr_action_list.keys()), svr_action_list_old_length))
+						break
+					else:
+						self.player.cmd_map.march_speed()
+				self.__update_recommended_task()
+
+				if self.recommended_task.status:
+					logging.info("完成任务")
+					continue
+				else:
+					logging.info("没完成任务,继续打")
+					item_id = 300
+					target_id = self.player.data.svr_player.uid
+					item_price = game_table.get_item(item_id).item_price
+					if self.player.data.svr_player.dragon["energy"] < 5000:
+						self.player.protocol.item_buy_and_use(item=item_id, price=item_price, target_id=target_id,
+															  action_type=-1, rally_id=0, is_attack=1)
+					continue
 			else:
 				logging.warning("Not support".title())
 				break
