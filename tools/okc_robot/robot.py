@@ -22,12 +22,11 @@ class Robot(object):
 			self.uid = self.protocol.create_account()
 			if self.uid == -1:
 				return
-			self.protocol = Protocol(
-				sid=self.sid, uid=self.uid, ksid=self.ksid)
-		
-		self.data = data_manage.init_user_data(uid=self.uid)
+			self.protocol = Protocol(sid=self.sid, uid=self.uid, ksid=self.ksid)
 		
 		self.has_login = self.__has_login()
+		
+		self.data = data_manage.init_user_data(uid=self.uid)
 		
 		self.cmd_user = cmd.User(user_data=self.data, protocol=self.protocol)
 		self.cmd_dragon = cmd.Dragon(user_data=self.data, protocol=self.protocol)
@@ -40,7 +39,15 @@ class Robot(object):
 		print("-" * 150)
 	
 	def __has_login(self) -> bool:
-		if self.protocol.operate_login_get().is_right_ret_code:
-			return True
+		login_get = self.protocol.operate_login_get()
+		if login_get.ret_code == 1:
+			self.uid = self.protocol.create_account()
+			if self.uid != -1:
+				return True
+			else:
+				return False
 		else:
-			return False
+			if login_get.is_right_ret_code:
+				return True
+			else:
+				return False

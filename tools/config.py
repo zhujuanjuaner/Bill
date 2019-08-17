@@ -24,9 +24,26 @@ conf_path = os.path.join(os.getcwd(), "resource/conf.ini")
 
 request_interval = 0.1
 
-okc_environment = OkcEnvironment.Test.value
+okc_environment = OkcEnvironment.Dev.value
 
 okc_request_mode = OkcRequestMode.Http.value
+
+# read game.json
+game_json_data_path = util.get_ini_data(ini_path=conf_path, section="path", section_item="game_json")
+game_json_data = util.read_json_file(file_path=game_json_data_path)
+
+# read error.json
+error_json_data_path = util.get_ini_data(ini_path=conf_path, section="path", section_item="error_json")
+error_json_data = util.read_json_file(file_path=error_json_data_path)
+
+# read wild_res.json
+wild_res_json_data_path = util.get_ini_data(conf_path, section="path", section_item="wild_res")
+wild_res_json_data = util.read_json_file(file_path=wild_res_json_data_path)
+
+# read equip.json
+equip_json_data_path = util.get_ini_data(ini_path=conf_path, section="path", section_item="equip_json")
+equip_json_data = util.read_json_file(file_path=equip_json_data_path)
+
 
 behavior_path = util.get_ini_data(ini_path=conf_path, section="path", section_item="behavior")
 behavior_type_path = util.get_ini_data(ini_path=conf_path, section="path", section_item="behavior_type")

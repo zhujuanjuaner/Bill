@@ -41,6 +41,9 @@ class Protocol(object):
 		
 		return request_result
 	
+	def player_info_get(self, uid):
+		return self.request(command="player_info_get", key0=uid)
+	
 	""" Mail """
 	
 	def mail_send(self, mail_type, target_name, content, key2=""):
@@ -67,10 +70,16 @@ class Protocol(object):
 	def create_account(self) -> int:
 		self.__uid = request.get(command="login_get", lg=1, eyou_id="fake-aeea67-63694419400213").uid
 		self.guide_finish()
+		self.guide_finish_stage()
 		return self.__uid
 	
 	def guide_finish(self):
 		return self.request(command="guide_finish")
+	
+	def guide_finish_stage(self):
+		self.request(command="guide_finish_stage", key0=4)
+		self.request(command="guide_finish_stage", key0=3)
+		self.request(command="guide_finish_stage", key0=6)
 	
 	def operate_login_get(self):
 		return self.request(command="operate_login_get")
@@ -190,6 +199,17 @@ class Protocol(object):
 		return self.request(command="bookmark_add", key0=pos, key1=name, key2=mark_type, key3=sid)
 	
 	""" building """
+	
+	def building_remove(self, remove_type, position, cost_time, gem):
+		"""
+		拆除建筑
+		command = building_remove
+		key0 = type(0: normal, 1: instant, 2: buy_and_use)
+		key1 = pos
+		key2 = cost time
+		key3 = (type=1时 是 itemId type=2时是宝石数)
+		"""
+		return self.request(command="building_remove", key0=remove_type, key1=position, key2=cost_time, key3=gem)
 	
 	def building_upgrade(self, build_type, pos, build_id, target_lv, cost, client_action_id, exp=0, req_help=0):
 		"""

@@ -401,7 +401,7 @@ class Behavior(object):
 				if loading_time >= 120:
 					logging.error("loading 时间超过两分钟，异常....")
 					# self.get_screenshots(image_name="Loading_Error_%s" % int(loading_start_time))
-					break
+					return False
 				if self.find_ui_node(ui_node_name=view_loading):
 					logging.info("还在loading中...")
 					time.sleep(self.default_wait_time)
@@ -411,9 +411,10 @@ class Behavior(object):
 					logging.info("loading 完毕")
 					logging.info("此次loading耗时小于 %s 秒" % loading_time)
 					self.now_view = "ViewMain"
-					break
+					return True
 		else:
 			logging.error("环境选择按钮点击失败....")
+			return False
 	
 	def start_game(self, is_new_account=False, uid=10340):
 		self.android_object = self.app.app_start(self.__app_name)

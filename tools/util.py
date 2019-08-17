@@ -226,3 +226,11 @@ def compare_value(object_a, object_b):
 	else:
 		logging.error("Not Support")
 		return False
+
+
+def start_timer(t):
+	start_time = time.time()
+	
+	while time.time() - start_time < t:
+		print(int(time.time() - start_time))
+		time.sleep(1)

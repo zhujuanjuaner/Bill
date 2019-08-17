@@ -46,8 +46,7 @@ def okc_robot_start():
 		sid = int(sid)
 		start_uid = int(start_uid)
 		player_num = int(robot_num)
-		data = {"env": config.okc_environment, "sid": sid,
-				"uid": list(range(start_uid, start_uid + player_num + 1))}
+		data = {"env": config.okc_environment, "sid": sid, "uid": list(range(start_uid, start_uid + player_num))}
 		util.write_json_file(env_path, data=data)
 		robots = AnalysisCommand(sid=sid, start_uid=start_uid, robot_num=player_num)
 	except ValueError:

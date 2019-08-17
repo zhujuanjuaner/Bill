@@ -424,7 +424,7 @@ class TaskTest(object):
 					else:
 						self.player.cmd_map.march_speed()
 				self.__update_recommended_task()
-
+				
 				if self.recommended_task.status:
 					logging.info("完成任务")
 					continue
@@ -440,3 +440,16 @@ class TaskTest(object):
 			else:
 				logging.warning("Not support".title())
 				break
+	
+	def continuous_login(self):
+		self.__init_ui_test()
+		if self.uid != 0:
+			is_login_succeed = self.okc.login(is_new_account=False, uid=self.uid)
+		else:
+			is_login_succeed = self.okc.login(is_new_account=True, uid=self.uid)
+		
+		if is_login_succeed:
+			self.okc.app.kill_app(app_name=config.okc_app_name)
+			self.continuous_login()
+		else:
+			logging.error("错了@Bill")

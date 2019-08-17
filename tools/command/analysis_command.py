@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import util
 from config import conf_path
+# from robot import Robot
 from okc_robot import Robot
 from okc_robot import game_table, equip_table
 
@@ -9,6 +10,7 @@ import os
 import logging
 import random
 import wx
+import config
 
 
 class LoadRobot(object):
@@ -64,12 +66,15 @@ class LoadRobot(object):
 			return
 	
 	def __save_robots(self):
+		env_path = util.get_ini_data(ini_path=config.conf_path, section="path", section_item="okc_environment")
+		last_load = util.read_json_file(env_path)
 		if self.robots:
 			robot_uid_list = []
 			for robot in self.robots:
 				robot_uid_list.append(robot.uid)
-			data = {"sid": self.sid, "player_list": robot_uid_list}
-			util.write_json_file(file_path=self.__robots_path, data=data)
+			last_load["uid"] = robot_uid_list
+			# data = {"sid": self.sid, "player_list": robot_uid_list}
+			util.write_json_file(file_path=env_path, data=last_load)
 	
 	def executive_order(self, order_name, **kwargs):
 		scs_robot = 0
@@ -100,11 +105,68 @@ class AnalysisCommand(LoadRobot):
 			if not robot.protocol.operate_login_get().is_right_ret_code:
 				break
 	
+	def build_upgrade(self, params):
+		""" build id """
+		try:
+			build_id, upgrade_type = params.split()
+			build_id = int(build_id)
+			upgrade_type = int(upgrade_type)
+			if upgrade_type != 0:
+				upgrade_type = 1
+			for robot in self.robots:
+				robot: Robot = robot
+				robot.building.upgrade_build(build_id, upgrade_type=upgrade_type)
+		except ValueError:
+			build_id = params.split()
+			build_id = int(build_id)
+			
+			for robot in self.robots:
+				robot: Robot = robot
+				robot.building.upgrade_build(build_id)
+	
+	def build_create(self, params):
+		"""  build id  """
+		build_id, = params.split()
+		build_id = int(build_id)
+		for robot in self.robots:
+			robot: Robot = robot
+			robot.building.build_create(build_id)
+	
+	def set_all_resource(self, params):
+		""" resource num """
+		resource_num, = params.split()
+		resource_num = int(resource_num)
+		for robot in self.robots:
+			robot: Robot = robot
+			for rss_id in range(0, 5):
+				robot.protocol.op_self_set_resource(rss_id=rss_id, rss_num=resource_num)
+	
+	def set_item(self, params):
+		""" item id , num """
+		item_id, item_num = params.split()
+		item_id = int(item_id)
+		item_num = int(item_num)
+		
+		for robot in self.robots:
+			robot: Robot = robot
+			robot.protocol.op_self_set_item(item_id=item_id, num=item_num)
+	
+	def al_help_request(self, params):
+		for robot in self.robots:
+			robot: Robot = robot
+			robot.al.alliance_help_request()
+	
+	def build_upgrade_cancel(self, params):
+		for robot in self.robots:
+			robot: Robot = robot
+			robot.building.upgrade_cancel()
+	
 	def name_change(self, params):
 		""" name -- 输入为空的时候默认是玩家uid,输入name后是 (uid + name)"""
 		name, = params.split()
 		for robot in self.robots:
 			robot: Robot = robot
+			# robot.lord.player_name_change(name=name)
 			robot.cmd_user.player_name_change(name=name)
 	
 	def dragon_name_change(self, params):
@@ -418,6 +480,22 @@ class AnalysisCommand(LoadRobot):
 		for robot in self.robots:
 			robot: Robot = robot
 			robot.protocol.start_peace_time(item_id=item_id, gem_cost=gem)
+	
+	def remove_all_build(self, params):
+		"""  """
+		for robot in self.robots:
+			robot: Robot = robot
+			robot.cmd_build.remove_all_build()
+	
+	def upgrade_build(self, params):
+		""" build id"""
+		build_id, = params.split()
+		
+		build_id = int(build_id)
+		
+		for robot in self.robots:
+			robot: Robot = robot
+			robot.cmd_build.upgrade_build(build_id=build_id)
 	
 	def choose_save_path(self, params):
 		""" 手机截屏保存路径选择 """

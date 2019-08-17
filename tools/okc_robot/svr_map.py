@@ -48,13 +48,13 @@ class PlotInfo(object):
 
 
 class SvrMap(object):
-
+	
 	def __init__(self, svr_map_data: dict):
 		self.map_data: dict = {}
 		self.map_action_list: dict = {}
 		self.sid_bid_info: dict = {}
 		self.__update_data(svr_map_data)
-
+	
 	def __update_data(self, svr_map_data: dict):
 		if svr_map_data == {}:
 			logging.error("svr_map_data is None")
@@ -62,25 +62,25 @@ class SvrMap(object):
 			self.map_data = svr_map_data["svr_map"]["list"]
 			self.map_action_list = svr_map_data["svr_map"]["map_action_list"]
 			self.sid_bid_info = svr_map_data["svr_map"]["sid_bid_info"]
-
+	
 	def get_positions(self) -> dict:
 		if self.map_data == {}:
 			return {}
-
+		
 		positions: dict = {}
-
+		
 		for pos_by_blocks in self.map_data.values():
 			positions.update(pos_by_blocks)
-
+		
 		return positions
-
+	
 	def get_position_info(self, position) -> PlotInfo:
 		positions = self.get_positions()
 		if str(position) not in positions.keys():
 			return PlotInfo({})
 		else:
 			return PlotInfo(positions[str(position)]["basic"])
-
+	
 	def get_positions_by_type(self, position_type) -> list:
 		positions = self.get_positions()
 		get_positions = []
@@ -134,7 +134,7 @@ class PlayerInfo(object):
 		self.vip_point: int = -1
 		self.vip_stage: int = -1
 		self.__update_data(player_data)
-
+	
 	def __update_data(self, player_data: dict = None):
 		if player_data is None:
 			return

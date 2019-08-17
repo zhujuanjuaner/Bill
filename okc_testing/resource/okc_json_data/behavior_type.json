@@ -1,0 +1,86 @@
+{
+  "building_create": [
+    {
+      "parent_view": "ViewMain",
+      "click_node": "build_icon",
+      "status": "eff_free"
+    }
+  ],
+  "building_upgrade": [
+    {
+      "parent_view": "ViewBuildingFunctionPop",
+      "click_node": "main_block_pop_btn",
+      "status": 0
+    },
+    {
+      "parent_view": "ViewBuildingCommonUpgrade",
+      "click_node": "upgrade_btn",
+      "status": 0
+    },
+    {
+      "parent_view": "ViewMain",
+      "click_node": "build_icon",
+      "status": "eff_ing"
+    },
+    {
+      "parent_view": "ViewItemSpeedUp",
+      "click_node": "btn_buy",
+      "status": 0
+    }
+  ],
+  "training": [
+    {
+      "parent_view": "ViewTroopDetailPop",
+      "click_node": "train_btn",
+      "status": 0
+    },
+    {
+      "parent_view": "ViewTroopMain",
+      "click_node": "speed_up_btn",
+      "status": 0
+    },
+    {
+      "parent_view": "ViewItemSpeedUp",
+      "click_node": "btn_buy",
+      "status": 0
+    },
+    {
+      "parent_view": "ViewTroopMain",
+      "click_node": "btn_back",
+      "status": 0
+    }
+  ],
+  "bandit_kill": [
+    {
+      "parent_view": "ViewMainFitMetro",
+      "click_node": "world_btn",
+      "status": 0
+    },
+    {
+      "parent_view": "ViewMain",
+      "click_node": "monster_search_btn",
+      "status": 0
+    },
+    {
+      "parent_view": "ViewWorldMapWildSearch",
+      "click_node": "monster_search_btn",
+      "status": 0
+    },
+    {
+      "parent_view": "ViewWorldWildBanditPop",
+      "click_node": "attack_btn",
+      "status": 0
+    },
+    {
+      "parent_view": "ViewMarchSelect",
+      "click_node": "march_btn",
+      "status": 0
+    },
+    {
+      "parent_view": "ViewMain",
+      "click_node": "city_btn",
+      "status": 0
+    }
+  ],
+  "monster_kill": []
+}
