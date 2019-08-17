@@ -4,6 +4,29 @@ import bs4
 import requests
 import time
 import util
+import config
+
+
+class ConfigManager(object):
+
+	@classmethod
+	def set_request_wait_time(cls, request_wait_time):
+		config.request_wait_time = request_wait_time
+
+	@classmethod
+	def set_send_text_wait_time(cls, send_text_wait_time):
+		config.send_text_wait_time = send_text_wait_time
+
+	@classmethod
+	def set_is_request_all_plat_form(cls, is_request_all_plat_form):
+		config.is_request_all_plat_form = is_request_all_plat_form
+
+	@classmethod
+	def set_is_request_all_game(cls, is_request_all_game):
+		config.is_request_all_game = is_request_all_game
+
+
+config_manage = ConfigManager()
 
 
 class UrlPool(object):
