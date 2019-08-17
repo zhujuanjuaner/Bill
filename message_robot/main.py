@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-import os
 import bs4
 import requests
 import time
+import util
 
 
 class UrlPool(object):
@@ -34,6 +34,8 @@ if __name__ == "__main__":
 			room_url_list.append("%s/%s" % (base_url, room.select("a")[0].get("href")))
 	
 	print(len(room_url_list))
+	import os
 	
+	util.write_json_file(os.getcwd() + "\\url.txt", data=room_url_list)
 	for room_url in room_url_list:
 		print(room_url)

@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 import util
 from config import conf_path
-# from robot import Robot
-from okc_robot import Robot
+from robot import Robot
+# from okc_robot import Robot
 from okc_robot import game_table, equip_table
 
 import os
