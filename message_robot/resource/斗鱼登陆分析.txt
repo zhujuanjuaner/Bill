@@ -1,0 +1,101 @@
+
+# 1 ## 请求登陆界面 
+
+https://passport.douyu.com/index/login?passport_reg_callback=PASSPORT_REG_SUCCESS_CALLBACK&passport_login_callback=PASSPORT_LOGIN_SUCCESS_CALLBACK&passport_close_callback=PASSPORT_CLOSE_CALLBACK&passport_dp_callback=PASSPORT_DP_CALLBACK&type=login&client_id=1&state=https%3A%2F%2Fwww.douyu.com%2F&source=click_topnavi_login
+
+## 查询字符串
+
+passport_reg_callback=PASSPORT_REG_SUCCESS_CALLBACK
+passport_login_callback=PASSPORT_LOGIN_SUCCESS_CALLBACK
+passport_close_callback=PASSPORT_CLOSE_CALLBACK
+passport_dp_callback=PASSPORT_DP_CALLBACK
+type=login
+
+## 请求头
+
+Host: passport.douyu.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://www.douyu.com/
+Cookie: dy_did=5b997e943c99b1f56640454200001501; Hm_lvt_e99aee90ec1b2106afe7ec3b199020a7=1566106993,1566107048,1566111105,1566138671; acf_did=5b997e943c99b1f56640454200001501; sm_did=WC39ZUyXRgdHUGIC38vq07ZlPDznSzLdG5ED4pgwn%252B6XIVAEipdQuAF8%252Fp7%252BIsp3F1mK%252By91kzM2hTmNDxJYB4TJmmTSX8edkwQ%252Bmg760TWuDha%252Fjzf4qdHxTAhPA72GQo4sUfxtxrE3rRo7JG2f8p9gKZYbLkEV4QkCG68L11X3hq5inMagNosPml2fauxs8JbtTJxL3ImLqNJOIFNhZaGuynI0WUGgPP%252FLJTcvbKTR9AVfGKDa8cQ%253D%253D1487577677129; smidV2=201908181320016e5afca7e574f0998e28921de7a9ef9f009fe05f64fc81cf0; Hm_lpvt_e99aee90ec1b2106afe7ec3b199020a7=1566138794; PHPSESSID=hoq4u9qc8e9iaeht9coge8p7j0
+Upgrade-Insecure-Requests: 1
+TE: Trailers
+
+## 响应头
+server: Tengine
+content-type: text/html; charset=UTF-8
+content-length: 4193
+date: Sun, 18 Aug 2019 14:34:33 GMT
+vary: Accept-Encoding
+p3p: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+content-encoding: gzip
+ali-swift-global-savetime: 1566138873
+via: cache42.l2cn1821[57,200-0,M], cache42.l2cn1821[58,0], cache6.cn1365[76,200-0,M], cache3.cn1365[77,0]
+x-cache: MISS TCP_MISS dirn:-2:-2
+x-swift-savetime: Sun, 18 Aug 2019 14:34:33 GMT
+x-swift-cachetime: 0
+timing-allow-origin: *
+eagleid: 0e1d279715661388732057511e
+X-Firefox-Spdy: h2
+
+## 登陆后跳转，已经有账号了
+
+## 请求头
+
+Host: www.douyu.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate, br
+Referer: https://www.baidu.com/link?url=_RN_hJ5EBs0h2JywTsLa5n98v0hPyWCPVY_vf_UyXEi&wd=&eqid=b609bf500006cdd1000000065d59612b
+Connection: keep-alive
+Cookie: dy_did=5b997e943c99b1f56640454200001501; acf_did=5b997e943c99b1f56640454200001501; Hm_lvt_e99aee90ec1b2106afe7ec3b199020a7=1566106993,1566107048,1566111105,1566138671; smidV2=201908181320016e5afca7e574f0998e28921de7a9ef9f009fe05f64fc81cf0; Hm_lpvt_e99aee90ec1b2106afe7ec3b199020a7=1566139418; PHPSESSID=c7rj3fbmt62m5lcc36nhvvdho7; acf_auth=9f96rC%2FF98Jo2y3%2Bi4RSUO1IyQrBAp7Mg6zszfiqLwI5YmVWt3FaQDBSkspNDBacdm9az5Xs%2BCjpNQJ8G6tP1Fe4kxJ1pCwz6Qqec3KlZLLlu2MCzbbJWpk; wan_auth37wan=d673119460cc1bGk2W8N0No9sS2OpYVPZ6NouTU2TJIoCftxEPz8oSX%2BhN9EDdRasT5tw5N3Sxkzvq9J9BhIGjoIe2adAiOm49HZCzy94tGto91InoM; acf_uid=314616362; acf_username=314616362; acf_nickname=%E6%9C%AA%E6%9D%A5%E6%9C%AA%E6%9B%BE%E6%9D%A5061; acf_own_room=1; acf_groupid=1; acf_phonestatus=1; acf_avatar=https%3A%2F%2Fapic.douyucdn.cn%2Fupload%2Favatar_v3%2F201907%2Fba4e99dd482246e5a8683cfcc15643e7_; acf_ct=0; acf_ltkid=98907674; acf_biz=1; acf_stk=bdfa329bbb34388b; acf_isNewUser=1
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+TE: Trailers
+
+# cookies
+{"请求 Cookie":{"acf_auth":"9f96rC/F98Jo2y3+i4RSUO1IyQrBAp7Mg6zszfiqLwI5YmVWt3FaQDBSkspNDBacdm9az5Xs+CjpNQJ8G6tP1Fe4kxJ1pCwz6Qqec3KlZLLlu2MCzbbJWpk","acf_avatar":"https://apic.douyucdn.cn/upload/avatar_v3/201907/ba4e99dd482246e5a8683cfcc15643e7_","acf_biz":"1","acf_ct":"0","acf_did":"5b997e943c99b1f56640454200001501","acf_groupid":"1","acf_isNewUser":"1","acf_ltkid":"98907674","acf_nickname":"æªæ¥æªæ¾æ¥061","acf_own_room":"1","acf_phonestatus":"1","acf_stk":"bdfa329bbb34388b","acf_uid":"314616362","acf_username":"314616362","dy_did":"5b997e943c99b1f56640454200001501","Hm_lpvt_e99aee90ec1b2106afe7ec3b199020a7":"1566139418","Hm_lvt_e99aee90ec1b2106afe7ec3b199020a7":"1566106993,1566107048,1566111105,1566138671","PHPSESSID":"c7rj3fbmt62m5lcc36nhvvdho7","smidV2":"201908181320016e5afca7e574f0998e28921de7a9ef9f009fe05f64fc81cf0","wan_auth37wan":"d673119460cc1bGk2W8N0No9sS2OpYVPZ6NouTU2TJIoCftxEPz8oSX+hN9EDdRasT5tw5N3Sxkzvq9J9BhIGjoIe2adAiOm49HZCzy94tGto91InoM"}}
+
+## 响应头
+
+erver: Tengine
+content-type: text/html;charset=utf-8
+content-length: 186386
+strict-transport-security: max-age=86400
+date: Sun, 18 Aug 2019 14:44:08 GMT
+content-encoding: gzip
+x-janus-upstream-latency: 1
+x-janus-proxy-latency: 0
+access-control-allow-credentials: true
+is-dy-pcache: EXPIRED
+ali-swift-global-savetime: 1566139448
+via: cache5.l2cn1832[0,200-0,H], cache17.l2cn1832[1,0], vcache19.cn1036[0,200-0,H], vcache7.cn1036[2,0]
+age: 46
+x-cache: HIT TCP_MEM_HIT dirn:-2:-2
+x-swift-savetime: Sun, 18 Aug 2019 14:44:41 GMT
+x-swift-cachetime: 60
+c-via: 200
+timing-allow-origin: *
+eagleid: 0ed7179b15661394942092186e
+X-Firefox-Spdy: h2
+
+
+# 首页 未登陆账号
+
+# 请求头和带账号的请求头一致
+
+Host: www.douyu.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate, br
+Referer: https://www.baidu.com/link?url=s-5t-m4k5nIu-TqY9BKNtPhiwC9k_g68H-NFpOdSX0q&wd=&eqid=df47c9bd00193be3000000065d596884
+Connection: keep-alive
+Cookie: dy_did=5b997e943c99b1f56640454200001501; acf_did=5b997e943c99b1f56640454200001501; Hm_lvt_e99aee90ec1b2106afe7ec3b199020a7=1566111105,1566138671,1566139495,1566140552; smidV2=201908181320016e5afca7e574f0998e28921de7a9ef9f009fe05f64fc81cf0; Hm_lpvt_e99aee90ec1b2106afe7ec3b199020a7=1566140552; PHPSESSID=c7rj3fbmt62m5lcc36nhvvdho7
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+TE: Trailers

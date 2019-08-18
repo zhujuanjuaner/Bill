@@ -1,0 +1,1 @@
+{"error":0,"msg":{"hs":"0","info":{"orm":"1","ems":"0","icon":"avatar_v3\/201907\/ba4e99dd482246e5a8683cfcc15643e7","its":"2","nn":"未来未曾来061","pos":"1","it":"2"},"silver":0,"nbl_spl":{"trial":0,"lv":0,"et":0},"uid":314616362,"gold":{"ngets":"0","gold":"0","ingf":"1","ngb":"0","ngbts":"0"},"exp":0}}

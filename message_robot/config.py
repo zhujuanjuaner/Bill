@@ -1,7 +1,28 @@
 # -*- coding: utf-8 -*-
+# @author Bill
+# @software pycharm
+import os
 
+
+# #### 斗鱼 ####
+class DouYu(object):
+	def __init__(self):
+		self.base_url = "https://www.douyu.com"
+		self.directory_path = "%s\\resource\\html\\douyu_base.html" % os.getcwd()
+
+
+douyu = DouYu()
+
+# #### PATH ####
+douyu_directory_path = "%s\\resource\\html\\douyu_base.html" % os.getcwd()
+
+path = {
+	"base_douyu": "\\resource\\html\\douyu_base.html"
+}
+
+# #### URL ####
 url = {
-	"douyu": "https://www.douyu.com",
+	"douyu": "https://www.douyu.com/",
 	"huya": "https://www.huya.com/"
 }
 
@@ -22,6 +43,7 @@ class Platform(object):
 
 # #### 是否全平台发送弹幕
 is_request_all_plat_form = True
+
 # #### 初始平台
 plat_form = Platform.HU_YA
 
