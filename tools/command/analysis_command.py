@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 import util
 from config import conf_path
-from robot import Robot
-# from okc_robot import Robot
+# from robot import Robot
+from okc_robot import Robot
 from okc_robot import game_table, equip_table
 
 import os
@@ -115,14 +115,14 @@ class AnalysisCommand(LoadRobot):
 				upgrade_type = 1
 			for robot in self.robots:
 				robot: Robot = robot
-				robot.building.upgrade_build(build_id, upgrade_type=upgrade_type)
+				robot.cmd_build.upgrade_build(build_id, upgrade_type=upgrade_type)
 		except ValueError:
 			build_id = params.split()
 			build_id = int(build_id)
 			
 			for robot in self.robots:
 				robot: Robot = robot
-				robot.building.upgrade_build(build_id)
+				robot.cmd_build.upgrade_build(build_id)
 	
 	def build_create(self, params):
 		"""  build id  """
@@ -130,7 +130,7 @@ class AnalysisCommand(LoadRobot):
 		build_id = int(build_id)
 		for robot in self.robots:
 			robot: Robot = robot
-			robot.building.build_create(build_id)
+			robot.cmd_build.build_create(build_id)
 	
 	def set_all_resource(self, params):
 		""" resource num """

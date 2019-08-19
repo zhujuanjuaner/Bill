@@ -237,6 +237,9 @@ class Protocol(object):
 		return self.request(command="building_upgrade", key0=build_type, key1=pos, key2=build_id, key3=target_lv,
 							key4=cost, key5=exp, key6=req_help, key7=client_action_id)
 	
+	def action_cancel(self, action_id, key1=1):
+		return self.request(command="action_cancel", key0=action_id, key1=key1)
+	
 	""" March """
 	
 	def action_recall(self, action_id: int, item_id: int, gem_num: int, is_dismiss_throne: int):

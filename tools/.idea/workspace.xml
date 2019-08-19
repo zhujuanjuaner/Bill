@@ -2,53 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1676ebb1-da1d-4b78-8a20-ffccccc3bd1d" name="Default Changelist" comment="add robot">
-      <change afterPath="$PROJECT_DIR$/compare_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/enumerate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/module/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/module/alliance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/module/building.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/module/lord.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/module/map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/module/research.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/net.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/okc_enum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/protocol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/robot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/svr_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot/table_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message_robot/.idea/message_robot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../message_robot/.idea/message_robot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message_robot/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../message_robot/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message_robot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../message_robot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../message_robot/room_url.json" beforeDir="false" afterPath="$PROJECT_DIR$/../message_robot/room_url.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/command/analysis_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/command/analysis_command.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/command/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/Robot-10300.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/Robot-10301.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/Robot-10345.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/Robot-10346.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/Robot-10645.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/Robot-10646.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10300.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10301.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10345.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10346.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10645.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/okc_robot/test/protocol/Robot-10646.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/data/user_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/data/user_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/module/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/module/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/okc_robot/module/building.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/module/building.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/module/dragon.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/module/dragon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/module/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/module/map.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/okc_robot/protocol.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/protocol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/robot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_robot/svr_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_robot/svr_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_test/test_case/okc_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_test/test_case/okc_task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okc_test/ui/behavior.py" beforeDir="false" afterPath="$PROJECT_DIR$/okc_test/ui/behavior.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_temp_data/okc_environment.json" beforeDir="false" afterPath="$PROJECT_DIR$/resource/okc_temp_data/okc_environment.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/okc_temp_data/okc_robot_uid.json" beforeDir="false" afterPath="$PROJECT_DIR$/resource/okc_temp_data/okc_robot_uid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,23 +62,70 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/command/analysis_command.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="406">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
               <folding>
+                <element signature="e#43#54#0" expanded="true" />
                 <element signature="e#276#2743#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robot/svr_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="231" column="28" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
+            <state relative-caret-position="182">
+              <caret line="223" column="32" selection-start-line="223" selection-start-column="32" selection-end-line="223" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robot/module/building.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="216" column="36" selection-start-line="216" selection-start-column="31" selection-end-line="216" selection-end-column="41" />
+              <folding>
+                <element signature="e#43#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robot/protocol.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="44" column="79" lean-forward="true" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_robot/protocol.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="239" column="47" lean-forward="true" selection-start-line="239" selection-start-column="47" selection-end-line="239" selection-end-column="47" />
+              <folding>
+                <element signature="e#43#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/okc_robot/module/building.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4031">
+              <caret line="174" column="81" selection-start-line="174" selection-start-column="81" selection-end-line="174" selection-end-column="81" />
+              <folding>
+                <element signature="e#43#78#0" expanded="true" />
+                <element signature="e#236#1361#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,8 +164,9 @@
       <find>player_info</find>
       <find>svr_re</find>
       <find>build</find>
-      <find>action</find>
       <find>print</find>
+      <find>action</find>
+      <find>action_can</find>
     </findStrings>
     <replaceStrings>
       <replace>= /</replace>
@@ -203,7 +212,6 @@
         <option value="$PROJECT_DIR$/okc_robot/net/request.py" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/robot/__init__.py" />
-        <option value="$PROJECT_DIR$/okc_robot/protocol.py" />
         <option value="$PROJECT_DIR$/robot/okc_enum.py" />
         <option value="$PROJECT_DIR$/robot/module/lord.py" />
         <option value="$PROJECT_DIR$/resource/okc_temp_data/okc_robot_uid.json" />
@@ -211,7 +219,6 @@
         <option value="$PROJECT_DIR$/okc_robot/robot.py" />
         <option value="$PROJECT_DIR$/resource/okc_temp_data/okc_environment.json" />
         <option value="$PROJECT_DIR$/robot/svr_data.py" />
-        <option value="$PROJECT_DIR$/okc_robot/module/building.py" />
         <option value="$PROJECT_DIR$/robot/module/map.py" />
         <option value="$PROJECT_DIR$/robot/module/research.py" />
         <option value="$PROJECT_DIR$/util.py" />
@@ -226,14 +233,17 @@
         <option value="$PROJECT_DIR$/compare_file.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/robot/enumerate.py" />
+        <option value="$PROJECT_DIR$/okc_robot/module/building.py" />
+        <option value="$PROJECT_DIR$/okc_robot/protocol.py" />
         <option value="$PROJECT_DIR$/command/analysis_command.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2045" />
-    <option name="width" value="1419" />
-    <option name="height" value="1057" />
+    <option name="x" value="2139" />
+    <option name="y" value="115" />
+    <option name="width" value="1440" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -241,7 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,47 +271,32 @@
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="robot" type="462c0819:PsiDirectoryNode" />
+              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="robot" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="robot" type="462c0819:PsiDirectoryNode" />
-              <item name="svr_data.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="robot" type="462c0819:PsiDirectoryNode" />
-              <item name="svr_data.py" type="8704e2dd:PyFileNode" />
-              <item name="SvrResource" type="dd8bbb05:PyElementNode" />
+              <item name="okc_robot" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="building.py" type="8704e2dd:PyFileNode" />
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
               <item name="main.py" type="8704e2dd:PyFileNode" />
             </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="util.py" type="8704e2dd:PyFileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../okc_testing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../message_robot" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -411,6 +405,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -432,7 +427,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.29345495" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.30203864" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -747,16 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/module/building.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="e#43#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/okc_robot/module/user.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -873,16 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okc_robot/protocol.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="249" selection-start-line="249" selection-end-line="250" selection-end-column="106" />
-          <folding>
-            <element signature="e#43#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/okc_robot/module/map.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
@@ -906,23 +881,6 @@
           <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding>
             <element signature="e#44#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robot/protocol.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robot/module/building.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6032">
-          <caret line="212" column="46" selection-start-line="212" selection-start-column="46" selection-end-line="212" selection-end-column="46" />
-          <folding>
-            <element signature="e#43#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1107,25 +1065,63 @@
           <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding>
             <element signature="e#92#601#0" />
-            <element signature="e#628#1264#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/analysis_command.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="e#276#2743#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/robot/svr_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="231" column="28" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
+        <state relative-caret-position="182">
+          <caret line="223" column="32" selection-start-line="223" selection-start-column="32" selection-end-line="223" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot/module/building.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="216" column="36" selection-start-line="216" selection-start-column="31" selection-end-line="216" selection-end-column="41" />
+          <folding>
+            <element signature="e#43#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot/protocol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="44" column="79" lean-forward="true" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/protocol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="239" column="47" lean-forward="true" selection-start-line="239" selection-start-column="47" selection-end-line="239" selection-end-column="47" />
+          <folding>
+            <element signature="e#43#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okc_robot/module/building.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4031">
+          <caret line="174" column="81" selection-start-line="174" selection-start-column="81" selection-end-line="174" selection-end-column="81" />
+          <folding>
+            <element signature="e#43#78#0" expanded="true" />
+            <element signature="e#236#1361#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/analysis_command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#43#54#0" expanded="true" />
+            <element signature="e#276#2743#0" />
+          </folding>
         </state>
       </provider>
     </entry>
