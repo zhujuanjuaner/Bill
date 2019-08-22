@@ -46,6 +46,7 @@ class TestingStart(object):
 	
 	def start(self):
 		if not self.has_load:
+			logging.error("init robot error")
 			return
 		
 		def get_help():
@@ -118,6 +119,7 @@ class TestingStart(object):
 		elif env == 3:
 			config.okc_environment = config.OkcEnvironment.Online.value
 		else:
+			env = 0
 			config.okc_environment = config.OkcEnvironment.Test.value
 		return env
 	
@@ -150,10 +152,12 @@ class TestingStart(object):
 			except ValueError:
 				if self.has_robot_data:
 					try:
+						if len(self.robots_data["last_load"]["uid"]) == 0:
+							pass
 						start_uid = self.robots_data["last_load"]["uid"][0]
 						self.is_local_login = True
 						break
-					except KeyError:
+					except KeyError or IndexError:
 						start_uid = input("start uid:\n".title())
 						continue
 				else:

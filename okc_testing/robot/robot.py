@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 from robot.protocol import Protocol
-from robot.data import data_manage
+from robot.data import SvrData
 
 
 class Robot(object):
@@ -23,7 +23,7 @@ class Robot(object):
 		
 		self.has_login = self.__has_login()
 		
-		self.data = data_manage.init_user_data(uid=self.uid)
+		self.data = SvrData(uid=self.uid)
 	
 	def __has_login(self) -> bool:
 		login_get = self.protocol.operate_login_get()

@@ -38,7 +38,10 @@ class SvrDataPool(object):
 		self.__throne_data = {}
 	
 	def update_svr_data(self, data: Response):
-		self.__svr_data[str(data.uid)] = data.res_data
+		if int(data.uid) != 0:
+			self.__svr_data[str(data.uid)] = data.res_data
+		else:
+			logging.info("don't update ‘create account’data")
 	
 	def update_map_data(self, data: Response):
 		self.__map_data = data.res_data

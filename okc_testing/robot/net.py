@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+
 import config
 import time
 import requests
 import logging
 
-from robot.net.reponse import Response
-from robot.data import error_table, data_manage
+from robot.data import data_pool, Response, error_table
 
 
 class OkcRequest(object):
@@ -28,23 +28,34 @@ class OkcRequest(object):
 			
 			for key, value in kwargs.items():
 				self.__request_url += "&" + str(key) + "=" + str(value)
-			
-			request_result = requests.get(self.__request_url)
-			if request_result.status_code == 200:
-				response = Response(request_result.json())
-				response.url = self.__request_url
-				return response
-			else:
-				response = Response()
-				response.url = self.__request_url
-				return response
+			try:
+				request_result = requests.get(self.__request_url)
+				if request_result.status_code == 200:
+					response = Response(request_result.json())
+					response.url = self.__request_url
+					return response
+				else:
+					response = Response()
+					response.url = self.__request_url
+					return response
+			except requests.exceptions.ConnectionError:
+				logging.error("connection server error")
+				return Response()
 		else:
 			logging.warning("Unrealized.")
 	
 	def get(self, **kwargs) -> Response:
 		response = self.__okc_request(**kwargs)
+		command = kwargs["command"]
 		if response.is_right_ret_code:
-			data_manage.update_user_data(data=response)
+			if command == "map_get":
+				data_pool.svr_data_pool.update_map_data(response)
+			elif command == "player_info_get":
+				data_pool.svr_data_pool.update_player_data(response)
+			elif command == "get_throne_info":
+				data_pool.svr_data_pool.update_throne_data(response)
+			else:
+				data_pool.svr_data_pool.update_svr_data(response)
 		else:
 			error_id = int(response.ret_code)
 			error_info = error_table.get_error(error_id)

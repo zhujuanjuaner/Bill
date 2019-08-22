@@ -46,11 +46,15 @@ class LoadRobot(object):
 		try:
 			self.__robots_data = read_json_file(file_path=config.robots_json_data_path)
 		except FileNotFoundError:
-			self.__robots_data[str(config.okc_environment)] = {str(self.__sid): {"sid": self.__sid, "uid": uid_list}}
+			self.__robots_data[str(config.okc_environment)] = {str(self.__sid): uid_list}
 		logging.info("robots_data : %s" % self.__robots_data)
-		old_uid = set(self.__robots_data[str(config.okc_environment)][str(self.__sid)]["uid"])
-		new_uid = set(uid_list)
-		self.__robots_data[str(config.okc_environment)][str(self.__sid)]["uid"] = list(old_uid | new_uid)
+		try:
+			old_uid = set(self.__robots_data[str(config.okc_environment)][str(self.__sid)])
+			new_uid = set(uid_list)
+			self.__robots_data[str(config.okc_environment)][str(self.__sid)] = list(old_uid | new_uid)
+		except KeyError:
+			import traceback
+			logging.error(traceback.print_exc())
 		
 		last_load = {"env": config.okc_environment, "kingdom": self.__sid, "sid": self.__sid, "uid": uid_list}
 		self.__robots_data["last_load"] = last_load
