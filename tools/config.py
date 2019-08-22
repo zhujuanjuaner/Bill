@@ -28,6 +28,8 @@ okc_environment = OkcEnvironment.Dev.value
 
 okc_request_mode = OkcRequestMode.Http.value
 
+robots_json_data_path = util.get_ini_data(ini_path=conf_path, section="path", section_item="robots_json")
+
 # read game.json
 game_json_data_path = util.get_ini_data(ini_path=conf_path, section="path", section_item="game_json")
 game_json_data = util.read_json_file(file_path=game_json_data_path)
@@ -71,6 +73,13 @@ okc_log_online_path = util.get_ini_data(conf_path, section="path", section_item=
 okc_log_online_protocol_path = util.get_ini_data(conf_path, section="path", section_item="okc_log_online_protocol")
 
 ENV = {0: "Test", 1: "Dev", 2: "Online Test", 3: "Online"}
+
+welcome = """
+welcome to use okc robot.\n\nchoose environment:\n\t0 - test\n\t1 - dev\n\t2 - online test\n\t3 - online\n
+no input or input error Use the environment where you last logged in.\n
+if this is your first login, you must enter something.\n
+\t\t\t\t\t\t\t\t-- handsome bill\n
+"""
 
 okc_request_url = {
 	OkcEnvironment.Dev.value: okc_dev_url,

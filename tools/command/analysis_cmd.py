@@ -1,94 +1,12 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-import util
-from config import conf_path
-# from robot import Robot
 from okc_robot import Robot
 from okc_robot import game_table, equip_table
 
-import os
 import logging
 import random
 import wx
-import config
-
-
-class LoadRobot(object):
-	def __init__(self, sid: int = 0, start_uid: int = 0, robot_num: int = 0):
-		self.sid: int = sid
-		self.__start_uid: int = start_uid
-		self.__robots_num: int = robot_num
-		self.__robots_path = util.get_ini_data(ini_path=conf_path, section="path", section_item="okc_robot_uid")
-		
-		self.robots: list = []
-		self.__init_robots()
-		self.__save_robots()
-		
-		if len(self.robots) == 0:
-			return
-		self.robot: Robot = self.robots[0]
-		
-		self.__coord_rate = 10000
-	
-	def __init_robots(self):
-		if self.__start_uid != 0 and self.__robots_num > 0:
-			count = 0
-			value_count = 0
-			while count < self.__robots_num:
-				robot_obj: Robot = Robot(self.sid, self.__start_uid)
-				if self.__start_uid != -1:
-					self.__start_uid += 1
-				count += 1
-				if robot_obj.has_login:
-					self.robots.append(robot_obj)
-					value_count += 1
-			logging.info("login success num: %s ; total num : %s" % (value_count, self.__robots_num))
-			print("-" * 150)
-		
-		elif os.path.exists(self.__robots_path):
-			
-			user_info = util.read_json_file(self.__robots_path)
-			try:
-				sid = int(user_info["sid"])
-				uid_list = list(user_info["player_list"])
-				value_count = 0
-				for uid in uid_list:
-					robot_obj: Robot = Robot(sid, uid)
-					if robot_obj.has_login:
-						self.robots.append(robot_obj)
-						value_count += 1
-				logging.info("login success num: %s ; total num : %s" % (value_count, len(uid_list)))
-				print("-" * 150)
-			
-			except KeyError:
-				return
-		else:
-			return
-	
-	def __save_robots(self):
-		env_path = util.get_ini_data(ini_path=config.conf_path, section="path", section_item="okc_environment")
-		last_load = util.read_json_file(env_path)
-		if self.robots:
-			robot_uid_list = []
-			for robot in self.robots:
-				robot_uid_list.append(robot.uid)
-			last_load["uid"] = robot_uid_list
-			# data = {"sid": self.sid, "player_list": robot_uid_list}
-			util.write_json_file(file_path=env_path, data=last_load)
-	
-	def executive_order(self, order_name, **kwargs):
-		scs_robot = 0
-		for robot in self.robots:
-			if order_name in robot.__dir__():
-				cmd_value = getattr(robot, order_name)
-				if cmd_value(**kwargs):
-					scs_robot += 1
-				else:
-					print("My Master,Your Robot : %s Hasn't Finished The Task : %s\n" % (robot.uid, order_name))
-					print("The Kwargs : %s" % kwargs)
-			else:
-				print("My Master,Your Robot : %s Hasn't the Behavior : %s" % (robot.uid, order_name))
-		print("My Master, %s Of The %s Robots Were Successful" % (scs_robot, len(self.robots)))
+from command.load import LoadRobot
 
 
 class AnalysisCommand(LoadRobot):
@@ -100,7 +18,7 @@ class AnalysisCommand(LoadRobot):
 	
 	def update(self, params):
 		""" login get"""
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			if not robot.protocol.operate_login_get().is_right_ret_code:
 				break
@@ -113,14 +31,14 @@ class AnalysisCommand(LoadRobot):
 			upgrade_type = int(upgrade_type)
 			if upgrade_type != 0:
 				upgrade_type = 1
-			for robot in self.robots:
+			for robot in self.robot_object_list:
 				robot: Robot = robot
 				robot.cmd_build.upgrade_build(build_id, upgrade_type=upgrade_type)
 		except ValueError:
 			build_id = params.split()
 			build_id = int(build_id)
 			
-			for robot in self.robots:
+			for robot in self.robot_object_list:
 				robot: Robot = robot
 				robot.cmd_build.upgrade_build(build_id)
 	
@@ -128,7 +46,7 @@ class AnalysisCommand(LoadRobot):
 		"""  build id  """
 		build_id, = params.split()
 		build_id = int(build_id)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.cmd_build.build_create(build_id)
 	
@@ -136,7 +54,7 @@ class AnalysisCommand(LoadRobot):
 		""" resource num """
 		resource_num, = params.split()
 		resource_num = int(resource_num)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			for rss_id in range(0, 5):
 				robot.protocol.op_self_set_resource(rss_id=rss_id, rss_num=resource_num)
@@ -147,24 +65,24 @@ class AnalysisCommand(LoadRobot):
 		item_id = int(item_id)
 		item_num = int(item_num)
 		
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.protocol.op_self_set_item(item_id=item_id, num=item_num)
 	
 	def al_help_request(self, params):
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
-			robot.al.alliance_help_request()
+			robot.cmd_alliance.alliance_help_request()
 	
 	def build_upgrade_cancel(self, params):
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
-			robot.building.upgrade_cancel()
+			robot.cmd_build.upgrade_cancel()
 	
 	def name_change(self, params):
 		""" name -- 输入为空的时候默认是玩家uid,输入name后是 (uid + name)"""
 		name, = params.split()
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			# robot.lord.player_name_change(name=name)
 			robot.cmd_user.player_name_change(name=name)
@@ -173,11 +91,11 @@ class AnalysisCommand(LoadRobot):
 		""" name 可不输 """
 		try:
 			name, = params.split()
-			for robot in self.robots:
+			for robot in self.robot_object_list:
 				robot: Robot = robot
 				robot.cmd_dragon.dragon_name_change(name=name)
 		except ValueError:
-			for robot in self.robots:
+			for robot in self.robot_object_list:
 				robot: Robot = robot
 				robot.cmd_dragon.dragon_name_change()
 	
@@ -190,13 +108,13 @@ class AnalysisCommand(LoadRobot):
 		if aid == 0:
 			logging.error("This Player Has Not Alliance")
 			return
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.cmd_alliance.alliance_join(aid=aid)
 	
 	def al_leave(self, params):
 		""" nothing """
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.cmd_alliance.alliance_leave()
 	
@@ -204,7 +122,7 @@ class AnalysisCommand(LoadRobot):
 		""" uid """
 		uid, = params.split()
 		uid = int(uid)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			if not robot.cmd_alliance.alliance_help(uid=uid).is_right_ret_code:
 				break
@@ -213,7 +131,7 @@ class AnalysisCommand(LoadRobot):
 		""" rss num """
 		num, = params.split()
 		num = int(num)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			rss_id = random.randint(0, 4)
 			if not robot.cmd_alliance.alliance_assist_send({rss_id: num}).is_right_ret_code:
@@ -226,11 +144,11 @@ class AnalysisCommand(LoadRobot):
 		radius = int(radius)
 		move_pos = self.robot.cmd_map.get_move_pos(target_pos=position, radius=radius)
 		
-		if len(move_pos) < len(self.robots):
+		if len(move_pos) < len(self.robot_object_list):
 			print("pos little".title())
 			return
 		count = 0
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			if len(move_pos) > 0:
 				if robot.cmd_map.kingdom_move(move_pos[0]).is_right_ret_code:
@@ -239,7 +157,7 @@ class AnalysisCommand(LoadRobot):
 				break
 			move_pos.pop(0)
 		
-		logging.info("move success : %s ,total : %s " % (count, len(self.robots)))
+		logging.info("move success : %s ,total : %s " % (count, len(self.robot_object_list)))
 	
 	def super(self, params):
 		""" troop_num,hero_list """
@@ -249,7 +167,7 @@ class AnalysisCommand(LoadRobot):
 			hero_list[hero_idx] = int(hero_list[hero_idx])
 		troop_num, = str(params).split()
 		troop_num = int(troop_num)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.protocol.op_upgrade_acc_to_high(troop_num=troop_num, hero_list=hero_list)
 	
@@ -257,7 +175,7 @@ class AnalysisCommand(LoadRobot):
 		""" target_pos"""
 		target_pos, = str(params).split()
 		target_pos = int(target_pos)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.cmd_map.march_scout(target=target_pos)
 	
@@ -269,7 +187,7 @@ class AnalysisCommand(LoadRobot):
 			with_dragon = int(with_dragon)
 			if with_dragon != 1:
 				with_dragon = 0
-			for robot in self.robots:
+			for robot in self.robot_object_list:
 				robot: Robot = robot
 				if not robot.cmd_map.march_attack(target=target, with_dragon=with_dragon,
 												  with_hero=0).is_right_ret_code:
@@ -281,7 +199,7 @@ class AnalysisCommand(LoadRobot):
 		""" 攻击目标的坐标 """
 		target, = str(params).split()
 		target = int(target)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			if not robot.cmd_map.march_rally(target=target, with_dragon=0, with_hero=0).is_right_ret_code:
 				break
@@ -290,7 +208,7 @@ class AnalysisCommand(LoadRobot):
 		""" 增援目标的坐标 """
 		target, = str(params).split()
 		target = int(target)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			if not robot.cmd_map.march_reinforce(target=target, with_hero=0).is_right_ret_code:
 				break
@@ -299,7 +217,7 @@ class AnalysisCommand(LoadRobot):
 		""" 增援目标的uid """
 		uid, = str(params).split()
 		uid = int(uid)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			if not robot.cmd_map.march_rally_reinforce(uid=uid, with_hero=0).is_right_ret_code:
 				break
@@ -308,7 +226,7 @@ class AnalysisCommand(LoadRobot):
 		""" 运输目标的uid """
 		uid, = str(params).split()
 		uid = int(uid)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			if not robot.cmd_map.march_transport(uid=uid):
 				break
@@ -317,7 +235,7 @@ class AnalysisCommand(LoadRobot):
 		""" 采集目标的坐标 """
 		target, = str(params).split()
 		target = int(target)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			if not robot.cmd_map.march_occupy(target=target, with_hero=0, with_dragon=0).is_right_ret_code:
 				break
@@ -330,12 +248,12 @@ class AnalysisCommand(LoadRobot):
 		
 		camp_pos = self.robot.cmd_map.get_camp_pos(target_pos=target, radius=radius)
 		
-		if len(camp_pos) < len(self.robots):
+		if len(camp_pos) < len(self.robot_object_list):
 			logging.error("camp position little,add radius")
 			return
 		
 		count = 0
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			
 			if len(camp_pos) > 0:
@@ -345,13 +263,13 @@ class AnalysisCommand(LoadRobot):
 				break
 			camp_pos.pop(0)
 		
-		logging.info("camp success : %s ,total : %s " % (count, len(self.robots)))
+		logging.info("camp success : %s ,total : %s " % (count, len(self.robot_object_list)))
 	
 	def dragon_attack(self, params):
 		""" 目标坐标 """
 		target, = str(params).split()
 		target = int(target)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			if not robot.cmd_map.march_dragon_attack(pos=target).is_right_ret_code:
 				break
@@ -360,7 +278,7 @@ class AnalysisCommand(LoadRobot):
 		""" 目标坐标 """
 		target, = str(params).split()
 		target = int(target)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			if not robot.cmd_map.march_attack_bandit(target=target, with_dragon=True,
 													 with_hero=True).is_right_ret_code:
@@ -370,13 +288,13 @@ class AnalysisCommand(LoadRobot):
 		""" is_dismiss_throne 0 || 1 """
 		is_dismiss_throne, = str(params).split()
 		is_dismiss_throne = int(is_dismiss_throne)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.cmd_map.march_recall(is_dismiss_throne=is_dismiss_throne)
 	
 	def speed(self, params):
 		""" nothing """
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.cmd_map.march_speed()
 	
@@ -384,13 +302,13 @@ class AnalysisCommand(LoadRobot):
 		""" build level """
 		level, = str(params).split()
 		level = int(level)
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.cmd_user.set_all_build_level(level=level)
 	
 	def release_self_dragon(self, params):
 		""" 释放自己的龙，龙被抓后可使用"""
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.protocol.op_self_release_dragon()
 	
@@ -402,7 +320,7 @@ class AnalysisCommand(LoadRobot):
 		player_data = self.robot.protocol.get_player_data(uid=uid)
 		player_name = player_data.uname
 		
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.cmd_user.mail_send(player_name=player_name)
 	
@@ -411,7 +329,7 @@ class AnalysisCommand(LoadRobot):
 		gem_cost = 300
 		num = 4
 		item = 0
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.protocol.add_equip_grid(gem_cost=gem_cost, num=num, item_id=item)
 	
@@ -422,12 +340,12 @@ class AnalysisCommand(LoadRobot):
 			equip_id = int(equip_id)
 			level = int(level)
 			
-			for robot in self.robots:
+			for robot in self.robot_object_list:
 				robot: Robot = robot
 				robot.protocol.op_set_add_normal_equip(equip_type=equip_id, lv=level)
 		except ValueError:
 			level = 6
-			for robot in self.robots:
+			for robot in self.robot_object_list:
 				robot: Robot = robot
 				add_equip_count = 0
 				for equip_id in equip_table.equip_equipment.keys():
@@ -446,12 +364,12 @@ class AnalysisCommand(LoadRobot):
 			crystal_id = int(crystal_id)
 			num = int(num)
 			
-			for robot in self.robots:
+			for robot in self.robot_object_list:
 				robot: Robot = robot
 				robot.protocol.op_set_add_crystal(crystal_id=crystal_id, num=num)
 		except ValueError:
 			num = 2000
-			for robot in self.robots:
+			for robot in self.robot_object_list:
 				robot: Robot = robot
 				for crystal_id in equip_table.equip_crystal.keys():
 					robot.protocol.op_set_add_crystal(crystal_id=crystal_id, num=num)
@@ -463,12 +381,12 @@ class AnalysisCommand(LoadRobot):
 			material_id = int(material_id)
 			num = int(num)
 			
-			for robot in self.robots:
+			for robot in self.robot_object_list:
 				robot: Robot = robot
 				robot.protocol.op_set_add_material(material_id=material_id, num=num)
 		except ValueError:
 			num = 2000
-			for robot in self.robots:
+			for robot in self.robot_object_list:
 				robot: Robot = robot
 				for material_id in equip_table.equip_material.keys():
 					robot.protocol.op_set_add_material(material_id=material_id, num=num)
@@ -477,13 +395,13 @@ class AnalysisCommand(LoadRobot):
 		""" None"""
 		item_id = 17
 		gem = 1000
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.protocol.start_peace_time(item_id=item_id, gem_cost=gem)
 	
 	def remove_all_build(self, params):
 		"""  """
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.cmd_build.remove_all_build()
 	
@@ -493,15 +411,9 @@ class AnalysisCommand(LoadRobot):
 		
 		build_id = int(build_id)
 		
-		for robot in self.robots:
+		for robot in self.robot_object_list:
 			robot: Robot = robot
 			robot.cmd_build.upgrade_build(build_id=build_id)
-	
-	def reset_research_guide(self, params):
-		
-		for robot in self.robots:
-			robot: Robot = robot
-			robot.protocol.op_reset_research_guide()
 	
 	def choose_save_path(self, params):
 		""" 手机截屏保存路径选择 """
@@ -538,24 +450,3 @@ class AnalysisCommand(LoadRobot):
 		print("not support")
 		# ui_test.create_account_test()
 		pass
-	
-	def bug_tool_1(self, params):
-		""" https://bug.testin.cn/index.htm#/defect/MTYwMDcwMA== """
-		for robot in self.robots:
-			robot: Robot = robot
-			robot.protocol.op_self_set_gem(1000000)
-			robot.protocol.op_self_set_pos_building_lv(build_pos=1, build_lv=5)
-			robot.protocol.guide_finish_stage_by_id(stage_id=8)
-			robot.protocol.guide_finish_stage_by_id(stage_id=5)
-			robot.cmd_user.set_all_build_level(5)
-	
-	def bug_tool_2(self, params):
-		""" https://bug.testin.cn/index.htm#/defect/MTYwNDMxMg== """
-		for robot in self.robots:
-			robot: Robot = robot
-			if robot.cmd_build.build_create(build_id=2).is_right_ret_code:
-				robot.protocol.guide_finish_stage_by_id(stage_id=2)
-				robot.protocol.op_self_set_pos_building_lv(build_pos=1, build_lv=8)
-				robot.protocol.op_self_set_pos_building_lv(build_pos=4, build_lv=8)
-			else:
-				logging.error("build failed")

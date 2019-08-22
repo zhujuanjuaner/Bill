@@ -9,7 +9,7 @@ import config
 import re
 
 from util import read_json_file
-from cmd import AnalysisCommand
+from command import AnalysisCommand
 
 
 class TestingStart(object):
@@ -189,7 +189,6 @@ class TestingStart(object):
 
 
 if __name__ == "__main__":
-	
 	testing = TestingStart()
 	testing.start()
 	os.system("pause")

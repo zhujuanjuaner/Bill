@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 from okc_robot.data import UserData, ActionInfo
-from okc_robot.protocol import Protocol
+from okc_robot.protocol import Protocol, Response
 from okc_robot.data import game_table
 import okc_robot.okc_enum as Enum
 
@@ -56,6 +56,7 @@ class Building(object):
 		self.__sid = self.__data.svr_player.sid
 		self.__uid = self.__data.svr_player.uid
 		self.__ksid = self.__data.svr_player.ksid
+		self.is_find_build = False
 		self.free_building_pos = []
 		self.__request = protocol
 		self.get = protocol.request
@@ -168,11 +169,15 @@ class Building(object):
 			return
 		
 		for pos in self.free_building_pos:
-			if build_id in game_table.get_building_pos(pos_id=pos).building_pos_build_id:
+			if str(build_id) in game_table.get_building_pos(pos_id=pos).building_pos_build_id:
 				self.free_building_pos.remove(pos)
 				client_action_id = self.__get_client_action_id()
+				self.is_find_build = True
 				return self.__building_upgrade(build_type=1, pos=pos, build_id=build_id, target_lv=1, cost=6,
 											   client_action_id=client_action_id)
+		if not self.is_find_build:
+			logging.error("%s not in build list" % build_id)
+			return Response()
 	
 	def upgrade_build(self, build_id, upgrade_type=1):
 		#  build_type, pos, build_id, target_lv, cost, client_action_id

@@ -65,11 +65,17 @@ class OkcRequest(object):
 				response = Response(request_result.json())
 				response.url = self.__request_url
 				if response.ret_code == 0:
-					self.g_logger.info(
-						"sid : %s uid : %s command: %s " % (kwargs["sid"], kwargs["uid"], kwargs["command"]))
+					try:
+						self.g_logger.info(
+							"sid : %s uid : %s command: %s " % (kwargs["sid"], kwargs["uid"], kwargs["command"]))
+					except KeyError:
+						pass
 				else:
-					self.g_logger.error("sid : %s uid : %s command: %s ret code :%s" % (
-						kwargs["sid"], kwargs["uid"], kwargs["command"], response.ret_code))
+					try:
+						self.g_logger.error("sid : %s uid : %s command: %s ret code :%s" % (
+							kwargs["sid"], kwargs["uid"], kwargs["command"], response.ret_code))
+					except KeyError:
+						pass
 				return response
 			else:
 				response = Response()

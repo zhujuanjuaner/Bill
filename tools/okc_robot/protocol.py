@@ -41,8 +41,14 @@ class Protocol(object):
 		
 		return request_result
 	
-	def player_info_get(self, uid):
-		return self.request(command="player_info_get", key0=uid)
+	# def player_info_get(self, uid):
+	# 	return self.request(command="player_info_get", key0=uid)
+	
+	def op_reset_research_guide(self):
+		if config.okc_environment == config.OkcEnvironment.Test:
+			return self.request(command="op_reset_research_guide")
+		else:
+			return Response()
 	
 	""" Mail """
 	
@@ -70,16 +76,16 @@ class Protocol(object):
 	def create_account(self) -> int:
 		self.__uid = request.get(command="login_get", lg=1, eyou_id="fake-aeea67-63694419400213").uid
 		self.guide_finish()
-		self.guide_finish_stage()
+		self.guide_finish_stage_by_id(stage_id=4)
+		self.guide_finish_stage_by_id(stage_id=3)
+		self.guide_finish_stage_by_id(stage_id=6)
 		return self.__uid
 	
 	def guide_finish(self):
 		return self.request(command="guide_finish")
 	
-	def guide_finish_stage(self):
-		self.request(command="guide_finish_stage", key0=4)
-		self.request(command="guide_finish_stage", key0=3)
-		self.request(command="guide_finish_stage", key0=6)
+	def guide_finish_stage_by_id(self, stage_id):
+		return self.request(command="guide_finish_stage", key0=stage_id)
 	
 	def operate_login_get(self):
 		return self.request(command="operate_login_get")
