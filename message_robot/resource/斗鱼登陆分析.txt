@@ -58,7 +58,7 @@ Cache-Control: max-age=0
 TE: Trailers
 
 # cookies
-{"请求 Cookie":{"acf_auth":"9f96rC/F98Jo2y3+i4RSUO1IyQrBAp7Mg6zszfiqLwI5YmVWt3FaQDBSkspNDBacdm9az5Xs+CjpNQJ8G6tP1Fe4kxJ1pCwz6Qqec3KlZLLlu2MCzbbJWpk","acf_avatar":"https://apic.douyucdn.cn/upload/avatar_v3/201907/ba4e99dd482246e5a8683cfcc15643e7_","acf_biz":"1","acf_ct":"0","acf_did":"5b997e943c99b1f56640454200001501","acf_groupid":"1","acf_isNewUser":"1","acf_ltkid":"98907674","acf_nickname":"æªæ¥æªæ¾æ¥061","acf_own_room":"1","acf_phonestatus":"1","acf_stk":"bdfa329bbb34388b","acf_uid":"314616362","acf_username":"314616362","dy_did":"5b997e943c99b1f56640454200001501","Hm_lpvt_e99aee90ec1b2106afe7ec3b199020a7":"1566139418","Hm_lvt_e99aee90ec1b2106afe7ec3b199020a7":"1566106993,1566107048,1566111105,1566138671","PHPSESSID":"c7rj3fbmt62m5lcc36nhvvdho7","smidV2":"201908181320016e5afca7e574f0998e28921de7a9ef9f009fe05f64fc81cf0","wan_auth37wan":"d673119460cc1bGk2W8N0No9sS2OpYVPZ6NouTU2TJIoCftxEPz8oSX+hN9EDdRasT5tw5N3Sxkzvq9J9BhIGjoIe2adAiOm49HZCzy94tGto91InoM"}}
+Cookie":{"acf_auth":"9f96rC/F98Jo2y3+i4RSUO1IyQrBAp7Mg6zszfiqLwI5YmVWt3FaQDBSkspNDBacdm9az5Xs+CjpNQJ8G6tP1Fe4kxJ1pCwz6Qqec3KlZLLlu2MCzbbJWpk","acf_avatar":"https://apic.douyucdn.cn/upload/avatar_v3/201907/ba4e99dd482246e5a8683cfcc15643e7_","acf_biz":"1","acf_ct":"0","acf_did":"5b997e943c99b1f56640454200001501","acf_groupid":"1","acf_isNewUser":"1","acf_ltkid":"98907674","acf_nickname":"æªæ¥æªæ¾æ¥061","acf_own_room":"1","acf_phonestatus":"1","acf_stk":"bdfa329bbb34388b","acf_uid":"314616362","acf_username":"314616362","dy_did":"5b997e943c99b1f56640454200001501","Hm_lpvt_e99aee90ec1b2106afe7ec3b199020a7":"1566139418","Hm_lvt_e99aee90ec1b2106afe7ec3b199020a7":"1566106993,1566107048,1566111105,1566138671","PHPSESSID":"c7rj3fbmt62m5lcc36nhvvdho7","smidV2":"201908181320016e5afca7e574f0998e28921de7a9ef9f009fe05f64fc81cf0","wan_auth37wan":"d673119460cc1bGk2W8N0No9sS2OpYVPZ6NouTU2TJIoCftxEPz8oSX+hN9EDdRasT5tw5N3Sxkzvq9J9BhIGjoIe2adAiOm49HZCzy94tGto91InoM"}
 
 ## 响应头
 
@@ -99,3 +99,63 @@ Cookie: dy_did=5b997e943c99b1f56640454200001501; acf_did=5b997e943c99b1f56640454
 Upgrade-Insecure-Requests: 1
 Cache-Control: max-age=0
 TE: Trailers
+
+
+# 请求个人信息
+# https://www.douyu.com/lapi/member/api/getInfo?client_type=0&d=1566141395336
+
+# 请求头
+Host: www.douyu.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: application/json, text/plain, */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate, br
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: https://www.douyu.com/
+Cookie: dy_did=5b997e943c99b1f56640454200001501; acf_did=5b997e943c99b1f56640454200001501; Hm_lvt_e99aee90ec1b2106afe7ec3b199020a7=1566139495,1566140552,1566140562,1566141225; smidV2=201908181320016e5afca7e574f0998e28921de7a9ef9f009fe05f64fc81cf0; Hm_lpvt_e99aee90ec1b2106afe7ec3b199020a7=1566141225; PHPSESSID=c7rj3fbmt62m5lcc36nhvvdho7; acf_auth=dcadSxm3wX5a95d1kTz0DWK8XfHyPGLKRY2cZMuVn3QIpZTd3NQyqbExr2lrpQldUBeMN5J3udeyJKOgQhgW00cFaF3vF08GXUdAfpIx71wJLiauHHA8uAI; wan_auth37wan=7671d0fed292NQ809UnZi5dHmDQaRku4Dnn1kO%2BgnqF3rYUhqp%2BvKypq0iIU8sglofbJeQPMz%2FOptfJbGGShG5vq7T6yf7TZVK6NA%2FHcvG1WTLQX2IQ; acf_uid=314616362; acf_username=314616362; acf_nickname=%E6%9C%AA%E6%9D%A5%E6%9C%AA%E6%9B%BE%E6%9D%A5061; acf_own_room=1; acf_groupid=1; acf_phonestatus=1; acf_avatar=https%3A%2F%2Fapic.douyucdn.cn%2Fupload%2Favatar_v3%2F201907%2Fba4e99dd482246e5a8683cfcc15643e7_; acf_ct=0; acf_ltkid=98907675; acf_biz=1; acf_stk=fb539d099839a96a; acf_isNewUser=1
+TE: Trailers
+
+
+# 发送弹幕
+
+# 请求头
+
+Host: webim.tim.qq.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 93
+Origin: https://msg.douyu.com
+Connection: keep-alive
+Referer: https://msg.douyu.com/web/index.html?t=1566142229869&close=1
+
+https://webim.tim.qq.com/v4/openim/longpolling?websdkappid=537048168&v=1.7.0&platform=10&tinyid=144115213850256328&a2=60faf8770ab094ebfefa61cd331e8d9cda77b7f6c8926cf44e50222f0866e948f5daefc899d8a25fb6717ae39c8961b90892a33f60c3842d8b902bc47fda5fd92af89314d377f0fa&contenttype=json&sdkappid=1400029396&accounttype=9967&apn=1&reqtime=1566142253
+
+
+
+# 二维码登陆
+
+# 请求头
+Host: passport.douyu.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate, br
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: https://passport.douyu.com/index/login?passport_reg_callback=PASSPORT_REG_SUCCESS_CALLBACK&passport_login_callback=PASSPORT_LOGIN_SUCCESS_CALLBACK&passport_close_callback=PASSPORT_CLOSE_CALLBACK&passport_dp_callback=PASSPORT_DP_CALLBACK&type=login&client_id=1&state=https%3A%2F%2Fwww.douyu.com%2F101&source=click_topnavi_login
+Cookie: dy_did=5b997e943c99b1f56640454200001501; Hm_lvt_e99aee90ec1b2106afe7ec3b199020a7=1566146508,1566146686,1566146922,1566222194; acf_did=5b997e943c99b1f56640454200001501; sm_did=WC39ZUyXRgdHUGIC38vq07ZlPDznSzLdG5ED4pgwn%252B6XIVAEipdQuAF8%252Fp7%252BIsp3F1mK%252By91kzM2hTmNDxJYB4TJmmTSX8edkwQ%252Bmg760TWuDha%252Fjzf4qdHxTAhPA72GQo4sUfxtxrE3rRo7JG2f8p9gKZYbLkEV4QkCG68L11X3hq5inMagNosPml2fauxs8JbtTJxL3ImLqNJOIFNhZaGuynI0WUGgPP%252FLJTcvbKTR9AVfGKDa8cQ%253D%253D1487577677129; smidV2=201908181320016e5afca7e574f0998e28921de7a9ef9f009fe05f64fc81cf0; Hm_lpvt_e99aee90ec1b2106afe7ec3b199020a7=1566228298
+TE: Trailers
+
+# 查询字符串
+time=1566228407281
+code=e72c72a328944ed60d749878da194527
+
+
+
+# get code
+
+https://passport.douyu.com/scan/generateCode

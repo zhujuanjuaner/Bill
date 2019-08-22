@@ -18,6 +18,8 @@ header = {
 }
 
 cookie = {
+	"name": "room",
+	"value": "text",
 	"dy_did": "5b997e943c99b1f56640454200001501",
 	"acf_did": "5b997e943c99b1f56640454200001501",
 	"Hm_lvt_e99aee90ec1b2106afe7ec3b199020a7": "1566139495,1566140552,1566140562,1566141225",
@@ -39,11 +41,57 @@ cookie = {
 	"acf_stk": "fb539d099839a96a",
 	"acf_isNewUser": "1"
 }
-url = "https://www.douyu.com" # 5720533
-wb = webdriver.Firefox()
-# wb.add_cookie(cookie)
+#
+# url = "https://www.douyu.com/101"
+# wb = webdriver.PhantomJS()
+# wb.get(url)
+# time.sleep(10)
+# login_xpath = '/html/body/section/main/div[3]/div[2]/div/div/div[2]/div/div[2]/div[2]/div[1]/span'
+# login_class = "MuteStatus-isLog"
+
+# 登录 <span class="MuteStatus-isLog">登录</span>
+# wb.find_element_by_link_text("登录").click()
+
+# wb.find_element_by_xpath(xpath=login_xpath).click()
+# time.sleep(10)
+# wb.get_screenshot_as_file("login.png")
+
+url = "https://passport.douyu.com/index/login?passport_reg_callback=PASSPORT_REG_SUCCESS_CALLBACK&passport_login_callback=PASSPORT_LOGIN_SUCCESS_CALLBACK&passport_close_callback=PASSPORT_CLOSE_CALLBACK&passport_dp_callback=PASSPORT_DP_CALLBACK&type=login&client_id=1&state=https%3A%2F%2Fwww.douyu.com%2F"
+wb = webdriver.PhantomJS()
 wb.get(url)
-# wb.maximize_window()
+time.sleep(5)
+wb.add_cookie(wb.get_cookies()[0])
+wb.get("https://passport.douyu.com/scan/generateCode")
+print(wb.get_cookies())
+print(wb.page_source)
+# payload = {"client_id": 1}
+# print(requests.post(url="https://passport.douyu.com/scan/generateCode", params=payload).json())
+
+# 二维码刷新
+# /html/body/div[2]/div/div/div[2]/div[2]/div[2]/div[1]/div[1]/div/div[1]/div/div[2]/div[1]/div/a
+# <div class="qrcode-con js-qrcode-con"><canvas width="123" height="123"></canvas></div>
+
+login_by_password = '/html/body/div[2]/div/div/div[2]/div[2]/div[3]/div/span[2]'
+
+"""
+url = "https://www.douyu.com/101"  # 5720533
+wb = webdriver.PhantomJS()
+wb.get(url)
+wb.add_cookie(cookie)
+# wb.add_cookie(cookie)
+
+time.sleep(10)
+print("#####", wb.find_element_by_xpath(xpath='/html/body/section/main/div[3]/div[1]/div[1]/div/div[3]/div[3]/div[5]'))
+util.write_data(write_path=os.getcwd() + "\\room_101.txt", data=wb.page_source)
+
+input_msg = wb.find_element_by_xpath(
+	'/html/body/section/main/div[3]/div[2]/div/div[1]/div[2]/div/div[2]/div[2]/textarea')
+
+input_msg.send_keys("厉害厉害")
+
+wb.find_element_by_xpath('/html/body/section/main/div[3]/div[2]/div/div[1]/div[2]/div/div[2]/div[2]/div[2]').click()
+"""
+
 # time.sleep(2)
 # while True:
 # 	try:
