@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bda752ce-2683-4665-a05e-87eeefd3179d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/message_robot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/message_robot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ghostdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/ghostdriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/斗鱼登陆分析.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resource/斗鱼登陆分析.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../okc_testing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../okc_testing/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +14,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/msg_robot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2046">
+            <state relative-caret-position="330">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#1488#2593#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+              <folding>
+                <element signature="e#24#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,13 +107,13 @@
         <option value="$PROJECT_DIR$/room.html" />
         <option value="$PROJECT_DIR$/debug/斗鱼 - 每个人的直播平台_files/login_data/jquery.js" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/1.py" />
         <option value="$PROJECT_DIR$/room_url.json" />
         <option value="$PROJECT_DIR$/views/__init__.py" />
         <option value="$PROJECT_DIR$/views/view_main.py" />
         <option value="$PROJECT_DIR$/views/ui/view_main.py" />
         <option value="$PROJECT_DIR$/views.py" />
         <option value="$PROJECT_DIR$/crawler.py" />
+        <option value="$PROJECT_DIR$/1.py" />
       </list>
     </option>
   </component>
@@ -123,7 +145,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../msg_robot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../msg" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -227,6 +249,8 @@
       <workItem from="1566042136303" duration="16465000" />
       <workItem from="1566092817191" duration="28790000" />
       <workItem from="1566482305909" duration="56000" />
+      <workItem from="1566485357284" duration="260000" />
+      <workItem from="1566558356742" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="add config">
       <created>1566040843384</created>
@@ -239,17 +263,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45927000" />
+    <option name="totallyTimeSpent" value="46543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25773746" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26307365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36703297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36637932" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -275,8 +299,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="add config" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/message_robot$views.coverage" NAME="views Coverage Results" MODIFIED="1566138332872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/message_robot$1.coverage" NAME="1 Coverage Results" MODIFIED="1566146926788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/message_robot$views.coverage" NAME="views Coverage Results" MODIFIED="1566558400779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/message_robot$1.coverage" NAME="1 Coverage Results" MODIFIED="1566485482316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/message_robot$main.coverage" NAME="main Coverage Results" MODIFIED="1566123179355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -545,16 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1073">
-          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ghostdriver.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -584,16 +598,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/ui/view_main.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/435767457/PyQt5/QtWidgets/QWidget.py" />
-    <entry file="file://$PROJECT_DIR$/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="982">
-          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/Program Files/Python36/Lib/site-packages/scrapy/__init__.py" />
     <entry file="file://F:/Program Files/Python36/Lib/urllib/parse.py" />
     <entry file="file://F:/Program Files/Python36/Lib/site-packages/w3lib/url.py" />
@@ -609,8 +613,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/msg_robot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2046">
+        <state relative-caret-position="330">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#1488#2593#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -56,14 +56,20 @@ cookie = {
 # time.sleep(10)
 # wb.get_screenshot_as_file("login.png")
 
-url = "https://passport.douyu.com/index/login?passport_reg_callback=PASSPORT_REG_SUCCESS_CALLBACK&passport_login_callback=PASSPORT_LOGIN_SUCCESS_CALLBACK&passport_close_callback=PASSPORT_CLOSE_CALLBACK&passport_dp_callback=PASSPORT_DP_CALLBACK&type=login&client_id=1&state=https%3A%2F%2Fwww.douyu.com%2F"
-wb = webdriver.PhantomJS()
-wb.get(url)
-time.sleep(5)
-wb.add_cookie(wb.get_cookies()[0])
-wb.get("https://passport.douyu.com/scan/generateCode")
-print(wb.get_cookies())
-print(wb.page_source)
+head_request = requests.get("https://www.douyu.com")
+
+
+print(head_request.headers)
+print(head_request.cookies.get_dict())
+
+# url = "https://passport.douyu.com/index/login?passport_reg_callback=PASSPORT_REG_SUCCESS_CALLBACK&passport_login_callback=PASSPORT_LOGIN_SUCCESS_CALLBACK&passport_close_callback=PASSPORT_CLOSE_CALLBACK&passport_dp_callback=PASSPORT_DP_CALLBACK&type=login&client_id=1&state=https%3A%2F%2Fwww.douyu.com%2F"
+# wb = webdriver.PhantomJS()
+# wb.get(url)
+# time.sleep(5)
+# wb.add_cookie(wb.get_cookies()[0])
+# wb.get("https://passport.douyu.com/scan/generateCode")
+# print(wb.get_cookies())
+# print(wb.page_source)
 # payload = {"client_id": 1}
 # print(requests.post(url="https://passport.douyu.com/scan/generateCode", params=payload).json())
 
